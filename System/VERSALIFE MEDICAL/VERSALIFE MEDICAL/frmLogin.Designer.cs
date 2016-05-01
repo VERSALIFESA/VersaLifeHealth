@@ -37,6 +37,7 @@
             this.btnSignin = new DevComponents.DotNetBar.ButtonX();
             this.btnExit = new DevComponents.DotNetBar.ButtonX();
             this.picStatusLed = new System.Windows.Forms.PictureBox();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picStatusLed)).BeginInit();
             this.SuspendLayout();
@@ -112,12 +113,23 @@
             // picStatusLed
             // 
             this.picStatusLed.Image = global::VERSALIFE_MEDICAL.Properties.Resources.iconready;
-            this.picStatusLed.Location = new System.Drawing.Point(3, 229);
+            this.picStatusLed.Location = new System.Drawing.Point(29, 236);
             this.picStatusLed.Name = "picStatusLed";
             this.picStatusLed.Size = new System.Drawing.Size(16, 16);
             this.picStatusLed.TabIndex = 7;
             this.picStatusLed.TabStop = false;
             this.picStatusLed.Visible = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.AppWorkspace;
+            this.label3.Location = new System.Drawing.Point(263, 265);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(185, 12);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "© VERSALIFE HEALTH GROUP (PTY) LTD";
             // 
             // frmLogin
             // 
@@ -128,6 +140,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.CancelButton = this.btnExit;
             this.ClientSize = new System.Drawing.Size(450, 280);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.picStatusLed);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSignin);
@@ -162,6 +175,7 @@
         private System.Windows.Forms.PictureBox picStatusLed;
         public System.Windows.Forms.TextBox txtUsername;
         public System.Windows.Forms.TextBox txtPassword;
+        private System.Windows.Forms.Label label3;
     }
 }
 

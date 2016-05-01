@@ -1,4 +1,13 @@
-﻿using System;
+﻿// Software Name:       VERSALIFE MEDICAL SYSTEMS
+// Software Code:       FP6-IST-511368
+// Development Version: Beta Version 1.0
+// Developed By:        VERSALIFE HEALTH GROUP (PTY)LTD
+// Contact:             Support@versalife.co.za
+// Development Date:    April 2016
+
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,12 +34,12 @@ namespace VERSALIFE_MEDICAL
 
 
         public static Thread connectivityTest = new Thread(() => {
-            drawStatusLED(Color.Yellow);
+            drawStatusLED(Color.Orange);
             SqlConnection connect = new SqlConnection(con);
-            drawStatusLED(Color.Yellow);
+            drawStatusLED(Color.Orange);
             while (true)
             {
-                drawStatusLED(Color.Yellow);
+                drawStatusLED(Color.Orange);
                 try
                 {
                     connect.Open();
