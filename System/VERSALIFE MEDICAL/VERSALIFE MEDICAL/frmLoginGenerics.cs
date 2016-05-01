@@ -30,6 +30,9 @@ namespace VERSALIFE_MEDICAL
         /*******              Friday 14 of April 2016                   *******/
         /**********************************************************************/
 
+
+        // Initiate Database Connecttion Test and update the status LED
+
         static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;
 
 
@@ -59,7 +62,7 @@ namespace VERSALIFE_MEDICAL
         {
             try
             {
-                Form.ActiveForm.CreateGraphics().DrawEllipse(new Pen(color, 4), new Rectangle(4, 262, 4, 4));
+                Form.ActiveForm.CreateGraphics().DrawEllipse(new Pen(color, 5), new Rectangle(4, 262, 4, 4));
             }
             catch {
                 //The Login Form is not the active OS window anymore

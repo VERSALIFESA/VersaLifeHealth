@@ -113,7 +113,7 @@
             // picStatusLed
             // 
             this.picStatusLed.Image = global::VERSALIFE_MEDICAL.Properties.Resources.iconready;
-            this.picStatusLed.Location = new System.Drawing.Point(29, 236);
+            this.picStatusLed.Location = new System.Drawing.Point(3, 261);
             this.picStatusLed.Name = "picStatusLed";
             this.picStatusLed.Size = new System.Drawing.Size(16, 16);
             this.picStatusLed.TabIndex = 7;
