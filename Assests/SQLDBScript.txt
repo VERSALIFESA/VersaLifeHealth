@@ -1,10 +1,10 @@
-Drop Table dbo.tbl.dbconn;
+Drop Table dbo.tbl.syslogin;
 Drop Table dbo.tbl_patients;
 Drop Table dbo.tbl_clients;
 
 ================== Initiate Patient Table ==================
 
-Create table tbl_dbconn
+Create table tbl_syslogin
 (
 usr_id varchar(30),
 usr_firstname varchar(100),
@@ -32,7 +32,7 @@ pat_province varchar(100),
 pat_zip int,
 pat_notes varchar(255),
 pat_attachment varchar(255),
-pat_date datetime NOT NULL DEFAULT GETDATE(),
+pat_date datetime NOT NULL DEFAULT CURDATE(),
 );
 
 
