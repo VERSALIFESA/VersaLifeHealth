@@ -96,6 +96,7 @@
             this.btnSignin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnSignin.TabIndex = 5;
             this.btnSignin.Text = "&Sign in";
+            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
             // btnExit
             // 

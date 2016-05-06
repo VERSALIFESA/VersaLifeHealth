@@ -35,6 +35,11 @@ namespace VERSALIFE_MEDICAL
             frmLoginGenerics.connectivityTest.Abort();
             Application.Exit();
         }
+
+        private void btnSignin_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }
