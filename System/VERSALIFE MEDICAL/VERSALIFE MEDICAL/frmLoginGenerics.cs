@@ -25,22 +25,17 @@ namespace VERSALIFE_MEDICAL
 {
     public class frmLoginGenerics
     {
-        /**********************************************************************/
-        /*** What follows is the thread fucntion controlling the Status LED ***/
-        /*******              BALUKIDI NEHEMIE @ VERSALIFE              *******/
-        /*******              Friday 14 of April 2016                   *******/
-        /**********************************************************************/
 
-
+        #region Initiate Database Connecttion Test and update the status LED
         // Initiate Database Connecttion Test and update the status LED
 
-        static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;
+        static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;     // Create a connection variable object
 
 
         public static Thread connectivityTest = new Thread(() => {
             drawStatusLED(Color.Orange);
-            SqlConnection connect = new SqlConnection(con);
-            drawStatusLED(Color.Orange);
+            SqlConnection connect = new SqlConnection(con);                 // Initiate database connection test 
+            drawStatusLED(Color.Orange);                        
             while (true)
             {
                 drawStatusLED(Color.Orange);
@@ -48,40 +43,49 @@ namespace VERSALIFE_MEDICAL
                 {
                     drawStatusLED(Color.Orange);
                     connect.Open();
-                    drawStatusLED(Color.LawnGreen);
+                    drawStatusLED(Color.Green);                             // Status LED Green if Database connection is True
                     connect.Close();
                 }
                 catch
                 {
-                    drawStatusLED(Color.Red);
+                    drawStatusLED(Color.Red);                               // Status LED Red if Database connection is False
                 }
-                Thread.Sleep(5000);
+                Thread.Sleep(5000);                                         // Try Connect again after 5 Seconds
             }
         });
 
+        // Database Connection Test End Region
+        #endregion
+
+
+
+        #region Initiate the Status LED Indicator Object
+        // Create the Status LED Indicator object
 
         public static void drawStatusLED(Color color)
         {
             try
             {
-                Form.ActiveForm.CreateGraphics().DrawEllipse(new Pen(color, 5), new Rectangle(4, 262, 4, 4));
+                Form.ActiveForm.CreateGraphics().DrawEllipse(new Pen(color, 4), new Rectangle(12, 262, 4, 4));
             }
             catch {
                 //The Login Form is not the active OS window anymore
             }
         }
 
-        /**********************************************************************/
-        /**********************************************************************/
+        // Status LED indicator Object End
+        #endregion
 
+        #region User Credentials Input Validation Object
+        // Validate that the correct information is provided by the user
 
         public static bool IsValid(string userId)
         {
             try
             {
-                if (!userId.Contains("@versalife") /*|| !userId.Contains(".com") */)
+                if (!userId.Contains("@versalife") /*|| !userId.Contains(".com") */)            // Check if username contains "@versalife" 
                 {
-                    MessageBox.Show("Please check your credentials and re-enter", "Invalid credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Please check your credentials and re-enter", "Invalid credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);           // Show an error messagebox should the username be incorrect
                 }
                 return true;
             }
@@ -91,7 +95,15 @@ namespace VERSALIFE_MEDICAL
             }
         }
 
-        public static string theThing;
+        // End User Credentials Validation Object
+        #endregion
+
+
+
+        #region User Authentication from the Database
+        // Authenticate the User from the database with the provided User Credentials
+
+        public static string sysuser;               // system user variable object
         static SqlConnection userConnection = new SqlConnection(con);
         public static bool verifyCredentials(string userID, string userPassword) {
 
@@ -108,7 +120,7 @@ namespace VERSALIFE_MEDICAL
             if (readLoginrecord.Read())
             {
 
-                theThing = readLoginrecord["usr_id"].ToString() + " " + readLoginrecord["usr_firstname"].ToString() + " " + readLoginrecord["usr_password"].ToString() + " " + readLoginrecord["usr_role"].ToString();
+                sysuser = readLoginrecord["usr_id"].ToString() + " " + readLoginrecord["usr_firstname"].ToString() + " " + readLoginrecord["usr_password"].ToString() + " " + readLoginrecord["usr_role"].ToString();
                 readLoginrecord.Close();
                 userConnection.Close();
                 return true;
@@ -123,5 +135,9 @@ namespace VERSALIFE_MEDICAL
             
             
         }
+
+        // End User Authentication Object
+        #endregion
+
     }
 }
