@@ -1,7 +1,7 @@
 ﻿// Software Name:       VERSALIFE MEDICAL SYSTEMS
 // Software Code:       FP6-IST-511368
 // Development Version: Beta Version 1.0
-// Developed By:        VERSALIFE HEALTH GROUP (PTY)LTD
+// Developed By:        VERSALIFE MEDICAL SYSTEMS (PTY)LTD
 // Contact:             Support@versalife.co.za
 // Development Date:    April 2016
 

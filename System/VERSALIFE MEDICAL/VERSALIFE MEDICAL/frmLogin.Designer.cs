@@ -57,6 +57,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(143, 20);
             this.txtUsername.TabIndex = 2;
+            this.txtUsername.TextChanged += new System.EventHandler(this.txtUsername_TextChanged);
             // 
             // txtPassword
             // 
@@ -65,6 +66,7 @@
             this.txtPassword.PasswordChar = '*';
             this.txtPassword.Size = new System.Drawing.Size(143, 20);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // label1
             // 
@@ -90,12 +92,14 @@
             // 
             this.btnSignin.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSignin.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSignin.Enabled = false;
             this.btnSignin.Location = new System.Drawing.Point(117, 211);
             this.btnSignin.Name = "btnSignin";
             this.btnSignin.Size = new System.Drawing.Size(90, 23);
             this.btnSignin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnSignin.TabIndex = 5;
             this.btnSignin.Text = "&Sign in";
+            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
             // btnExit
             // 
