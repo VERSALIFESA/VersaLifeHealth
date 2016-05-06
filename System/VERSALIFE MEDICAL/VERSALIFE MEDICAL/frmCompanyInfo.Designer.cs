@@ -32,7 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.picdeco = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pnlOrganization = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picdeco)).BeginInit();
+            this.pnlOrganization.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -65,13 +68,35 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(35, 60);
+            this.label2.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(36, 60);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(220, 18);
+            this.label2.Size = new System.Drawing.Size(236, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "Enter your organization`s details";
+            // 
+            // pnlOrganization
+            // 
+            this.pnlOrganization.BackColor = System.Drawing.Color.GhostWhite;
+            this.pnlOrganization.Controls.Add(this.label3);
+            this.pnlOrganization.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlOrganization.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.pnlOrganization.Location = new System.Drawing.Point(39, 98);
+            this.pnlOrganization.Name = "pnlOrganization";
+            this.pnlOrganization.Size = new System.Drawing.Size(1159, 93);
+            this.pnlOrganization.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(8, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(116, 14);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Organization Details";
             // 
             // frmCompanyInfo
             // 
@@ -81,6 +106,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1232, 880);
+            this.Controls.Add(this.pnlOrganization);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.picdeco);
             this.Controls.Add(this.label1);
@@ -93,6 +119,8 @@
             this.Text = "Organization Settings";
             this.Load += new System.EventHandler(this.frmCompanyInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picdeco)).EndInit();
+            this.pnlOrganization.ResumeLayout(false);
+            this.pnlOrganization.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,5 +131,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox picdeco;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Panel pnlOrganization;
+        private System.Windows.Forms.Label label3;
     }
 }

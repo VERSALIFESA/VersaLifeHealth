@@ -24,7 +24,7 @@ namespace VERSALIFE_MEDICAL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCompanyInfo());
+            Application.Run(new frmLogin());
         }
     }
 }
