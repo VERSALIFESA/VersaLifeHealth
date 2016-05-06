@@ -1,0 +1,26 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	new file:   System/VERSALIFE MEDICAL/.vs/VERSALIFE MEDICAL/v14/.suo
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/bin/Debug/VERSALIFE MEDICAL.exe
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/bin/Debug/VERSALIFE MEDICAL.pdb
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/bin/Debug/VERSALIFE MEDICAL.vshost.exe
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/frmLogin.Designer.cs
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/frmLogin.cs
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/frmLoginGenerics.cs
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/frmMain.Designer.cs
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/frmMain.cs
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/VERSALIFE MEDICAL.csproj.FileListAbsolute.txt
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/VERSALIFE MEDICAL.csproj.GenerateResource.Cache
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/VERSALIFE MEDICAL.csprojResolveAssemblyReference.cache
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/VERSALIFE MEDICAL.exe
+#	modified:   System/VERSALIFE MEDICAL/VERSALIFE MEDICAL/obj/Debug/VERSALIFE MEDICAL.pdb
+#
+
