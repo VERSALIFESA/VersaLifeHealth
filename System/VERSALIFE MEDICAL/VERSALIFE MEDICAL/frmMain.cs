@@ -27,7 +27,7 @@ namespace VERSALIFE_MEDICAL
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-
+            //label1.Text = frmLoginGenerics.theThing;
         }
     }
 }

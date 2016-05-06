@@ -13,6 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Data;
 using System.Data.SqlClient;
 using System.Data.Sql;
 using System.Configuration;
@@ -31,14 +32,15 @@ namespace VERSALIFE_MEDICAL
         /**********************************************************************/
 
 
-        
-        #region Initiate System Connection Test
+
+       // #region Initiate System Connection Test
         // Initiate Database Connecttion Test and update the status LED
 
         static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;
 
 
-        public static Thread connectivityTest = new Thread(() => {
+        public static Thread connectivityTest = new Thread(() =>
+        {
             drawStatusLED(Color.Orange);
             SqlConnection connect = new SqlConnection(con);
             drawStatusLED(Color.Orange);
@@ -47,6 +49,7 @@ namespace VERSALIFE_MEDICAL
                 drawStatusLED(Color.Orange);
                 try
                 {
+                    drawStatusLED(Color.Orange);
                     connect.Open();
                     drawStatusLED(Color.LawnGreen);
                     connect.Close();
@@ -65,11 +68,68 @@ namespace VERSALIFE_MEDICAL
             {
                 Form.ActiveForm.CreateGraphics().DrawEllipse(new Pen(color, 4), new Rectangle(4, 262, 4, 4));
             }
-            catch {
+            catch
+            {
                 //The Login Form is not the active OS window anymore
             }
         }
 
-        #endregion
+        /**********************************************************************/
+        /**********************************************************************/
+
+
+        public static bool IsValid(string userId)
+        {
+            try
+            {
+                if (!userId.Contains("@versalife") /*|| !userId.Contains(".com") */)
+                {
+                    MessageBox.Show("Please check your credentials and re-enter", "Invalid credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
+        }
+
+        public static string theThing;
+        static SqlConnection userConnection = new SqlConnection(con);
+        public static frmMain dashBoard = new frmMain();
+
+        public static bool verifyCredentials(string userID, string userPassword)
+        {
+
+            string querySelect = "select * from tbl_syslogin where (usr_id=@usr_id and usr_password=@usr_password)";
+            SqlCommand cmd = new SqlCommand(querySelect, userConnection);
+
+            cmd.Parameters.Add("usr_id", SqlDbType.VarChar).Value = userID;
+            cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
+
+            userConnection.Open();
+
+            SqlDataReader readLoginrecord = cmd.ExecuteReader();
+
+            if (readLoginrecord.Read())
+            {
+
+                theThing = readLoginrecord["usr_id"].ToString() + " " + readLoginrecord["usr_firstname"].ToString() + " " + readLoginrecord["usr_password"].ToString() + " " + readLoginrecord["usr_role"].ToString();
+
+                
+                readLoginrecord.Close();
+                userConnection.Close();
+                //dashBoard.Show();
+                MessageBox.Show("","jk",MessageBoxButtons.OK);
+                return true;
+
+            }
+            else
+            {
+                readLoginrecord.Close();
+                userConnection.Close();
+                return false;
+            }
+        }
     }
 }
