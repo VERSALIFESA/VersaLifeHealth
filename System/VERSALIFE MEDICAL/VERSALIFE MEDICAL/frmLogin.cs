@@ -23,12 +23,10 @@ namespace VERSALIFE_MEDICAL
         public frmLogin()
         {
             InitializeComponent();
-            frmLoginGenerics.drawStatusLED(Color.Orange);
         }
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            frmLoginGenerics.drawStatusLED(Color.Orange);
             frmLoginGenerics.connectivityTest.Start();
         }
 
@@ -37,50 +35,6 @@ namespace VERSALIFE_MEDICAL
             frmLoginGenerics.connectivityTest.Abort();
             Application.Exit();
         }
-
-
-        public static string userID;
-        public static string userPassword;
-        private void btnSignin_Click(object sender, EventArgs e)
-        {
-            userID = txtUsername.Text;
-            userPassword = txtPassword.Text;
-            
-
-            if (frmLoginGenerics.IsValid(userID))
-            {
-                if (frmLoginGenerics.verifyCredentials(userID, userPassword))
-                {
-                    frmMain dashBoard = new frmMain();
-                    dashBoard.Show();
-                }
-            }    
-
-        }
-
-
-
-        private void txtUsername_TextChanged(object sender, EventArgs e)
-        {
-            if (txtUsername.Text == "")
-            {
-                btnSignin.Enabled = false;
-            }
-            else if (txtUsername.Text != "" && txtPassword.Text != "")
-                btnSignin.Enabled = true;
-        }
-
-        private void txtPassword_TextChanged(object sender, EventArgs e)
-        {
-            if (txtPassword.Text == "")
-            {
-                btnSignin.Enabled = false;
-            }
-            else if (txtUsername.Text != "" && txtPassword.Text != "")
-                btnSignin.Enabled = true;
-        }
-
-
     }
 
 }

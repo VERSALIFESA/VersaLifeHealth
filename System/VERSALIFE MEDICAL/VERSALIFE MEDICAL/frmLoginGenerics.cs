@@ -32,14 +32,15 @@ namespace VERSALIFE_MEDICAL
         /**********************************************************************/
 
 
-        
-        #region Initiate System Connection Test
+
+       // #region Initiate System Connection Test
         // Initiate Database Connecttion Test and update the status LED
 
         static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;
 
 
-        public static Thread connectivityTest = new Thread(() => {
+        public static Thread connectivityTest = new Thread(() =>
+        {
             drawStatusLED(Color.Orange);
             SqlConnection connect = new SqlConnection(con);
             drawStatusLED(Color.Orange);
@@ -67,9 +68,9 @@ namespace VERSALIFE_MEDICAL
             {
                 Form.ActiveForm.CreateGraphics().DrawEllipse(new Pen(color, 4), new Rectangle(4, 262, 4, 4));
             }
-            catch {
+            catch
+            {
                 //The Login Form is not the active OS window anymore
-<<<<<<< HEAD
             }
         }
 
@@ -95,13 +96,16 @@ namespace VERSALIFE_MEDICAL
 
         public static string theThing;
         static SqlConnection userConnection = new SqlConnection(con);
-        public static bool verifyCredentials(string userID, string userPassword) {
+        public static frmMain dashBoard = new frmMain();
+
+        public static bool verifyCredentials(string userID, string userPassword)
+        {
 
             string querySelect = "select * from tbl_syslogin where (usr_id=@usr_id and usr_password=@usr_password)";
-            SqlCommand cmd = new SqlCommand( querySelect, userConnection);
+            SqlCommand cmd = new SqlCommand(querySelect, userConnection);
 
-           cmd.Parameters.Add("usr_id", SqlDbType.VarChar).Value = userID;
-           cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
+            cmd.Parameters.Add("usr_id", SqlDbType.VarChar).Value = userID;
+            cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
 
             userConnection.Open();
 
@@ -111,25 +115,21 @@ namespace VERSALIFE_MEDICAL
             {
 
                 theThing = readLoginrecord["usr_id"].ToString() + " " + readLoginrecord["usr_firstname"].ToString() + " " + readLoginrecord["usr_password"].ToString() + " " + readLoginrecord["usr_role"].ToString();
+
+                
                 readLoginrecord.Close();
                 userConnection.Close();
+                //dashBoard.Show();
+                MessageBox.Show("","jk",MessageBoxButtons.OK);
                 return true;
 
             }
-            else {
+            else
+            {
                 readLoginrecord.Close();
                 userConnection.Close();
                 return false;
             }
-
-            
-            
         }
-=======
-            }
-        }
-
-        #endregion
->>>>>>> origin/master
     }
 }
