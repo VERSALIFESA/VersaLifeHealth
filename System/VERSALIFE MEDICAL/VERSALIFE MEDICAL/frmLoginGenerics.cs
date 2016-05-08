@@ -113,7 +113,13 @@ namespace VERSALIFE_MEDICAL
            cmd.Parameters.Add("usr_id", SqlDbType.VarChar).Value = userID;
            cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
 
-            userConnection.Open();
+            try
+            {
+                userConnection.Open();
+            }
+            catch {
+                MessageBox.Show("Your internet connection seems slow today, please try again later!", "Ooops!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+            }
 
             SqlDataReader readLoginrecord = cmd.ExecuteReader();
 
@@ -127,6 +133,7 @@ namespace VERSALIFE_MEDICAL
 
             }
             else {
+                MessageBox.Show("User and/or Password incorrect. Please try again","Error credentials",MessageBoxButtons.OK, MessageBoxIcon.Error);
                 readLoginrecord.Close();
                 userConnection.Close();
                 return false;
