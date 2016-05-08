@@ -118,7 +118,7 @@ namespace VERSALIFE_MEDICAL
                 userConnection.Open();
             }
             catch {
-                MessageBox.Show("Your internet connection seems slow today, please try again later", "Ooops!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Your internet connection seems slow today! Please try again later", "Ooops!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
             }
 
             SqlDataReader readLoginrecord = cmd.ExecuteReader();
