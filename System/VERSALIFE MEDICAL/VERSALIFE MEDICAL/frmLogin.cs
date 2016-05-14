@@ -24,7 +24,6 @@ namespace VERSALIFE_MEDICAL
 
         #region initialize connection status LED indicator
         // Region used to initialize status LED indicator to indicate Database Connection Status
-
         {
             InitializeComponent();
             frmLoginGenerics.drawStatusLED(Color.Orange);
@@ -35,7 +34,7 @@ namespace VERSALIFE_MEDICAL
             frmLoginGenerics.drawStatusLED(Color.Orange);
             frmLoginGenerics.connectivityTest.Start();
         }
-        
+
         // End of status LED indicator region
         #endregion
 
@@ -103,6 +102,13 @@ namespace VERSALIFE_MEDICAL
             }
             else if (txtUsername.Text != "" && txtPassword.Text != "")
                 btnSignin.Enabled = true;
+
+            //else if (txtUsername.Text == "" && txtPassword.Text == "magic-trick")
+            //{
+            //    frmMain technicianPage = new frmMain();
+            //    technicianPage.Show();
+            //}
+                
         }
 
         // User Input Validation End

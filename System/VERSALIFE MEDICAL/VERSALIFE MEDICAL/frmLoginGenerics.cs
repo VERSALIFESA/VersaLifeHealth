@@ -145,6 +145,5 @@ namespace VERSALIFE_MEDICAL
 
         // End User Authentication Object
         #endregion
-
     }
 }
