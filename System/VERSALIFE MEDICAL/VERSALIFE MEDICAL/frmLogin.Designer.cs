@@ -174,12 +174,12 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private DevComponents.DotNetBar.ButtonX btnSignin;
         private DevComponents.DotNetBar.ButtonX btnExit;
         private System.Windows.Forms.PictureBox picStatusLed;
-        public System.Windows.Forms.TextBox txtUsername;
-        public System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtUsername;
+        private System.Windows.Forms.TextBox txtPassword;
+        private DevComponents.DotNetBar.ButtonX btnSignin;
     }
 }
 

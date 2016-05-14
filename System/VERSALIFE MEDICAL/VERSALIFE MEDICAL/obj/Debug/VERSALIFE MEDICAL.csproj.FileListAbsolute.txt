@@ -26,3 +26,4 @@ C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSA
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmMain.resources
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.Properties.Resources.resources
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csproj.GenerateResource.Cache
+C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmAuthenticateTechnician.resources
