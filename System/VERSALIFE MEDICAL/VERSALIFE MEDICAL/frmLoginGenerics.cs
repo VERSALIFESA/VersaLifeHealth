@@ -26,8 +26,8 @@ namespace VERSALIFE_MEDICAL
     public class frmLoginGenerics
     {
 
-        #region Initiate Database Connecttion Test and update the status LED
-        // Initiate Database Connecttion Test and update the status LED
+        #region Initiate Database Connection Test and update the status LED
+        // Initiate Database Connection Test and update the status LED
 
         static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;     // Create a connection variable object
 
@@ -87,7 +87,11 @@ namespace VERSALIFE_MEDICAL
                 {
                     MessageBox.Show("Please check your credentials and re-enter", "Invalid credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);           // Show an error messagebox should the username be incorrect
                 }
-                return true;
+                else
+                {
+                    return true;
+                }
+                return false;
             }
             catch (FormatException)
             {
@@ -111,7 +115,13 @@ namespace VERSALIFE_MEDICAL
             SqlCommand cmd = new SqlCommand( querySelect, userConnection);
 
            cmd.Parameters.Add("usr_id", SqlDbType.VarChar).Value = userID;
-           cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
+            try
+            {
+                cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
+            }
+            catch {
+                //handles type conversion error
+            }
 
             try
             {
@@ -145,5 +155,7 @@ namespace VERSALIFE_MEDICAL
 
         // End User Authentication Object
         #endregion
-    }
+
+
+        }
 }
