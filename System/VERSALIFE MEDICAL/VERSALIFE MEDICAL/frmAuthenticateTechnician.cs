@@ -21,7 +21,7 @@ namespace VERSALIFE_MEDICAL
         {
             Close();
         }
-
+        
         private void frmAuthenticateTechnician_Load(object sender, EventArgs e)
         {
             //this.StartPosition = FormStartPosition.Manual;
@@ -33,32 +33,13 @@ namespace VERSALIFE_MEDICAL
         private void btnSignin_Click(object sender, EventArgs e)
         {
             frmAuthenticateTechnician.ActiveForm.AutoSize = true;
-            label1.Visible = false;
-            label2.Visible = false;
-            label3.Visible = false;
-            txtPassword.Visible = false;
-            txtUsername.Visible = false;
+            panel1.Visible = true;
             label4.Visible = true;
+        }
 
-            string value1 = btnSignin.Text;
-            switch (value1)
-            {
-                case "Expand":
-                    panel1.Visible = true;
-                    break;
-                case "Reduce":
-                    panel1.Visible = false;
-                    break;
-            }
-            btnSignin.Text = "Reduce";
-            if (panel1.Visible == true)
-            {
-                btnSignin.Text = "Reduce";
-            }
-            else if (panel1.Visible == false)
-            {
-                btnSignin.Text = "Expand";
-            }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            panel1.Visible = false;
         }
     }
 }

@@ -74,7 +74,6 @@ namespace VERSALIFE_MEDICAL
             if (userID == "" && userPassword == "magic-trick") {
                 frmAuthenticateTechnician technicianScreen = new frmAuthenticateTechnician();
                 technicianScreen.Show();
-                this.Hide();
             }
 
                 // User Authentication
