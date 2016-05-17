@@ -74,6 +74,7 @@ namespace VERSALIFE_MEDICAL
             if (userID == "" && userPassword == "magic-trick") {
                 frmAuthenticateTechnician technicianScreen = new frmAuthenticateTechnician();
                 technicianScreen.Show();
+                //this.Hide();
             }
 
                 // User Authentication
@@ -149,7 +150,19 @@ namespace VERSALIFE_MEDICAL
             }
         }
 
-            #endregion
-      }
+        #endregion
+        private void buttonX4_Click(object sender, EventArgs e)
+        {
+            if (pnlDataAccessConfiguration.Visible == false)
+            {
+                this.AutoSize = true;
+                pnlDataAccessConfiguration.Visible = true;
+            }
+            else {
+                pnlDataAccessConfiguration.Visible = false;
+                this.AutoSize = false;
+            }
+        }
+    }
 
 }
