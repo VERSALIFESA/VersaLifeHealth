@@ -38,6 +38,9 @@ namespace VERSALIFE_MEDICAL
 
             btnSiginEnalerForTechnician = new Thread(new ThreadStart(enableBtnSingInForTechnician));
             btnSiginEnalerForTechnician.Start();
+
+            //buttonX4.Hide();
+            
         }
 
         // End of status LED indicator region
@@ -74,7 +77,6 @@ namespace VERSALIFE_MEDICAL
             if (userID == "" && userPassword == "magic-trick") {
                 frmAuthenticateTechnician technicianScreen = new frmAuthenticateTechnician();
                 technicianScreen.Show();
-                //this.Hide();
             }
 
                 // User Authentication
@@ -163,6 +165,7 @@ namespace VERSALIFE_MEDICAL
                 this.AutoSize = false;
             }
         }
+
     }
 
 }
