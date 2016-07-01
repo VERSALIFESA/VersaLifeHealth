@@ -30,14 +30,24 @@ namespace VERSALIFE_MEDICAL
             frmLoginGenerics.drawStatusLED(Color.Orange);
         }
 
-        Thread btnSiginEnalerForTechnician;
+        public static bool read_txtPassword = true; //enable reading of txtpassword for the magic-trick use-case
         private void frmLogin_Load(object sender, EventArgs e)
         {
             frmLoginGenerics.drawStatusLED(Color.Orange);
+            frmLoginGenerics.connectivityTest.IsBackground = true;
             frmLoginGenerics.connectivityTest.Start();
 
-            btnSiginEnalerForTechnician = new Thread(new ThreadStart(enableBtnSingInForTechnician));
-            btnSiginEnalerForTechnician.Start();
+            Task t = Task.Run(() =>
+            {
+                while (read_txtPassword)
+                {
+                    if (frmLoginGenerics.readMagicTrick(txtPassword))
+                    {
+                        frmLoginGenerics.displaySettings();
+                        Application.Run();
+                    }
+                }
+            });
         }
 
         // End of status LED indicator region
@@ -51,7 +61,6 @@ namespace VERSALIFE_MEDICAL
         private void btnExit_Click(object sender, EventArgs e)
         {
             frmLoginGenerics.connectivityTest.Abort();       // Terminate the frmLoginGenerics object
-            btnSiginEnalerForTechnician.Abort();
             Application.Exit();                              // Application Exit
         }
 
@@ -69,16 +78,8 @@ namespace VERSALIFE_MEDICAL
             userID = txtUsername.Text;
             userPassword = txtPassword.Text;
 
-            // Chose between normal user and a technician by checking the entered values
-                // Technician authentication
-            if (userID == "" && userPassword == "magic-trick") {
-                frmAuthenticateTechnician technicianScreen = new frmAuthenticateTechnician();
-                technicianScreen.Show();
-                //this.Hide();
-            }
-
-                // User Authentication
-            else if (frmLoginGenerics.IsValid(userID))
+            // User Authentication
+            if (frmLoginGenerics.IsValid(userID))
             {
                 if (frmLoginGenerics.verifyCredentials(userID, userPassword))
                 {
@@ -123,34 +124,6 @@ namespace VERSALIFE_MEDICAL
         #endregion
 
 
-        #region Magic-trick case
-        // This thread verifies the content of the password textbox and enables 
-        // the sign-in button if required conditions are met to allow a versalife
-        // registered technician to access the application local settings
-        
-
-        delegate void enableBtnSingInForTechnicianCallBack();
-
-        private void enableBtnSingInForTechnician() {
-            while (true) {
-                if (txtPassword.Text == "magic-trick" && txtUsername.Text == "")
-                {
-                    if (btnSignin.InvokeRequired)
-                    {
-                        enableBtnSingInForTechnicianCallBack del = new enableBtnSingInForTechnicianCallBack(enableBtnSingInForTechnician);
-                        btnSignin.Invoke(del);
-                        break;
-                    }
-                    else
-                    {
-                        btnSignin.Enabled = true;
-                        break; 
-                    }
-                }
-            }
-        }
-
-        #endregion
         private void buttonX4_Click(object sender, EventArgs e)
         {
             if (pnlDataAccessConfiguration.Visible == false)
@@ -162,6 +135,11 @@ namespace VERSALIFE_MEDICAL
                 pnlDataAccessConfiguration.Visible = false;
                 this.AutoSize = false;
             }
+        }
+
+        private void pnsbuttonX2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 

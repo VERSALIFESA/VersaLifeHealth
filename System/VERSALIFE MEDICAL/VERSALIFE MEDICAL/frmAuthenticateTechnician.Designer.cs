@@ -36,8 +36,6 @@
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnExit
@@ -63,7 +61,6 @@
             this.btnSignin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnSignin.TabIndex = 11;
             this.btnSignin.Text = "&Sign in";
-            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
             // label2
             // 
@@ -110,25 +107,6 @@
             this.label3.TabIndex = 13;
             this.label3.Text = "Enter your VERSALIFE technician credentials";
             // 
-            // panel1
-            // 
-            this.panel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panel1.Location = new System.Drawing.Point(1, 129);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(283, 195);
-            this.panel1.TabIndex = 14;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(3, 82);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(183, 13);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Expand to select any of the following:";
-            // 
             // frmAuthenticateTechnician
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -136,8 +114,6 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(284, 134);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSignin);
@@ -167,7 +143,5 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label4;
     }
 }

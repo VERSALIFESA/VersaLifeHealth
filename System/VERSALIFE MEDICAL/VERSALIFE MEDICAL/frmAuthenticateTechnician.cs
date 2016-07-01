@@ -24,22 +24,7 @@ namespace VERSALIFE_MEDICAL
         
         private void frmAuthenticateTechnician_Load(object sender, EventArgs e)
         {
-            //this.StartPosition = FormStartPosition.Manual;
-            frmAuthenticateTechnician.ActiveForm.AutoSize = true; 
-            panel1.Visible = false;
-            label4.Visible = false;
-        }
-       
-        private void btnSignin_Click(object sender, EventArgs e)
-        {
-            frmAuthenticateTechnician.ActiveForm.AutoSize = true;
-            panel1.Visible = true;
-            label4.Visible = true;
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            panel1.Visible = false;
         }
     }
 }
