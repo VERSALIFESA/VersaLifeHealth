@@ -27,7 +27,13 @@ namespace VERSALIFE_MEDICAL
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            label1.Text = frmLoginGenerics.sysuser;
+            frmLoginGenerics.checkConnectionState = false; //Disable the drawing of the LED indicator
+        }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //frmLoginGenerics.checkConnectionState = false; //Re-enable the drawing of the LED indicator
+            Application.Exit();
         }
     }
 }

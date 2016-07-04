@@ -43,10 +43,9 @@
             this.btnExit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnExit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnExit.Location = new System.Drawing.Point(209, 124);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnExit.Location = new System.Drawing.Point(157, 101);
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(120, 28);
+            this.btnExit.Size = new System.Drawing.Size(90, 23);
             this.btnExit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnExit.TabIndex = 12;
             this.btnExit.Text = "&Abort";
@@ -56,23 +55,20 @@
             // 
             this.btnSignin.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSignin.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
-            this.btnSignin.Location = new System.Drawing.Point(60, 124);
-            this.btnSignin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSignin.Location = new System.Drawing.Point(45, 101);
             this.btnSignin.Name = "btnSignin";
-            this.btnSignin.Size = new System.Drawing.Size(120, 28);
+            this.btnSignin.Size = new System.Drawing.Size(90, 23);
             this.btnSignin.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
             this.btnSignin.TabIndex = 11;
             this.btnSignin.Text = "&Sign in";
-            this.btnSignin.Click += new System.EventHandler(this.btnSignin_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label2.Location = new System.Drawing.Point(57, 89);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(43, 72);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 17);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 9;
             this.label2.Text = "Password";
             // 
@@ -80,48 +76,44 @@
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label1.Location = new System.Drawing.Point(57, 43);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(43, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 17);
+            this.label1.Size = new System.Drawing.Size(55, 13);
             this.label1.TabIndex = 7;
             this.label1.Text = "Username";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(140, 85);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Location = new System.Drawing.Point(105, 69);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(189, 22);
+            this.txtPassword.Size = new System.Drawing.Size(143, 20);
             this.txtPassword.TabIndex = 10;
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(140, 39);
-            this.txtUsername.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUsername.Location = new System.Drawing.Point(105, 32);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(189, 22);
+            this.txtUsername.Size = new System.Drawing.Size(143, 20);
             this.txtUsername.TabIndex = 8;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.label3.Location = new System.Drawing.Point(35, 11);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(26, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(293, 17);
+            this.label3.Size = new System.Drawing.Size(222, 13);
             this.label3.TabIndex = 13;
             this.label3.Text = "Enter your VERSALIFE technician credentials";
             // 
             // frmAuthenticateTechnician
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(379, 165);
+            this.ClientSize = new System.Drawing.Size(284, 134);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnSignin);
@@ -132,7 +124,6 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(520, 380);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmAuthenticateTechnician";
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

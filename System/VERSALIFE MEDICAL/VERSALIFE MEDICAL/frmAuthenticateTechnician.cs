@@ -24,19 +24,7 @@ namespace VERSALIFE_MEDICAL
         
         private void frmAuthenticateTechnician_Load(object sender, EventArgs e)
         {
-            //this.StartPosition = FormStartPosition.Manual;
-        }
-        //public static string btnHide;
-        private void btnSignin_Click(object sender, EventArgs e)
-        {
-            frmLogin.ActiveForm.Show();
-            this.Hide();
-            
-        }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-           
         }
     }
 }
