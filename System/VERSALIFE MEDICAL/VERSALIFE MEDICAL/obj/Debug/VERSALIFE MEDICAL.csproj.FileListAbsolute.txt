@@ -40,3 +40,23 @@ C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSA
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.application
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.application
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe.config
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.pdb
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csprojResolveAssemblyReference.cache
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmAuthenticateTechnician.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmLogin.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmMain.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.Properties.Resources.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csproj.GenerateResource.Cache
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe.manifest
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.application
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.pdb
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.DotNetBar.Design.dll
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.Instrumentation.Design.dll
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.Instrumentation.dll
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.TrustInfo.xml
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.application
