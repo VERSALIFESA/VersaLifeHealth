@@ -97,12 +97,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmAuthenticateTechnician.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmAuthenticateTechnician.Designer.cs">
-      <DependentUpon>frmAuthenticateTechnician.cs</DependentUpon>
-    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,9 +112,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmAuthenticateTechnician.resx">
-      <DependentUpon>frmAuthenticateTechnician.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
       <SubType>Designer</SubType>

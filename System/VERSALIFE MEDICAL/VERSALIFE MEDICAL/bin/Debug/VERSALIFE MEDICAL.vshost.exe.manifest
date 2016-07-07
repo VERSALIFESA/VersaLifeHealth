@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VERSALIFE MEDICAL.exe" size="251904">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VERSALIFE MEDICAL.exe" size="197632">
       <assemblyIdentity name="VERSALIFE MEDICAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>U76ExKxybQc9tWXTy+rgeQwNy2RUsGIkQTEHpwoaQ48=</dsig:DigestValue>
+        <dsig:DigestValue>+9UPd6tUlavUsT+zWsMIrrj25EmBuTAlVVg931PQdpg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

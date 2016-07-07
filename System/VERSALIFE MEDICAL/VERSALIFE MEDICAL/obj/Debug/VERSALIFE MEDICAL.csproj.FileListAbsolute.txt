@@ -35,7 +35,6 @@ C:\Users\Nehemie\Documents\GitHub\MineVersalife\System\VERSALIFE MEDICAL\VERSALI
 C:\Users\Nehemie\Documents\GitHub\MineVersalife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmMain.resources
 C:\Users\Nehemie\Documents\GitHub\MineVersalife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.Properties.Resources.resources
 C:\Users\Nehemie\Documents\GitHub\MineVersalife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csproj.GenerateResource.Cache
-C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmAuthenticateTechnician.resources
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe.manifest
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.application
 C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
@@ -60,3 +59,5 @@ C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debu
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.TrustInfo.xml
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.application
+C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csprojResolveAssemblyReference.cache
+C:\Users\Nehemie\Documents\GitHub\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.TrustInfo.xml

@@ -123,24 +123,6 @@ namespace VERSALIFE_MEDICAL
         // User Input Validation End
         #endregion
 
-
-        private void buttonX4_Click(object sender, EventArgs e)
-        {
-            if (pnlDataAccessConfiguration.Visible == false)
-            {
-                this.AutoSize = true;
-                pnlDataAccessConfiguration.Visible = true;
-            }
-            else {
-                pnlDataAccessConfiguration.Visible = false;
-                this.AutoSize = false;
-            }
-        }
-
-        private void pnsbuttonX2_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 
 }
