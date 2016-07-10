@@ -137,26 +137,35 @@ namespace VERSALIFE_MEDICAL
 
                 SqlDataReader readLoginrecord = cmd.ExecuteReader();
 
-                if (readLoginrecord.Read())
-                {
+                if (userConnection.State == ConnectionState.Open) {
+                    if (readLoginrecord.Read())
+                    {
 
-                    sysuser = readLoginrecord["usr_id"].ToString() + " " + readLoginrecord["usr_firstname"].ToString() + " " + readLoginrecord["usr_password"].ToString() + " " + readLoginrecord["usr_role"].ToString();
-                    readLoginrecord.Close();
-                    userConnection.Close();
-                    return true;
+                        sysuser = readLoginrecord["usr_id"].ToString() + " " + readLoginrecord["usr_firstname"].ToString() + " " + readLoginrecord["usr_password"].ToString() + " " + readLoginrecord["usr_role"].ToString();
+                        readLoginrecord.Close();
+                        userConnection.Close();
+                        return true;
+
+                    }
+                    else
+                    {
+                        readLoginrecord.Close();
+                        userConnection.Close();
+                        MessageBox.Show("User and/or Password incorrect. Please try again", "Error credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
 
                 }
-                else
-                {
-                    MessageBox.Show("User and/or Password incorrect. Please try again", "Error credentials", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    readLoginrecord.Close();
-                    userConnection.Close();
-                    return false;
+                else {
+                   MessageBox.Show("Unble to connect. Your connection seems slow today", "Ooops!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                   return false;
                 }
+
+                
             }
             catch
             {
-                MessageBox.Show("Your internet connection seems slow today! Please try again later", "Ooops!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                MessageBox.Show("Connection to remote server failed", "Ooops!", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                 return false;
             }
         }
@@ -189,6 +198,8 @@ namespace VERSALIFE_MEDICAL
 
         #endregion
 
+
+        #region Application Connection String Settings
         public static Form frmSettings;
 
         //Settings Form Controls initialisation(part. 1)
@@ -201,6 +212,7 @@ namespace VERSALIFE_MEDICAL
         static DevComponents.DotNetBar.ButtonX btnRestartApp = new DevComponents.DotNetBar.ButtonX();
 
 
+         
         public static void displaySettings()
         {
             frmSettings = new Form();
@@ -457,8 +469,8 @@ namespace VERSALIFE_MEDICAL
                             
                         }
                     }
-                    catch (Exception errorMessage){//Saving faild
-                        MessageBox.Show(errorMessage.ToString(), "Error Connection", MessageBoxButtons.OK);
+                    catch{//Saving faild
+                        MessageBox.Show("Unable to test new settings.\nSuggestions : \n1. Make sure you have internet acces\n2. Verify the values entered are corrected", "Error Connection", MessageBoxButtons.OK);
                     }
                 }
             }
@@ -513,6 +525,8 @@ namespace VERSALIFE_MEDICAL
                 MessageBox.Show(ex.Message, "Error Writing configuration", MessageBoxButtons.OK);    
             }
         }
+
+        #endregion
 
     }
 }
