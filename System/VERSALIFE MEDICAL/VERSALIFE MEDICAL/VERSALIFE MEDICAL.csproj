@@ -97,6 +97,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmAssessment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssessment.Designer.cs">
+      <DependentUpon>frmAssessment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmp_History.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmp_History.Designer.cs">
+      <DependentUpon>frmEmp_History.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHealth_Record.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHealth_Record.Designer.cs">
+      <DependentUpon>frmHealth_Record.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -116,8 +134,23 @@
     <Compile Include="frmOrganization.designer.cs">
       <DependentUpon>frmOrganization.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatient.Designer.cs">
+      <DependentUpon>frmPatient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAssessment.resx">
+      <DependentUpon>frmAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmp_History.resx">
+      <DependentUpon>frmEmp_History.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHealth_Record.resx">
+      <DependentUpon>frmHealth_Record.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -127,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmOrganization.resx">
       <DependentUpon>frmOrganization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatient.resx">
+      <DependentUpon>frmPatient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

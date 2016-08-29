@@ -16,7 +16,7 @@ drop table tbl_patient
 */
 create table tbl_patient
 (
-pat_ID dec primary key,
+pat_ID decimal primary key,
 pat_number int identity(00,1),
 pat_firstname varchar(100),
 pat_middlename varchar(100),
@@ -24,10 +24,10 @@ pat_lastname varchar(100),
 pat_title varchar(10),
 pat_gender varchar(10),
 pat_DOB date,
-pat_age int,
+pat_age int,/*Derived value, should add a constraint on it*/
 pat_race varchar(10),
-pat_tel dec,
-pat_mobile dec,
+pat_tel decimal,
+pat_mobile decimal,
 pat_email varchar(150),
 pat_address varchar(255),
 pat_city varchar(255),
@@ -35,7 +35,7 @@ pat_province varchar(100),
 pat_postalCode int,
 pat_date datetime NOT NULL DEFAULT GETDATE(),
 pat_notes varchar(255),
-pat_attachment varchar(255),
+pat_attachment varchar(255), /*This data type might not(or is actually not) the preferred one since we will be attaching one or more files*/
 )
 create table tbl_employmentHistory
 (

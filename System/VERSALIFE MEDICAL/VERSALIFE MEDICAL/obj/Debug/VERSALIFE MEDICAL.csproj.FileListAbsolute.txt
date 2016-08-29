@@ -81,3 +81,23 @@ C:\Users\Mint\OneDrive\VersaLife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\
 C:\Users\Mint\OneDrive\VersaLife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
 C:\Users\Mint\OneDrive\VersaLife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.application
 C:\Users\Mint\OneDrive\VersaLife\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmOrganization.resources
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe.config
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.pdb
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe.manifest
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.application
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.exe
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\VERSALIFE MEDICAL.pdb
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.DotNetBar.Design.dll
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.Instrumentation.Design.dll
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debug\DevComponents.Instrumentation.dll
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csprojResolveAssemblyReference.cache
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmLogin.resources
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmMain.resources
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmOrganization.resources
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.Properties.Resources.resources
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csproj.GenerateResource.Cache
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.TrustInfo.xml
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
+C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.application
