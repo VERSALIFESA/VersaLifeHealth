@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VERSALIFE MEDICAL.exe" size="276480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VERSALIFE MEDICAL.exe" size="251904">
       <assemblyIdentity name="VERSALIFE MEDICAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>iUPR67TB7kD/imvLkCNz3fBDAAsdSpJEhOFbx2J7OAk=</dsig:DigestValue>
+        <dsig:DigestValue>U76ExKxybQc9tWXTy+rgeQwNy2RUsGIkQTEHpwoaQ48=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -109,15 +109,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>BQ+74Nz3IW4FejCg+Sb5H2F8JN6QMdVWkBzemz05tIk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Resources\sidefloral.png" size="19032">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>01d+lOtpP2WfENrJHle9b3CpYnn/5YUZkx2647X67vc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="VERSALIFE MEDICAL.exe.config" size="473">

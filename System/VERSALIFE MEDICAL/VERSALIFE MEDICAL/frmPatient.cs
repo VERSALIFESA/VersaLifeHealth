@@ -16,5 +16,15 @@ namespace VERSALIFE_MEDICAL
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox15_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

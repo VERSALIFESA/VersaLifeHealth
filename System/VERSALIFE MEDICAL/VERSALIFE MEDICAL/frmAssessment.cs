@@ -16,5 +16,30 @@ namespace VERSALIFE_MEDICAL
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label38_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label78_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
