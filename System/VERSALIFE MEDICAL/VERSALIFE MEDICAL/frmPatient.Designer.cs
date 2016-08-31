@@ -31,13 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPatient));
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txt_patMiddleName = new System.Windows.Forms.TextBox();
+            this.txt_patSurname = new System.Windows.Forms.TextBox();
+            this.txt_patAge = new System.Windows.Forms.TextBox();
+            this.txt_patMobile = new System.Windows.Forms.TextBox();
+            this.txt_patFirstName = new System.Windows.Forms.TextBox();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.txt_patEmailAddress = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -55,18 +55,18 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.cmb_patTitle = new System.Windows.Forms.ComboBox();
+            this.cmb_patGender = new System.Windows.Forms.ComboBox();
+            this.txt_patAddress = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txt_patProvince = new System.Windows.Forms.TextBox();
+            this.txt_patCity = new System.Windows.Forms.TextBox();
+            this.txt_patTelephone = new System.Windows.Forms.TextBox();
+            this.txt_patAttachments = new System.Windows.Forms.TextBox();
+            this.txt_patPostcalCode = new System.Windows.Forms.TextBox();
+            this.txt_patNotes = new System.Windows.Forms.TextBox();
+            this.txt_patDOB = new System.Windows.Forms.TextBox();
+            this.txt_patID = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -92,61 +92,61 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txt_patMiddleName
             // 
-            this.textBox1.Location = new System.Drawing.Point(239, 241);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 35);
-            this.textBox1.TabIndex = 10;
+            this.txt_patMiddleName.Location = new System.Drawing.Point(239, 241);
+            this.txt_patMiddleName.Multiline = true;
+            this.txt_patMiddleName.Name = "txt_patMiddleName";
+            this.txt_patMiddleName.Size = new System.Drawing.Size(148, 35);
+            this.txt_patMiddleName.TabIndex = 10;
             // 
-            // textBox2
+            // txt_patSurname
             // 
-            this.textBox2.Location = new System.Drawing.Point(239, 158);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 30);
-            this.textBox2.TabIndex = 11;
+            this.txt_patSurname.Location = new System.Drawing.Point(239, 158);
+            this.txt_patSurname.Multiline = true;
+            this.txt_patSurname.Name = "txt_patSurname";
+            this.txt_patSurname.Size = new System.Drawing.Size(135, 30);
+            this.txt_patSurname.TabIndex = 11;
             // 
-            // textBox3
+            // txt_patAge
             // 
-            this.textBox3.Location = new System.Drawing.Point(413, 241);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(131, 35);
-            this.textBox3.TabIndex = 12;
+            this.txt_patAge.Location = new System.Drawing.Point(413, 241);
+            this.txt_patAge.Multiline = true;
+            this.txt_patAge.Name = "txt_patAge";
+            this.txt_patAge.Size = new System.Drawing.Size(131, 35);
+            this.txt_patAge.TabIndex = 12;
             // 
-            // textBox4
+            // txt_patMobile
             // 
-            this.textBox4.Location = new System.Drawing.Point(44, 400);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(150, 33);
-            this.textBox4.TabIndex = 13;
+            this.txt_patMobile.Location = new System.Drawing.Point(44, 400);
+            this.txt_patMobile.Multiline = true;
+            this.txt_patMobile.Name = "txt_patMobile";
+            this.txt_patMobile.Size = new System.Drawing.Size(150, 33);
+            this.txt_patMobile.TabIndex = 13;
             // 
-            // textBox5
+            // txt_patFirstName
             // 
-            this.textBox5.Location = new System.Drawing.Point(44, 241);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(150, 32);
-            this.textBox5.TabIndex = 14;
+            this.txt_patFirstName.Location = new System.Drawing.Point(44, 241);
+            this.txt_patFirstName.Multiline = true;
+            this.txt_patFirstName.Name = "txt_patFirstName";
+            this.txt_patFirstName.Size = new System.Drawing.Size(150, 32);
+            this.txt_patFirstName.TabIndex = 14;
             // 
-            // textBox6
+            // txtID
             // 
-            this.textBox6.Location = new System.Drawing.Point(44, 158);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(150, 30);
-            this.textBox6.TabIndex = 15;
+            this.txtID.Location = new System.Drawing.Point(42, 158);
+            this.txtID.Multiline = true;
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(150, 30);
+            this.txtID.TabIndex = 15;
             // 
-            // textBox7
+            // txt_patEmailAddress
             // 
-            this.textBox7.Location = new System.Drawing.Point(413, 321);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(235, 29);
-            this.textBox7.TabIndex = 16;
+            this.txt_patEmailAddress.Location = new System.Drawing.Point(413, 321);
+            this.txt_patEmailAddress.Multiline = true;
+            this.txt_patEmailAddress.Name = "txt_patEmailAddress";
+            this.txt_patEmailAddress.Size = new System.Drawing.Size(235, 29);
+            this.txt_patEmailAddress.TabIndex = 16;
             // 
             // label1
             // 
@@ -302,37 +302,37 @@
             this.label19.TabIndex = 34;
             this.label19.Text = "Postal code";
             // 
-            // comboBox1
+            // cmb_patTitle
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmb_patTitle.FormattingEnabled = true;
+            this.cmb_patTitle.Items.AddRange(new object[] {
             "Mr.",
             "Ms.",
             "Mrs.",
             "Doc."});
-            this.comboBox1.Location = new System.Drawing.Point(44, 323);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(116, 27);
-            this.comboBox1.TabIndex = 35;
+            this.cmb_patTitle.Location = new System.Drawing.Point(44, 323);
+            this.cmb_patTitle.Name = "cmb_patTitle";
+            this.cmb_patTitle.Size = new System.Drawing.Size(116, 27);
+            this.cmb_patTitle.TabIndex = 35;
             // 
-            // comboBox2
+            // cmb_patGender
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmb_patGender.FormattingEnabled = true;
+            this.cmb_patGender.Items.AddRange(new object[] {
             "Male ",
             "Female"});
-            this.comboBox2.Location = new System.Drawing.Point(239, 323);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(116, 27);
-            this.comboBox2.TabIndex = 36;
+            this.cmb_patGender.Location = new System.Drawing.Point(239, 323);
+            this.cmb_patGender.Name = "cmb_patGender";
+            this.cmb_patGender.Size = new System.Drawing.Size(116, 27);
+            this.cmb_patGender.TabIndex = 36;
             // 
-            // textBox8
+            // txt_patAddress
             // 
-            this.textBox8.Location = new System.Drawing.Point(44, 475);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(468, 45);
-            this.textBox8.TabIndex = 38;
+            this.txt_patAddress.Location = new System.Drawing.Point(44, 475);
+            this.txt_patAddress.Multiline = true;
+            this.txt_patAddress.Name = "txt_patAddress";
+            this.txt_patAddress.Size = new System.Drawing.Size(468, 45);
+            this.txt_patAddress.TabIndex = 38;
             // 
             // textBox9
             // 
@@ -341,65 +341,65 @@
             this.textBox9.Size = new System.Drawing.Size(100, 26);
             this.textBox9.TabIndex = 39;
             // 
-            // textBox10
+            // txt_patProvince
             // 
-            this.textBox10.Location = new System.Drawing.Point(288, 563);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(178, 26);
-            this.textBox10.TabIndex = 40;
+            this.txt_patProvince.Location = new System.Drawing.Point(288, 563);
+            this.txt_patProvince.Name = "txt_patProvince";
+            this.txt_patProvince.Size = new System.Drawing.Size(178, 26);
+            this.txt_patProvince.TabIndex = 40;
             // 
-            // textBox13
+            // txt_patCity
             // 
-            this.textBox13.Location = new System.Drawing.Point(44, 563);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(186, 26);
-            this.textBox13.TabIndex = 43;
+            this.txt_patCity.Location = new System.Drawing.Point(44, 563);
+            this.txt_patCity.Name = "txt_patCity";
+            this.txt_patCity.Size = new System.Drawing.Size(186, 26);
+            this.txt_patCity.TabIndex = 43;
             // 
-            // textBox14
+            // txt_patTelephone
             // 
-            this.textBox14.Location = new System.Drawing.Point(239, 400);
-            this.textBox14.Multiline = true;
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(135, 33);
-            this.textBox14.TabIndex = 44;
+            this.txt_patTelephone.Location = new System.Drawing.Point(239, 400);
+            this.txt_patTelephone.Multiline = true;
+            this.txt_patTelephone.Name = "txt_patTelephone";
+            this.txt_patTelephone.Size = new System.Drawing.Size(135, 33);
+            this.txt_patTelephone.TabIndex = 44;
             // 
-            // textBox15
+            // txt_patAttachments
             // 
-            this.textBox15.Location = new System.Drawing.Point(42, 632);
-            this.textBox15.Multiline = true;
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(262, 101);
-            this.textBox15.TabIndex = 45;
-            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
+            this.txt_patAttachments.Location = new System.Drawing.Point(42, 632);
+            this.txt_patAttachments.Multiline = true;
+            this.txt_patAttachments.Name = "txt_patAttachments";
+            this.txt_patAttachments.Size = new System.Drawing.Size(262, 101);
+            this.txt_patAttachments.TabIndex = 45;
+            this.txt_patAttachments.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
             // 
-            // textBox16
+            // txt_patPostcalCode
             // 
-            this.textBox16.Location = new System.Drawing.Point(528, 563);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(95, 26);
-            this.textBox16.TabIndex = 46;
+            this.txt_patPostcalCode.Location = new System.Drawing.Point(528, 563);
+            this.txt_patPostcalCode.Name = "txt_patPostcalCode";
+            this.txt_patPostcalCode.Size = new System.Drawing.Size(95, 26);
+            this.txt_patPostcalCode.TabIndex = 46;
             // 
-            // textBox17
+            // txt_patNotes
             // 
-            this.textBox17.Location = new System.Drawing.Point(370, 641);
-            this.textBox17.Multiline = true;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(407, 80);
-            this.textBox17.TabIndex = 47;
+            this.txt_patNotes.Location = new System.Drawing.Point(370, 641);
+            this.txt_patNotes.Multiline = true;
+            this.txt_patNotes.Name = "txt_patNotes";
+            this.txt_patNotes.Size = new System.Drawing.Size(407, 80);
+            this.txt_patNotes.TabIndex = 47;
             // 
-            // textBox18
+            // txt_patDOB
             // 
-            this.textBox18.Location = new System.Drawing.Point(413, 162);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(95, 26);
-            this.textBox18.TabIndex = 48;
+            this.txt_patDOB.Location = new System.Drawing.Point(413, 162);
+            this.txt_patDOB.Name = "txt_patDOB";
+            this.txt_patDOB.Size = new System.Drawing.Size(95, 26);
+            this.txt_patDOB.TabIndex = 48;
             // 
-            // textBox11
+            // txt_patID
             // 
-            this.textBox11.Location = new System.Drawing.Point(557, 162);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 26);
-            this.textBox11.TabIndex = 49;
+            this.txt_patID.Location = new System.Drawing.Point(557, 162);
+            this.txt_patID.Name = "txt_patID";
+            this.txt_patID.Size = new System.Drawing.Size(100, 26);
+            this.txt_patID.TabIndex = 49;
             // 
             // label7
             // 
@@ -419,18 +419,18 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(1024, 733);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox18);
-            this.Controls.Add(this.textBox17);
-            this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.txt_patID);
+            this.Controls.Add(this.txt_patDOB);
+            this.Controls.Add(this.txt_patNotes);
+            this.Controls.Add(this.txt_patPostcalCode);
+            this.Controls.Add(this.txt_patAttachments);
+            this.Controls.Add(this.txt_patTelephone);
+            this.Controls.Add(this.txt_patCity);
+            this.Controls.Add(this.txt_patProvince);
             this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.txt_patAddress);
+            this.Controls.Add(this.cmb_patGender);
+            this.Controls.Add(this.cmb_patTitle);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label17);
@@ -448,13 +448,13 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txt_patEmailAddress);
+            this.Controls.Add(this.txtID);
+            this.Controls.Add(this.txt_patFirstName);
+            this.Controls.Add(this.txt_patMobile);
+            this.Controls.Add(this.txt_patAge);
+            this.Controls.Add(this.txt_patSurname);
+            this.Controls.Add(this.txt_patMiddleName);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
@@ -478,13 +478,13 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txt_patMiddleName;
+        private System.Windows.Forms.TextBox txt_patSurname;
+        private System.Windows.Forms.TextBox txt_patAge;
+        private System.Windows.Forms.TextBox txt_patMobile;
+        private System.Windows.Forms.TextBox txt_patFirstName;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TextBox txt_patEmailAddress;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
@@ -502,18 +502,18 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.ComboBox cmb_patTitle;
+        private System.Windows.Forms.ComboBox cmb_patGender;
+        private System.Windows.Forms.TextBox txt_patAddress;
         private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txt_patProvince;
+        private System.Windows.Forms.TextBox txt_patCity;
+        private System.Windows.Forms.TextBox txt_patTelephone;
+        private System.Windows.Forms.TextBox txt_patAttachments;
+        private System.Windows.Forms.TextBox txt_patPostcalCode;
+        private System.Windows.Forms.TextBox txt_patNotes;
+        private System.Windows.Forms.TextBox txt_patDOB;
+        private System.Windows.Forms.TextBox txt_patID;
         private System.Windows.Forms.Label label7;
     }
 }
