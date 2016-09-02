@@ -26,5 +26,57 @@ namespace VERSALIFE_MEDICAL
         {
 
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonX1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();                              // Application Exit
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog browseFileDialog = new OpenFileDialog();
+
+            if (browseFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                txtAttachments.Text = browseFileDialog.FileName;  
+                           
+            }
+
+        }
+
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtAttachments_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

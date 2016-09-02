@@ -31,44 +31,60 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPatient));
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txt_patMiddleName = new System.Windows.Forms.TextBox();
-            this.txt_patSurname = new System.Windows.Forms.TextBox();
-            this.txt_patAge = new System.Windows.Forms.TextBox();
-            this.txt_patMobile = new System.Windows.Forms.TextBox();
-            this.txt_patFirstName = new System.Windows.Forms.TextBox();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.txt_patEmailAddress = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.cmb_patTitle = new System.Windows.Forms.ComboBox();
-            this.cmb_patGender = new System.Windows.Forms.ComboBox();
-            this.txt_patAddress = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.txt_patProvince = new System.Windows.Forms.TextBox();
-            this.txt_patCity = new System.Windows.Forms.TextBox();
-            this.txt_patTelephone = new System.Windows.Forms.TextBox();
-            this.txt_patAttachments = new System.Windows.Forms.TextBox();
-            this.txt_patPostcalCode = new System.Windows.Forms.TextBox();
-            this.txt_patNotes = new System.Windows.Forms.TextBox();
-            this.txt_patDOB = new System.Windows.Forms.TextBox();
-            this.txt_patID = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblIDNumber = new System.Windows.Forms.Label();
+            this.lblLastName = new System.Windows.Forms.Label();
+            this.lblFirstName = new System.Windows.Forms.Label();
+            this.lblAge = new System.Windows.Forms.Label();
+            this.lblGender = new System.Windows.Forms.Label();
+            this.lblDOB = new System.Windows.Forms.Label();
+            this.lblTitle = new System.Windows.Forms.Label();
+            this.lblEmailAddress = new System.Windows.Forms.Label();
+            this.lblMobile = new System.Windows.Forms.Label();
+            this.lblMiddleName = new System.Windows.Forms.Label();
+            this.lblCity = new System.Windows.Forms.Label();
+            this.lblNotes = new System.Windows.Forms.Label();
+            this.lblAttachments = new System.Windows.Forms.Label();
+            this.lblTelephone = new System.Windows.Forms.Label();
+            this.lblProvince = new System.Windows.Forms.Label();
+            this.lblAddress = new System.Windows.Forms.Label();
+            this.lblPostalCode = new System.Windows.Forms.Label();
+            this.lblPatID = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PatientDetails = new System.Windows.Forms.GroupBox();
+            this.cmbRace = new System.Windows.Forms.ComboBox();
+            this.lblRace = new System.Windows.Forms.Label();
+            this.cmbGender = new System.Windows.Forms.ComboBox();
+            this.cmbTitle = new System.Windows.Forms.ComboBox();
+            this.txtIDNumber = new System.Windows.Forms.TextBox();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.txtMiddleName = new System.Windows.Forms.TextBox();
+            this.txtLastName = new System.Windows.Forms.TextBox();
+            this.txtFirstName = new System.Windows.Forms.TextBox();
+            this.txtPatID = new System.Windows.Forms.TextBox();
+            this.ContactDetails = new System.Windows.Forms.GroupBox();
+            this.txtTelephone = new System.Windows.Forms.TextBox();
+            this.txtEmailAddress = new System.Windows.Forms.TextBox();
+            this.txtMobile = new System.Windows.Forms.TextBox();
+            this.HomeAddress = new System.Windows.Forms.GroupBox();
+            this.txtPostalCode = new System.Windows.Forms.TextBox();
+            this.txtAddress = new System.Windows.Forms.TextBox();
+            this.txtProvince = new System.Windows.Forms.TextBox();
+            this.txtCity = new System.Windows.Forms.TextBox();
+            this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
+            this.btnSubmit = new DevComponents.DotNetBar.ButtonX();
+            this.txtAttachments = new System.Windows.Forms.TextBox();
+            this.txtNotes = new System.Windows.Forms.TextBox();
+            this.txtCaptureDate = new System.Windows.Forms.TextBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
+            this.btnBrowse = new DevComponents.DotNetBar.ButtonX();
+            this.calenderDOB = new System.Windows.Forms.DateTimePicker();
+            this.lblCaptureDate = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.PatientDetails.SuspendLayout();
+            this.ContactDetails.SuspendLayout();
+            this.HomeAddress.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -92,369 +108,572 @@
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
             // 
-            // txt_patMiddleName
-            // 
-            this.txt_patMiddleName.Location = new System.Drawing.Point(239, 241);
-            this.txt_patMiddleName.Multiline = true;
-            this.txt_patMiddleName.Name = "txt_patMiddleName";
-            this.txt_patMiddleName.Size = new System.Drawing.Size(148, 35);
-            this.txt_patMiddleName.TabIndex = 10;
-            // 
-            // txt_patSurname
-            // 
-            this.txt_patSurname.Location = new System.Drawing.Point(239, 158);
-            this.txt_patSurname.Multiline = true;
-            this.txt_patSurname.Name = "txt_patSurname";
-            this.txt_patSurname.Size = new System.Drawing.Size(135, 30);
-            this.txt_patSurname.TabIndex = 11;
-            // 
-            // txt_patAge
-            // 
-            this.txt_patAge.Location = new System.Drawing.Point(413, 241);
-            this.txt_patAge.Multiline = true;
-            this.txt_patAge.Name = "txt_patAge";
-            this.txt_patAge.Size = new System.Drawing.Size(131, 35);
-            this.txt_patAge.TabIndex = 12;
-            // 
-            // txt_patMobile
-            // 
-            this.txt_patMobile.Location = new System.Drawing.Point(44, 400);
-            this.txt_patMobile.Multiline = true;
-            this.txt_patMobile.Name = "txt_patMobile";
-            this.txt_patMobile.Size = new System.Drawing.Size(150, 33);
-            this.txt_patMobile.TabIndex = 13;
-            // 
-            // txt_patFirstName
-            // 
-            this.txt_patFirstName.Location = new System.Drawing.Point(44, 241);
-            this.txt_patFirstName.Multiline = true;
-            this.txt_patFirstName.Name = "txt_patFirstName";
-            this.txt_patFirstName.Size = new System.Drawing.Size(150, 32);
-            this.txt_patFirstName.TabIndex = 14;
-            // 
-            // txtID
-            // 
-            this.txtID.Location = new System.Drawing.Point(42, 158);
-            this.txtID.Multiline = true;
-            this.txtID.Name = "txtID";
-            this.txtID.Size = new System.Drawing.Size(150, 30);
-            this.txtID.TabIndex = 15;
-            // 
-            // txt_patEmailAddress
-            // 
-            this.txt_patEmailAddress.Location = new System.Drawing.Point(413, 321);
-            this.txt_patEmailAddress.Multiline = true;
-            this.txt_patEmailAddress.Name = "txt_patEmailAddress";
-            this.txt_patEmailAddress.Size = new System.Drawing.Size(235, 29);
-            this.txt_patEmailAddress.TabIndex = 16;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 132);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 19);
-            this.label1.TabIndex = 17;
-            this.label1.Text = "ID Number";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(235, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(63, 19);
-            this.label3.TabIndex = 18;
-            this.label3.Text = "Surname";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 219);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(75, 19);
-            this.label4.TabIndex = 19;
-            this.label4.Text = "First Name";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(409, 219);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(33, 19);
-            this.label5.TabIndex = 20;
-            this.label5.Text = "Age";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(235, 301);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 19);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "Gender";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(409, 132);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(87, 19);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "Date of Birth";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(40, 301);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(34, 19);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "Title";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(409, 301);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(94, 19);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "Email Address";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(40, 378);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 19);
-            this.label11.TabIndex = 26;
-            this.label11.Text = "Mobile ";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(235, 219);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 19);
-            this.label12.TabIndex = 27;
-            this.label12.Text = "Middle Name";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(44, 541);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(33, 19);
-            this.label13.TabIndex = 28;
-            this.label13.Text = "City";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(366, 619);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(45, 19);
-            this.label14.TabIndex = 29;
-            this.label14.Text = "Notes";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(44, 610);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(87, 19);
-            this.label15.TabIndex = 30;
-            this.label15.Text = "Attachments";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(235, 378);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(71, 19);
-            this.label16.TabIndex = 31;
-            this.label16.Text = "Telephone";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(284, 541);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(61, 19);
-            this.label17.TabIndex = 32;
-            this.label17.Text = "Province";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(40, 453);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(58, 19);
-            this.label18.TabIndex = 33;
-            this.label18.Text = "Address";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(524, 541);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(78, 19);
-            this.label19.TabIndex = 34;
-            this.label19.Text = "Postal code";
-            // 
-            // cmb_patTitle
-            // 
-            this.cmb_patTitle.FormattingEnabled = true;
-            this.cmb_patTitle.Items.AddRange(new object[] {
-            "Mr.",
-            "Ms.",
-            "Mrs.",
-            "Doc."});
-            this.cmb_patTitle.Location = new System.Drawing.Point(44, 323);
-            this.cmb_patTitle.Name = "cmb_patTitle";
-            this.cmb_patTitle.Size = new System.Drawing.Size(116, 27);
-            this.cmb_patTitle.TabIndex = 35;
-            // 
-            // cmb_patGender
-            // 
-            this.cmb_patGender.FormattingEnabled = true;
-            this.cmb_patGender.Items.AddRange(new object[] {
-            "Male ",
-            "Female"});
-            this.cmb_patGender.Location = new System.Drawing.Point(239, 323);
-            this.cmb_patGender.Name = "cmb_patGender";
-            this.cmb_patGender.Size = new System.Drawing.Size(116, 27);
-            this.cmb_patGender.TabIndex = 36;
-            // 
-            // txt_patAddress
-            // 
-            this.txt_patAddress.Location = new System.Drawing.Point(44, 475);
-            this.txt_patAddress.Multiline = true;
-            this.txt_patAddress.Name = "txt_patAddress";
-            this.txt_patAddress.Size = new System.Drawing.Size(468, 45);
-            this.txt_patAddress.TabIndex = 38;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(-19, -19);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(100, 26);
-            this.textBox9.TabIndex = 39;
-            // 
-            // txt_patProvince
-            // 
-            this.txt_patProvince.Location = new System.Drawing.Point(288, 563);
-            this.txt_patProvince.Name = "txt_patProvince";
-            this.txt_patProvince.Size = new System.Drawing.Size(178, 26);
-            this.txt_patProvince.TabIndex = 40;
-            // 
-            // txt_patCity
-            // 
-            this.txt_patCity.Location = new System.Drawing.Point(44, 563);
-            this.txt_patCity.Name = "txt_patCity";
-            this.txt_patCity.Size = new System.Drawing.Size(186, 26);
-            this.txt_patCity.TabIndex = 43;
-            // 
-            // txt_patTelephone
-            // 
-            this.txt_patTelephone.Location = new System.Drawing.Point(239, 400);
-            this.txt_patTelephone.Multiline = true;
-            this.txt_patTelephone.Name = "txt_patTelephone";
-            this.txt_patTelephone.Size = new System.Drawing.Size(135, 33);
-            this.txt_patTelephone.TabIndex = 44;
-            // 
-            // txt_patAttachments
-            // 
-            this.txt_patAttachments.Location = new System.Drawing.Point(42, 632);
-            this.txt_patAttachments.Multiline = true;
-            this.txt_patAttachments.Name = "txt_patAttachments";
-            this.txt_patAttachments.Size = new System.Drawing.Size(262, 101);
-            this.txt_patAttachments.TabIndex = 45;
-            this.txt_patAttachments.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
-            // 
-            // txt_patPostcalCode
-            // 
-            this.txt_patPostcalCode.Location = new System.Drawing.Point(528, 563);
-            this.txt_patPostcalCode.Name = "txt_patPostcalCode";
-            this.txt_patPostcalCode.Size = new System.Drawing.Size(95, 26);
-            this.txt_patPostcalCode.TabIndex = 46;
-            // 
-            // txt_patNotes
-            // 
-            this.txt_patNotes.Location = new System.Drawing.Point(370, 641);
-            this.txt_patNotes.Multiline = true;
-            this.txt_patNotes.Name = "txt_patNotes";
-            this.txt_patNotes.Size = new System.Drawing.Size(407, 80);
-            this.txt_patNotes.TabIndex = 47;
-            // 
-            // txt_patDOB
-            // 
-            this.txt_patDOB.Location = new System.Drawing.Point(413, 162);
-            this.txt_patDOB.Name = "txt_patDOB";
-            this.txt_patDOB.Size = new System.Drawing.Size(95, 26);
-            this.txt_patDOB.TabIndex = 48;
-            // 
-            // txt_patID
-            // 
-            this.txt_patID.Location = new System.Drawing.Point(557, 162);
-            this.txt_patID.Name = "txt_patID";
-            this.txt_patID.Size = new System.Drawing.Size(100, 26);
-            this.txt_patID.TabIndex = 49;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(557, 132);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(70, 19);
-            this.label7.TabIndex = 50;
-            this.label7.Text = "Patient ID";
+            // lblIDNumber
+            // 
+            this.lblIDNumber.AutoSize = true;
+            this.lblIDNumber.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDNumber.Location = new System.Drawing.Point(289, 50);
+            this.lblIDNumber.Name = "lblIDNumber";
+            this.lblIDNumber.Size = new System.Drawing.Size(82, 20);
+            this.lblIDNumber.TabIndex = 17;
+            this.lblIDNumber.Text = "ID Number";
+            this.lblIDNumber.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lblLastName
+            // 
+            this.lblLastName.AutoSize = true;
+            this.lblLastName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblLastName.Location = new System.Drawing.Point(14, 82);
+            this.lblLastName.Name = "lblLastName";
+            this.lblLastName.Size = new System.Drawing.Size(79, 20);
+            this.lblLastName.TabIndex = 18;
+            this.lblLastName.Text = "Last Name";
+            // 
+            // lblFirstName
+            // 
+            this.lblFirstName.AutoSize = true;
+            this.lblFirstName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblFirstName.Location = new System.Drawing.Point(13, 50);
+            this.lblFirstName.Name = "lblFirstName";
+            this.lblFirstName.Size = new System.Drawing.Size(80, 20);
+            this.lblFirstName.TabIndex = 19;
+            this.lblFirstName.Text = "First Name";
+            // 
+            // lblAge
+            // 
+            this.lblAge.AutoSize = true;
+            this.lblAge.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblAge.Location = new System.Drawing.Point(289, 113);
+            this.lblAge.Name = "lblAge";
+            this.lblAge.Size = new System.Drawing.Size(36, 20);
+            this.lblAge.TabIndex = 20;
+            this.lblAge.Text = "Age";
+            this.lblAge.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // lblGender
+            // 
+            this.lblGender.AutoSize = true;
+            this.lblGender.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblGender.Location = new System.Drawing.Point(570, 50);
+            this.lblGender.Name = "lblGender";
+            this.lblGender.Size = new System.Drawing.Size(57, 20);
+            this.lblGender.TabIndex = 21;
+            this.lblGender.Text = "Gender";
+            // 
+            // lblDOB
+            // 
+            this.lblDOB.AutoSize = true;
+            this.lblDOB.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblDOB.Location = new System.Drawing.Point(289, 82);
+            this.lblDOB.Name = "lblDOB";
+            this.lblDOB.Size = new System.Drawing.Size(94, 20);
+            this.lblDOB.TabIndex = 23;
+            this.lblDOB.Text = "Date of Birth";
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.AutoSize = true;
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblTitle.Location = new System.Drawing.Point(584, 82);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(38, 20);
+            this.lblTitle.TabIndex = 24;
+            this.lblTitle.Text = "Title";
+            // 
+            // lblEmailAddress
+            // 
+            this.lblEmailAddress.AutoSize = true;
+            this.lblEmailAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEmailAddress.Location = new System.Drawing.Point(524, 44);
+            this.lblEmailAddress.Name = "lblEmailAddress";
+            this.lblEmailAddress.Size = new System.Drawing.Size(103, 20);
+            this.lblEmailAddress.TabIndex = 25;
+            this.lblEmailAddress.Text = "Email Address";
+            // 
+            // lblMobile
+            // 
+            this.lblMobile.AutoSize = true;
+            this.lblMobile.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMobile.Location = new System.Drawing.Point(280, 45);
+            this.lblMobile.Name = "lblMobile";
+            this.lblMobile.Size = new System.Drawing.Size(60, 20);
+            this.lblMobile.TabIndex = 26;
+            this.lblMobile.Text = "Mobile ";
+            // 
+            // lblMiddleName
+            // 
+            this.lblMiddleName.AutoSize = true;
+            this.lblMiddleName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblMiddleName.Location = new System.Drawing.Point(14, 113);
+            this.lblMiddleName.Name = "lblMiddleName";
+            this.lblMiddleName.Size = new System.Drawing.Size(100, 20);
+            this.lblMiddleName.TabIndex = 27;
+            this.lblMiddleName.Text = "Middle Name";
+            // 
+            // lblCity
+            // 
+            this.lblCity.AutoSize = true;
+            this.lblCity.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCity.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblCity.Location = new System.Drawing.Point(243, 40);
+            this.lblCity.Name = "lblCity";
+            this.lblCity.Size = new System.Drawing.Size(34, 20);
+            this.lblCity.TabIndex = 28;
+            this.lblCity.Text = "City";
+            // 
+            // lblNotes
+            // 
+            this.lblNotes.AutoSize = true;
+            this.lblNotes.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNotes.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblNotes.Location = new System.Drawing.Point(278, 532);
+            this.lblNotes.Name = "lblNotes";
+            this.lblNotes.Size = new System.Drawing.Size(48, 20);
+            this.lblNotes.TabIndex = 29;
+            this.lblNotes.Text = "Notes";
+            // 
+            // lblAttachments
+            // 
+            this.lblAttachments.AutoSize = true;
+            this.lblAttachments.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblAttachments.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblAttachments.Location = new System.Drawing.Point(33, 532);
+            this.lblAttachments.Name = "lblAttachments";
+            this.lblAttachments.Size = new System.Drawing.Size(92, 20);
+            this.lblAttachments.TabIndex = 30;
+            this.lblAttachments.Text = "Attachments";
+            this.lblAttachments.Click += new System.EventHandler(this.label15_Click);
+            // 
+            // lblTelephone
+            // 
+            this.lblTelephone.AutoSize = true;
+            this.lblTelephone.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblTelephone.Location = new System.Drawing.Point(21, 44);
+            this.lblTelephone.Name = "lblTelephone";
+            this.lblTelephone.Size = new System.Drawing.Size(78, 20);
+            this.lblTelephone.TabIndex = 31;
+            this.lblTelephone.Text = "Telephone";
+            this.lblTelephone.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // lblProvince
+            // 
+            this.lblProvince.AutoSize = true;
+            this.lblProvince.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblProvince.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblProvince.Location = new System.Drawing.Point(440, 40);
+            this.lblProvince.Name = "lblProvince";
+            this.lblProvince.Size = new System.Drawing.Size(65, 20);
+            this.lblProvince.TabIndex = 32;
+            this.lblProvince.Text = "Province";
+            // 
+            // lblAddress
+            // 
+            this.lblAddress.AutoSize = true;
+            this.lblAddress.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAddress.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblAddress.Location = new System.Drawing.Point(18, 40);
+            this.lblAddress.Name = "lblAddress";
+            this.lblAddress.Size = new System.Drawing.Size(62, 20);
+            this.lblAddress.TabIndex = 33;
+            this.lblAddress.Text = "Address";
+            // 
+            // lblPostalCode
+            // 
+            this.lblPostalCode.AutoSize = true;
+            this.lblPostalCode.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPostalCode.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblPostalCode.Location = new System.Drawing.Point(668, 40);
+            this.lblPostalCode.Name = "lblPostalCode";
+            this.lblPostalCode.Size = new System.Drawing.Size(85, 20);
+            this.lblPostalCode.TabIndex = 34;
+            this.lblPostalCode.Text = "Postal code";
+            // 
+            // lblPatID
+            // 
+            this.lblPatID.AutoSize = true;
+            this.lblPatID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPatID.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblPatID.Location = new System.Drawing.Point(636, 122);
+            this.lblPatID.Name = "lblPatID";
+            this.lblPatID.Size = new System.Drawing.Size(73, 20);
+            this.lblPatID.TabIndex = 50;
+            this.lblPatID.Text = "Patient ID";
+            this.lblPatID.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Image = global::VERSALIFE_MEDICAL.Properties.Resources.sidefloral;
+            this.pictureBox2.Location = new System.Drawing.Point(872, 144);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(220, 630);
+            this.pictureBox2.TabIndex = 51;
+            this.pictureBox2.TabStop = false;
+            // 
+            // PatientDetails
+            // 
+            this.PatientDetails.Controls.Add(this.calenderDOB);
+            this.PatientDetails.Controls.Add(this.cmbRace);
+            this.PatientDetails.Controls.Add(this.lblRace);
+            this.PatientDetails.Controls.Add(this.cmbGender);
+            this.PatientDetails.Controls.Add(this.cmbTitle);
+            this.PatientDetails.Controls.Add(this.txtIDNumber);
+            this.PatientDetails.Controls.Add(this.txtAge);
+            this.PatientDetails.Controls.Add(this.txtMiddleName);
+            this.PatientDetails.Controls.Add(this.txtLastName);
+            this.PatientDetails.Controls.Add(this.txtFirstName);
+            this.PatientDetails.Controls.Add(this.lblAge);
+            this.PatientDetails.Controls.Add(this.lblDOB);
+            this.PatientDetails.Controls.Add(this.lblMiddleName);
+            this.PatientDetails.Controls.Add(this.lblLastName);
+            this.PatientDetails.Controls.Add(this.lblIDNumber);
+            this.PatientDetails.Controls.Add(this.lblFirstName);
+            this.PatientDetails.Controls.Add(this.lblGender);
+            this.PatientDetails.Controls.Add(this.lblTitle);
+            this.PatientDetails.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.PatientDetails.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.PatientDetails.Location = new System.Drawing.Point(35, 148);
+            this.PatientDetails.Name = "PatientDetails";
+            this.PatientDetails.Size = new System.Drawing.Size(831, 149);
+            this.PatientDetails.TabIndex = 52;
+            this.PatientDetails.TabStop = false;
+            this.PatientDetails.Text = "Personal Details";
+            // 
+            // cmbRace
+            // 
+            this.cmbRace.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.cmbRace.ForeColor = System.Drawing.Color.DimGray;
+            this.cmbRace.FormattingEnabled = true;
+            this.cmbRace.ItemHeight = 17;
+            this.cmbRace.Items.AddRange(new object[] {
+            "Black",
+            "White",
+            "Indian",
+            "Other"});
+            this.cmbRace.Location = new System.Drawing.Point(633, 108);
+            this.cmbRace.Name = "cmbRace";
+            this.cmbRace.Size = new System.Drawing.Size(180, 25);
+            this.cmbRace.TabIndex = 63;
+            // 
+            // lblRace
+            // 
+            this.lblRace.AutoSize = true;
+            this.lblRace.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lblRace.Location = new System.Drawing.Point(586, 113);
+            this.lblRace.Name = "lblRace";
+            this.lblRace.Size = new System.Drawing.Size(41, 20);
+            this.lblRace.TabIndex = 62;
+            this.lblRace.Text = "Race";
+            // 
+            // cmbGender
+            // 
+            this.cmbGender.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.cmbGender.ForeColor = System.Drawing.Color.DimGray;
+            this.cmbGender.FormattingEnabled = true;
+            this.cmbGender.ItemHeight = 17;
+            this.cmbGender.Items.AddRange(new object[] {
+            "MALE",
+            "FEMALE"});
+            this.cmbGender.Location = new System.Drawing.Point(633, 45);
+            this.cmbGender.Name = "cmbGender";
+            this.cmbGender.Size = new System.Drawing.Size(180, 25);
+            this.cmbGender.TabIndex = 60;
+            // 
+            // cmbTitle
+            // 
+            this.cmbTitle.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.cmbTitle.ForeColor = System.Drawing.Color.DimGray;
+            this.cmbTitle.FormattingEnabled = true;
+            this.cmbTitle.ItemHeight = 17;
+            this.cmbTitle.Items.AddRange(new object[] {
+            "MR.",
+            "MRS.",
+            "MS.",
+            "SIR."});
+            this.cmbTitle.Location = new System.Drawing.Point(633, 77);
+            this.cmbTitle.Name = "cmbTitle";
+            this.cmbTitle.Size = new System.Drawing.Size(180, 25);
+            this.cmbTitle.TabIndex = 59;
+            // 
+            // txtIDNumber
+            // 
+            this.txtIDNumber.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtIDNumber.ForeColor = System.Drawing.Color.DimGray;
+            this.txtIDNumber.Location = new System.Drawing.Point(377, 45);
+            this.txtIDNumber.Name = "txtIDNumber";
+            this.txtIDNumber.Size = new System.Drawing.Size(151, 25);
+            this.txtIDNumber.TabIndex = 56;
+            // 
+            // txtAge
+            // 
+            this.txtAge.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtAge.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAge.Location = new System.Drawing.Point(331, 108);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(151, 25);
+            this.txtAge.TabIndex = 55;
+            // 
+            // txtMiddleName
+            // 
+            this.txtMiddleName.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMiddleName.ForeColor = System.Drawing.Color.DimGray;
+            this.txtMiddleName.Location = new System.Drawing.Point(120, 108);
+            this.txtMiddleName.Name = "txtMiddleName";
+            this.txtMiddleName.Size = new System.Drawing.Size(151, 25);
+            this.txtMiddleName.TabIndex = 53;
+            // 
+            // txtLastName
+            // 
+            this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtLastName.ForeColor = System.Drawing.Color.DimGray;
+            this.txtLastName.Location = new System.Drawing.Point(103, 77);
+            this.txtLastName.Name = "txtLastName";
+            this.txtLastName.Size = new System.Drawing.Size(151, 25);
+            this.txtLastName.TabIndex = 52;
+            // 
+            // txtFirstName
+            // 
+            this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtFirstName.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFirstName.Location = new System.Drawing.Point(103, 45);
+            this.txtFirstName.Name = "txtFirstName";
+            this.txtFirstName.Size = new System.Drawing.Size(151, 25);
+            this.txtFirstName.TabIndex = 51;
+            // 
+            // txtPatID
+            // 
+            this.txtPatID.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtPatID.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPatID.Location = new System.Drawing.Point(715, 119);
+            this.txtPatID.Name = "txtPatID";
+            this.txtPatID.Size = new System.Drawing.Size(151, 25);
+            this.txtPatID.TabIndex = 57;
+            // 
+            // ContactDetails
+            // 
+            this.ContactDetails.Controls.Add(this.txtTelephone);
+            this.ContactDetails.Controls.Add(this.txtEmailAddress);
+            this.ContactDetails.Controls.Add(this.txtMobile);
+            this.ContactDetails.Controls.Add(this.lblTelephone);
+            this.ContactDetails.Controls.Add(this.lblMobile);
+            this.ContactDetails.Controls.Add(this.lblEmailAddress);
+            this.ContactDetails.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ContactDetails.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ContactDetails.Location = new System.Drawing.Point(35, 320);
+            this.ContactDetails.Name = "ContactDetails";
+            this.ContactDetails.Size = new System.Drawing.Size(831, 90);
+            this.ContactDetails.TabIndex = 58;
+            this.ContactDetails.TabStop = false;
+            this.ContactDetails.Text = "Contact Details";
+            // 
+            // txtTelephone
+            // 
+            this.txtTelephone.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtTelephone.ForeColor = System.Drawing.Color.DimGray;
+            this.txtTelephone.Location = new System.Drawing.Point(103, 40);
+            this.txtTelephone.Name = "txtTelephone";
+            this.txtTelephone.Size = new System.Drawing.Size(151, 25);
+            this.txtTelephone.TabIndex = 58;
+            // 
+            // txtEmailAddress
+            // 
+            this.txtEmailAddress.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtEmailAddress.ForeColor = System.Drawing.Color.DimGray;
+            this.txtEmailAddress.Location = new System.Drawing.Point(634, 40);
+            this.txtEmailAddress.Name = "txtEmailAddress";
+            this.txtEmailAddress.Size = new System.Drawing.Size(151, 25);
+            this.txtEmailAddress.TabIndex = 57;
+            // 
+            // txtMobile
+            // 
+            this.txtMobile.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtMobile.ForeColor = System.Drawing.Color.DimGray;
+            this.txtMobile.Location = new System.Drawing.Point(346, 40);
+            this.txtMobile.Name = "txtMobile";
+            this.txtMobile.Size = new System.Drawing.Size(151, 25);
+            this.txtMobile.TabIndex = 56;
+            // 
+            // HomeAddress
+            // 
+            this.HomeAddress.Controls.Add(this.txtPostalCode);
+            this.HomeAddress.Controls.Add(this.txtAddress);
+            this.HomeAddress.Controls.Add(this.txtProvince);
+            this.HomeAddress.Controls.Add(this.txtCity);
+            this.HomeAddress.Controls.Add(this.lblPostalCode);
+            this.HomeAddress.Controls.Add(this.lblAddress);
+            this.HomeAddress.Controls.Add(this.lblCity);
+            this.HomeAddress.Controls.Add(this.lblProvince);
+            this.HomeAddress.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.HomeAddress.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.HomeAddress.Location = new System.Drawing.Point(35, 436);
+            this.HomeAddress.Name = "HomeAddress";
+            this.HomeAddress.Size = new System.Drawing.Size(831, 82);
+            this.HomeAddress.TabIndex = 59;
+            this.HomeAddress.TabStop = false;
+            this.HomeAddress.Text = "Home Address";
+            // 
+            // txtPostalCode
+            // 
+            this.txtPostalCode.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtPostalCode.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPostalCode.Location = new System.Drawing.Point(759, 35);
+            this.txtPostalCode.Name = "txtPostalCode";
+            this.txtPostalCode.Size = new System.Drawing.Size(64, 25);
+            this.txtPostalCode.TabIndex = 59;
+            this.txtPostalCode.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            // 
+            // txtAddress
+            // 
+            this.txtAddress.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtAddress.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAddress.Location = new System.Drawing.Point(86, 35);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(151, 25);
+            this.txtAddress.TabIndex = 58;
+            // 
+            // txtProvince
+            // 
+            this.txtProvince.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtProvince.ForeColor = System.Drawing.Color.DimGray;
+            this.txtProvince.Location = new System.Drawing.Point(511, 35);
+            this.txtProvince.Name = "txtProvince";
+            this.txtProvince.Size = new System.Drawing.Size(151, 25);
+            this.txtProvince.TabIndex = 57;
+            // 
+            // txtCity
+            // 
+            this.txtCity.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtCity.ForeColor = System.Drawing.Color.DimGray;
+            this.txtCity.Location = new System.Drawing.Point(284, 35);
+            this.txtCity.Name = "txtCity";
+            this.txtCity.Size = new System.Drawing.Size(151, 25);
+            this.txtCity.TabIndex = 56;
+            // 
+            // buttonX1
+            // 
+            this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.buttonX1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonX1.Location = new System.Drawing.Point(740, 731);
+            this.buttonX1.Name = "buttonX1";
+            this.buttonX1.Size = new System.Drawing.Size(99, 23);
+            this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.buttonX1.TabIndex = 61;
+            this.buttonX1.Text = "&Exit";
+            this.buttonX1.Click += new System.EventHandler(this.buttonX1_Click);
+            // 
+            // btnSubmit
+            // 
+            this.btnSubmit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnSubmit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSubmit.Location = new System.Drawing.Point(625, 731);
+            this.btnSubmit.Name = "btnSubmit";
+            this.btnSubmit.Size = new System.Drawing.Size(99, 23);
+            this.btnSubmit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnSubmit.TabIndex = 60;
+            this.btnSubmit.Text = "&Submit";
+            // 
+            // txtAttachments
+            // 
+            this.txtAttachments.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtAttachments.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAttachments.Location = new System.Drawing.Point(36, 555);
+            this.txtAttachments.Multiline = true;
+            this.txtAttachments.Name = "txtAttachments";
+            this.txtAttachments.Size = new System.Drawing.Size(212, 105);
+            this.txtAttachments.TabIndex = 62;
+            this.txtAttachments.TextChanged += new System.EventHandler(this.txtAttachments_TextChanged);
+            // 
+            // txtNotes
+            // 
+            this.txtNotes.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtNotes.ForeColor = System.Drawing.Color.DimGray;
+            this.txtNotes.Location = new System.Drawing.Point(276, 555);
+            this.txtNotes.Multiline = true;
+            this.txtNotes.Name = "txtNotes";
+            this.txtNotes.Size = new System.Drawing.Size(287, 93);
+            this.txtNotes.TabIndex = 63;
+            // 
+            // txtCaptureDate
+            // 
+            this.txtCaptureDate.Font = new System.Drawing.Font("Segoe UI", 8F);
+            this.txtCaptureDate.ForeColor = System.Drawing.Color.DimGray;
+            this.txtCaptureDate.Location = new System.Drawing.Point(480, 119);
+            this.txtCaptureDate.Name = "txtCaptureDate";
+            this.txtCaptureDate.Size = new System.Drawing.Size(151, 25);
+            this.txtCaptureDate.TabIndex = 64;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.Multiselect = true;
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
+            // 
+            // buttonItem1
+            // 
+            this.buttonItem1.GlobalItem = false;
+            this.buttonItem1.Name = "buttonItem1";
+            this.buttonItem1.Text = "buttonItem1";
+            // 
+            // btnBrowse
+            // 
+            this.btnBrowse.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.btnBrowse.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
+            this.btnBrowse.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnBrowse.Location = new System.Drawing.Point(36, 666);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(99, 23);
+            this.btnBrowse.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
+            this.btnBrowse.TabIndex = 65;
+            this.btnBrowse.Text = "&Browse>>";
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
+            // 
+            // calenderDOB
+            // 
+            this.calenderDOB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calenderDOB.Location = new System.Drawing.Point(389, 77);
+            this.calenderDOB.Name = "calenderDOB";
+            this.calenderDOB.Size = new System.Drawing.Size(161, 27);
+            this.calenderDOB.TabIndex = 64;
+            // 
+            // lblCaptureDate
+            // 
+            this.lblCaptureDate.AutoSize = true;
+            this.lblCaptureDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCaptureDate.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.lblCaptureDate.Location = new System.Drawing.Point(377, 120);
+            this.lblCaptureDate.Name = "lblCaptureDate";
+            this.lblCaptureDate.Size = new System.Drawing.Size(97, 20);
+            this.lblCaptureDate.TabIndex = 66;
+            this.lblCaptureDate.Text = "Capture Date";
             // 
             // frmPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::VERSALIFE_MEDICAL.Properties.Resources.tittlebar;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1024, 733);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.txt_patID);
-            this.Controls.Add(this.txt_patDOB);
-            this.Controls.Add(this.txt_patNotes);
-            this.Controls.Add(this.txt_patPostcalCode);
-            this.Controls.Add(this.txt_patAttachments);
-            this.Controls.Add(this.txt_patTelephone);
-            this.Controls.Add(this.txt_patCity);
-            this.Controls.Add(this.txt_patProvince);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.txt_patAddress);
-            this.Controls.Add(this.cmb_patGender);
-            this.Controls.Add(this.cmb_patTitle);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.txt_patEmailAddress);
-            this.Controls.Add(this.txtID);
-            this.Controls.Add(this.txt_patFirstName);
-            this.Controls.Add(this.txt_patMobile);
-            this.Controls.Add(this.txt_patAge);
-            this.Controls.Add(this.txt_patSurname);
-            this.Controls.Add(this.txt_patMiddleName);
+            this.ClientSize = new System.Drawing.Size(1024, 766);
+            this.Controls.Add(this.lblCaptureDate);
+            this.Controls.Add(this.btnBrowse);
+            this.Controls.Add(this.txtCaptureDate);
+            this.Controls.Add(this.txtNotes);
+            this.Controls.Add(this.txtAttachments);
+            this.Controls.Add(this.buttonX1);
+            this.Controls.Add(this.btnSubmit);
+            this.Controls.Add(this.HomeAddress);
+            this.Controls.Add(this.ContactDetails);
+            this.Controls.Add(this.PatientDetails);
+            this.Controls.Add(this.txtPatID);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.lblPatID);
+            this.Controls.Add(this.lblAttachments);
+            this.Controls.Add(this.lblNotes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
@@ -463,12 +682,19 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1024, 768);
-            this.MinimumSize = new System.Drawing.Size(1024, 726);
+            this.MinimumSize = new System.Drawing.Size(1024, 766);
             this.Name = "frmPatient";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPatient";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.PatientDetails.ResumeLayout(false);
+            this.PatientDetails.PerformLayout();
+            this.ContactDetails.ResumeLayout(false);
+            this.ContactDetails.PerformLayout();
+            this.HomeAddress.ResumeLayout(false);
+            this.HomeAddress.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -478,42 +704,54 @@
 
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox txt_patMiddleName;
-        private System.Windows.Forms.TextBox txt_patSurname;
-        private System.Windows.Forms.TextBox txt_patAge;
-        private System.Windows.Forms.TextBox txt_patMobile;
-        private System.Windows.Forms.TextBox txt_patFirstName;
-        private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txt_patEmailAddress;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.ComboBox cmb_patTitle;
-        private System.Windows.Forms.ComboBox cmb_patGender;
-        private System.Windows.Forms.TextBox txt_patAddress;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox txt_patProvince;
-        private System.Windows.Forms.TextBox txt_patCity;
-        private System.Windows.Forms.TextBox txt_patTelephone;
-        private System.Windows.Forms.TextBox txt_patAttachments;
-        private System.Windows.Forms.TextBox txt_patPostcalCode;
-        private System.Windows.Forms.TextBox txt_patNotes;
-        private System.Windows.Forms.TextBox txt_patDOB;
-        private System.Windows.Forms.TextBox txt_patID;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label lblIDNumber;
+        private System.Windows.Forms.Label lblLastName;
+        private System.Windows.Forms.Label lblFirstName;
+        private System.Windows.Forms.Label lblAge;
+        private System.Windows.Forms.Label lblGender;
+        private System.Windows.Forms.Label lblDOB;
+        private System.Windows.Forms.Label lblTitle;
+        private System.Windows.Forms.Label lblEmailAddress;
+        private System.Windows.Forms.Label lblMobile;
+        private System.Windows.Forms.Label lblMiddleName;
+        private System.Windows.Forms.Label lblCity;
+        private System.Windows.Forms.Label lblNotes;
+        private System.Windows.Forms.Label lblAttachments;
+        private System.Windows.Forms.Label lblTelephone;
+        private System.Windows.Forms.Label lblProvince;
+        private System.Windows.Forms.Label lblAddress;
+        private System.Windows.Forms.Label lblPostalCode;
+        private System.Windows.Forms.Label lblPatID;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.GroupBox PatientDetails;
+        private System.Windows.Forms.TextBox txtFirstName;
+        private System.Windows.Forms.TextBox txtMiddleName;
+        private System.Windows.Forms.TextBox txtLastName;
+        private System.Windows.Forms.TextBox txtPatID;
+        private System.Windows.Forms.TextBox txtIDNumber;
+        private System.Windows.Forms.TextBox txtAge;
+        private System.Windows.Forms.ComboBox cmbGender;
+        private System.Windows.Forms.ComboBox cmbTitle;
+        private System.Windows.Forms.GroupBox ContactDetails;
+        private System.Windows.Forms.TextBox txtTelephone;
+        private System.Windows.Forms.TextBox txtEmailAddress;
+        private System.Windows.Forms.TextBox txtMobile;
+        private System.Windows.Forms.GroupBox HomeAddress;
+        private System.Windows.Forms.TextBox txtPostalCode;
+        private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.TextBox txtProvince;
+        private System.Windows.Forms.TextBox txtCity;
+        private DevComponents.DotNetBar.ButtonX buttonX1;
+        private DevComponents.DotNetBar.ButtonX btnSubmit;
+        private System.Windows.Forms.TextBox txtAttachments;
+        private System.Windows.Forms.TextBox txtNotes;
+        private System.Windows.Forms.ComboBox cmbRace;
+        private System.Windows.Forms.Label lblRace;
+        private System.Windows.Forms.TextBox txtCaptureDate;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private DevComponents.DotNetBar.ButtonItem buttonItem1;
+        private DevComponents.DotNetBar.ButtonX btnBrowse;
+        private System.Windows.Forms.DateTimePicker calenderDOB;
+        private System.Windows.Forms.Label lblCaptureDate;
     }
 }

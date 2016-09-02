@@ -43,7 +43,6 @@ C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\bin\Debu
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.pdb
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.csprojResolveAssemblyReference.cache
-C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmAuthenticateTechnician.resources
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmLogin.resources
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmMain.resources
 C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.Properties.Resources.resources
@@ -101,3 +100,8 @@ C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\D
 C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.TrustInfo.xml
 C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.exe.manifest
 C:\Users\olfre\Documents\GitHub\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE MEDICAL.application
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmAssessment.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmEmp_History.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmHealth_Record.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmOrganization.resources
+C:\Users\RBK\VersaLifeHealth\System\VERSALIFE MEDICAL\VERSALIFE MEDICAL\obj\Debug\VERSALIFE_MEDICAL.frmPatient.resources
