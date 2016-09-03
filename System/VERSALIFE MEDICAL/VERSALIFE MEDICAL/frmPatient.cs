@@ -81,11 +81,6 @@ namespace VERSALIFE_MEDICAL
 
         private void frmPatient_Load(object sender, EventArgs e)
         {
-            this.StartPosition = FormStartPosition.CenterParent;
-            this.Location = new Point(0, 0);
-            Size formSize = new Size(Screen.GetWorkingArea(this).Width, Screen.GetWorkingArea(this).Height);
-            Size formSize1 = new Size(Screen.GetWorkingArea(this).Right, Screen.GetWorkingArea(this).Left);
-            this.Size = new Size(formSize.Width, formSize.Height);
         }
     }
 }

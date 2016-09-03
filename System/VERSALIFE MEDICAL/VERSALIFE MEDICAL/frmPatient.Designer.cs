@@ -75,11 +75,11 @@
             this.btnSubmit = new DevComponents.DotNetBar.ButtonX();
             this.txtAttachments = new System.Windows.Forms.TextBox();
             this.txtNotes = new System.Windows.Forms.TextBox();
-            this.txtCaptureDate = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.btnBrowse = new DevComponents.DotNetBar.ButtonX();
             this.lblCaptureDate = new System.Windows.Forms.Label();
+            this.calendarCaptureDate = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.PatientDetails.SuspendLayout();
@@ -102,7 +102,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::VERSALIFE_MEDICAL.Properties.Resources.logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox1.Location = new System.Drawing.Point(770, 46);
+            this.pictureBox1.Location = new System.Drawing.Point(1137, 39);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(204, 40);
             this.pictureBox1.TabIndex = 8;
@@ -293,7 +293,7 @@
             this.lblPatID.AutoSize = true;
             this.lblPatID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPatID.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblPatID.Location = new System.Drawing.Point(636, 122);
+            this.lblPatID.Location = new System.Drawing.Point(639, 127);
             this.lblPatID.Name = "lblPatID";
             this.lblPatID.Size = new System.Drawing.Size(73, 20);
             this.lblPatID.TabIndex = 50;
@@ -306,9 +306,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Image = global::VERSALIFE_MEDICAL.Properties.Resources.sidefloral;
-            this.pictureBox2.Location = new System.Drawing.Point(872, 144);
+            this.pictureBox2.Location = new System.Drawing.Point(1019, 144);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(220, 630);
+            this.pictureBox2.Size = new System.Drawing.Size(220, 644);
             this.pictureBox2.TabIndex = 51;
             this.pictureBox2.TabStop = false;
             // 
@@ -454,7 +454,7 @@
             // 
             this.txtPatID.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtPatID.ForeColor = System.Drawing.Color.DimGray;
-            this.txtPatID.Location = new System.Drawing.Point(715, 119);
+            this.txtPatID.Location = new System.Drawing.Point(715, 123);
             this.txtPatID.Name = "txtPatID";
             this.txtPatID.Size = new System.Drawing.Size(151, 25);
             this.txtPatID.TabIndex = 57;
@@ -564,7 +564,7 @@
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.buttonX1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonX1.Location = new System.Drawing.Point(740, 731);
+            this.buttonX1.Location = new System.Drawing.Point(1029, 734);
             this.buttonX1.Name = "buttonX1";
             this.buttonX1.Size = new System.Drawing.Size(99, 23);
             this.buttonX1.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -577,7 +577,7 @@
             this.btnSubmit.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.btnSubmit.ColorTable = DevComponents.DotNetBar.eButtonColor.OrangeWithBackground;
             this.btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSubmit.Location = new System.Drawing.Point(625, 731);
+            this.btnSubmit.Location = new System.Drawing.Point(914, 734);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(99, 23);
             this.btnSubmit.Style = DevComponents.DotNetBar.eDotNetBarStyle.StyleManagerControlled;
@@ -604,15 +604,6 @@
             this.txtNotes.Name = "txtNotes";
             this.txtNotes.Size = new System.Drawing.Size(287, 93);
             this.txtNotes.TabIndex = 63;
-            // 
-            // txtCaptureDate
-            // 
-            this.txtCaptureDate.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.txtCaptureDate.ForeColor = System.Drawing.Color.DimGray;
-            this.txtCaptureDate.Location = new System.Drawing.Point(480, 119);
-            this.txtCaptureDate.Name = "txtCaptureDate";
-            this.txtCaptureDate.Size = new System.Drawing.Size(151, 25);
-            this.txtCaptureDate.TabIndex = 64;
             // 
             // openFileDialog1
             // 
@@ -644,26 +635,32 @@
             this.lblCaptureDate.AutoSize = true;
             this.lblCaptureDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCaptureDate.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.lblCaptureDate.Location = new System.Drawing.Point(377, 120);
+            this.lblCaptureDate.Location = new System.Drawing.Point(323, 127);
             this.lblCaptureDate.Name = "lblCaptureDate";
             this.lblCaptureDate.Size = new System.Drawing.Size(97, 20);
             this.lblCaptureDate.TabIndex = 66;
             this.lblCaptureDate.Text = "Capture Date";
             // 
+            // calendarCaptureDate
+            // 
+            this.calendarCaptureDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calendarCaptureDate.Location = new System.Drawing.Point(423, 121);
+            this.calendarCaptureDate.Name = "calendarCaptureDate";
+            this.calendarCaptureDate.Size = new System.Drawing.Size(213, 27);
+            this.calendarCaptureDate.TabIndex = 67;
+            // 
             // frmPatient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::VERSALIFE_MEDICAL.Properties.Resources.tittlebar;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1024, 766);
+            this.ClientSize = new System.Drawing.Size(1171, 780);
+            this.Controls.Add(this.calendarCaptureDate);
             this.Controls.Add(this.lblCaptureDate);
             this.Controls.Add(this.btnBrowse);
-            this.Controls.Add(this.txtCaptureDate);
             this.Controls.Add(this.txtNotes);
             this.Controls.Add(this.txtAttachments);
             this.Controls.Add(this.buttonX1);
@@ -683,12 +680,11 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1024, 768);
-            this.MinimumSize = new System.Drawing.Size(1024, 766);
             this.Name = "frmPatient";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPatient";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmPatient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -750,11 +746,11 @@
         private System.Windows.Forms.TextBox txtNotes;
         private System.Windows.Forms.ComboBox cmbRace;
         private System.Windows.Forms.Label lblRace;
-        private System.Windows.Forms.TextBox txtCaptureDate;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private DevComponents.DotNetBar.ButtonItem buttonItem1;
         private DevComponents.DotNetBar.ButtonX btnBrowse;
         private System.Windows.Forms.DateTimePicker calenderDOB;
         private System.Windows.Forms.Label lblCaptureDate;
+        private System.Windows.Forms.DateTimePicker calendarCaptureDate;
     }
 }
