@@ -10,36 +10,16 @@ using System.Windows.Forms;
 
 namespace VERSALIFE_MEDICAL
 {
-    public partial class frmAssessment : Form
+    public partial class frmAssessmentTemp : Form
     {
-        public frmAssessment()
+        public frmAssessmentTemp()
         {
             InitializeComponent();
         }
 
-        private void tableLayoutPanel4_Paint(object sender, PaintEventArgs e)
+        private void buttonX1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label38_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel7_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel6_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label78_Click(object sender, EventArgs e)
-        {
-
+            this.Close();
         }
     }
 }

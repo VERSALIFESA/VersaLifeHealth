@@ -103,6 +103,12 @@
     <Compile Include="frmAssessment.Designer.cs">
       <DependentUpon>frmAssessment.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAssessmentTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssessmentTemp.Designer.cs">
+      <DependentUpon>frmAssessmentTemp.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEmp_History.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,6 +150,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmAssessment.resx">
       <DependentUpon>frmAssessment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssessmentTemp.resx">
+      <DependentUpon>frmAssessmentTemp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEmp_History.resx">
       <DependentUpon>frmEmp_History.cs</DependentUpon>

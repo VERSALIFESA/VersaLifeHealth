@@ -78,7 +78,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label2.Location = new System.Drawing.Point(29, 61);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(389, 32);
+            this.label2.Size = new System.Drawing.Size(301, 25);
             this.label2.TabIndex = 7;
             this.label2.Text = "Enter your organization`s details";
             // 
@@ -108,7 +108,7 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(793, 34);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(81, 15);
+            this.label8.Size = new System.Drawing.Size(64, 12);
             this.label8.TabIndex = 8;
             this.label8.Text = "(if Applicable)";
             // 
@@ -118,7 +118,7 @@
             this.textBox5.ForeColor = System.Drawing.Color.DimGray;
             this.textBox5.Location = new System.Drawing.Point(672, 54);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(185, 25);
+            this.textBox5.Size = new System.Drawing.Size(185, 22);
             this.textBox5.TabIndex = 7;
             // 
             // label7
@@ -127,7 +127,7 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(669, 33);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(155, 20);
+            this.label7.Size = new System.Drawing.Size(124, 15);
             this.label7.TabIndex = 6;
             this.label7.Text = "Medical / Practice No:";
             // 
@@ -136,7 +136,7 @@
             this.cmbOrgType.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOrgType.ForeColor = System.Drawing.Color.DimGray;
             this.cmbOrgType.FormattingEnabled = true;
-            this.cmbOrgType.ItemHeight = 17;
+            this.cmbOrgType.ItemHeight = 13;
             this.cmbOrgType.Items.AddRange(new object[] {
             "Sole Proprietor (SP)",
             "Close Corporation (CC)",
@@ -146,7 +146,7 @@
             "State Owned Companies (SOC)"});
             this.cmbOrgType.Location = new System.Drawing.Point(458, 55);
             this.cmbOrgType.Name = "cmbOrgType";
-            this.cmbOrgType.Size = new System.Drawing.Size(180, 25);
+            this.cmbOrgType.Size = new System.Drawing.Size(180, 21);
             this.cmbOrgType.TabIndex = 5;
             // 
             // label4
@@ -155,7 +155,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(455, 33);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(130, 20);
+            this.label4.Size = new System.Drawing.Size(103, 15);
             this.label4.TabIndex = 4;
             this.label4.Text = "Organization Type";
             // 
@@ -165,7 +165,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.DimGray;
             this.textBox2.Location = new System.Drawing.Point(269, 55);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(142, 25);
+            this.textBox2.Size = new System.Drawing.Size(142, 22);
             this.textBox2.TabIndex = 3;
             // 
             // label3
@@ -174,7 +174,7 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(266, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(141, 20);
+            this.label3.Size = new System.Drawing.Size(112, 15);
             this.label3.TabIndex = 2;
             this.label3.Text = "Regitration Number";
             // 
@@ -184,7 +184,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.DimGray;
             this.textBox1.Location = new System.Drawing.Point(14, 55);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 25);
+            this.textBox1.Size = new System.Drawing.Size(216, 22);
             this.textBox1.TabIndex = 1;
             // 
             // label1
@@ -193,7 +193,7 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(11, 33);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 20);
+            this.label1.Size = new System.Drawing.Size(70, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "Legal Name";
             // 
@@ -204,7 +204,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label5.Location = new System.Drawing.Point(707, 105);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(85, 19);
+            this.label5.Size = new System.Drawing.Size(67, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "License No:";
             // 
@@ -214,7 +214,7 @@
             this.textBox3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox3.Location = new System.Drawing.Point(798, 99);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(119, 25);
+            this.textBox3.Size = new System.Drawing.Size(119, 22);
             this.textBox3.TabIndex = 11;
             // 
             // btnSubmit
@@ -252,7 +252,7 @@
             this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(42, 91);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 20);
+            this.label12.Size = new System.Drawing.Size(30, 15);
             this.label12.TabIndex = 4;
             this.label12.Text = "Title";
             // 
@@ -262,7 +262,7 @@
             this.textBox7.ForeColor = System.Drawing.Color.DimGray;
             this.textBox7.Location = new System.Drawing.Point(97, 58);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(151, 25);
+            this.textBox7.Size = new System.Drawing.Size(151, 22);
             this.textBox7.TabIndex = 3;
             // 
             // label11
@@ -271,7 +271,7 @@
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(14, 58);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(72, 20);
+            this.label11.Size = new System.Drawing.Size(58, 15);
             this.label11.TabIndex = 2;
             this.label11.Text = "Lastname";
             // 
@@ -281,7 +281,7 @@
             this.textBox6.ForeColor = System.Drawing.Color.DimGray;
             this.textBox6.Location = new System.Drawing.Point(97, 30);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(151, 25);
+            this.textBox6.Size = new System.Drawing.Size(151, 22);
             this.textBox6.TabIndex = 1;
             // 
             // label9
@@ -290,7 +290,7 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(13, 30);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(73, 20);
+            this.label9.Size = new System.Drawing.Size(59, 15);
             this.label9.TabIndex = 0;
             this.label9.Text = "Firstname";
             // 
@@ -326,7 +326,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.label6.Location = new System.Drawing.Point(488, 106);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(91, 19);
+            this.label6.Size = new System.Drawing.Size(72, 13);
             this.label6.TabIndex = 15;
             this.label6.Text = "Account No:";
             // 
@@ -336,7 +336,7 @@
             this.textBox4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox4.Location = new System.Drawing.Point(578, 100);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(119, 25);
+            this.textBox4.Size = new System.Drawing.Size(119, 22);
             this.textBox4.TabIndex = 16;
             // 
             // label10
@@ -346,18 +346,18 @@
             this.label10.ForeColor = System.Drawing.SystemColors.ControlDark;
             this.label10.Location = new System.Drawing.Point(32, 238);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(250, 15);
+            this.label10.Size = new System.Drawing.Size(206, 12);
             this.label10.TabIndex = 2;
             this.label10.Text = "System Administrator and Key Contact Person";
             // 
             // frmOrganization
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::VERSALIFE_MEDICAL.Properties.Resources.tittlebar;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(1024, 766);
+            this.ClientSize = new System.Drawing.Size(1024, 733);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label6);
@@ -376,7 +376,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1024, 768);
-            this.MinimumSize = new System.Drawing.Size(1024, 766);
+            this.MinimumSize = new System.Drawing.Size(1024, 726);
             this.Name = "frmOrganization";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
