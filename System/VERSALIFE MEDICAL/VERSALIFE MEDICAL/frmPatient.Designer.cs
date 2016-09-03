@@ -51,6 +51,7 @@
             this.lblPatID = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.PatientDetails = new System.Windows.Forms.GroupBox();
+            this.calenderDOB = new System.Windows.Forms.DateTimePicker();
             this.cmbRace = new System.Windows.Forms.ComboBox();
             this.lblRace = new System.Windows.Forms.Label();
             this.cmbGender = new System.Windows.Forms.ComboBox();
@@ -78,7 +79,6 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.buttonItem1 = new DevComponents.DotNetBar.ButtonItem();
             this.btnBrowse = new DevComponents.DotNetBar.ButtonX();
-            this.calenderDOB = new System.Windows.Forms.DateTimePicker();
             this.lblCaptureDate = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -341,6 +341,14 @@
             this.PatientDetails.TabStop = false;
             this.PatientDetails.Text = "Personal Details";
             // 
+            // calenderDOB
+            // 
+            this.calenderDOB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.calenderDOB.Location = new System.Drawing.Point(389, 77);
+            this.calenderDOB.Name = "calenderDOB";
+            this.calenderDOB.Size = new System.Drawing.Size(161, 27);
+            this.calenderDOB.TabIndex = 64;
+            // 
             // cmbRace
             // 
             this.cmbRace.Font = new System.Drawing.Font("Segoe UI", 8F);
@@ -401,7 +409,7 @@
             // 
             this.txtIDNumber.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtIDNumber.ForeColor = System.Drawing.Color.DimGray;
-            this.txtIDNumber.Location = new System.Drawing.Point(377, 45);
+            this.txtIDNumber.Location = new System.Drawing.Point(389, 45);
             this.txtIDNumber.Name = "txtIDNumber";
             this.txtIDNumber.Size = new System.Drawing.Size(151, 25);
             this.txtIDNumber.TabIndex = 56;
@@ -410,7 +418,7 @@
             // 
             this.txtAge.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtAge.ForeColor = System.Drawing.Color.DimGray;
-            this.txtAge.Location = new System.Drawing.Point(331, 108);
+            this.txtAge.Location = new System.Drawing.Point(389, 108);
             this.txtAge.Name = "txtAge";
             this.txtAge.Size = new System.Drawing.Size(151, 25);
             this.txtAge.TabIndex = 55;
@@ -428,7 +436,7 @@
             // 
             this.txtLastName.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtLastName.ForeColor = System.Drawing.Color.DimGray;
-            this.txtLastName.Location = new System.Drawing.Point(103, 77);
+            this.txtLastName.Location = new System.Drawing.Point(120, 77);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(151, 25);
             this.txtLastName.TabIndex = 52;
@@ -437,7 +445,7 @@
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Segoe UI", 8F);
             this.txtFirstName.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFirstName.Location = new System.Drawing.Point(103, 45);
+            this.txtFirstName.Location = new System.Drawing.Point(120, 45);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(151, 25);
             this.txtFirstName.TabIndex = 51;
@@ -631,14 +639,6 @@
             this.btnBrowse.Text = "&Browse>>";
             this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
             // 
-            // calenderDOB
-            // 
-            this.calenderDOB.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.calenderDOB.Location = new System.Drawing.Point(389, 77);
-            this.calenderDOB.Name = "calenderDOB";
-            this.calenderDOB.Size = new System.Drawing.Size(161, 27);
-            this.calenderDOB.TabIndex = 64;
-            // 
             // lblCaptureDate
             // 
             this.lblCaptureDate.AutoSize = true;
@@ -654,7 +654,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::VERSALIFE_MEDICAL.Properties.Resources.tittlebar;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
@@ -687,6 +689,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPatient";
+            this.Load += new System.EventHandler(this.frmPatient_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.PatientDetails.ResumeLayout(false);
