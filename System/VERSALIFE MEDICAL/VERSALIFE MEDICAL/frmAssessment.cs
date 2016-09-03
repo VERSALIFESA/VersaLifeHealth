@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace VERSALIFE_MEDICAL
 {
-    public partial class frmAssessmentTemp : Form
+    public partial class frmAssessment : Form
     {
-        public frmAssessmentTemp()
+        public frmAssessment()
         {
             InitializeComponent();
         }
 
-        private void buttonX1_Click(object sender, EventArgs e)
+        private void buttonX2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
