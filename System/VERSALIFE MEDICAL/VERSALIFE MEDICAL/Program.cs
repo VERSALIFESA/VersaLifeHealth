@@ -22,7 +22,7 @@ namespace VERSALIFE_MEDICAL
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAssessment());
+            Application.Run(new frmPatient());
         }
     }
 }
