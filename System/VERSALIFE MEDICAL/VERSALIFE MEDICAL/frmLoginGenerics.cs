@@ -13,32 +13,33 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System.Data;
-using System.Data.SqlClient;
-using System.Data.Sql;
+
 using System.Configuration;
 using System.Threading;
 using System.Drawing;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using System.Diagnostics;
+using MySql.Data.MySqlClient;
 
 namespace VERSALIFE_MEDICAL
 {
     public class frmLoginGenerics
     {
 
+
         #region Initiate Database Connection Test and update the status LED
         // Initiate Database Connection Test and update the status LED
 
-        static string con = ConfigurationManager.ConnectionStrings["connectToVersalife"].ConnectionString;     // Create a connection variable object
+        static string con = ConfigurationManager.ConnectionStrings["connectToVersaMain"].ConnectionString;     // Create a connection variable object
+        //static string con = "Server=mint.versalife.co.za;Uid=dbsa;Pwd=pandora4808;Database=VersaMain";
 
         public static bool checkConnectionState = true;
         public static Thread connectivityTest = new Thread(() =>
         {
 
             drawStatusLED(Color.Orange);
-            SqlConnection connect = new SqlConnection(con);                 // Initiate database connection test 
+            MySqlConnection connect = new MySqlConnection(con);                 // Initiate database connection test 
             drawStatusLED(Color.Orange);
             while (checkConnectionState)
             {
@@ -114,17 +115,17 @@ namespace VERSALIFE_MEDICAL
         // Authenticate the User from the database with the provided User Credentials
 
         public static string sysuser;               // system user variable object
-        static SqlConnection userConnection = new SqlConnection(con);
+        static MySqlConnection userConnection = new MySqlConnection(con);
         public static bool verifyCredentials(string userID, string userPassword)
         {
 
             string querySelect = "select * from tbl_syslogin where (usr_id=@usr_id and usr_password=@usr_password)";
-            SqlCommand cmd = new SqlCommand(querySelect, userConnection);
+            MySqlCommand cmd = new MySqlCommand(querySelect, userConnection);
 
-            cmd.Parameters.Add("usr_id", SqlDbType.VarChar).Value = userID;
+            cmd.Parameters.Add("usr_id", MySqlDbType.VarChar).Value = userID;
             try
             {
-                cmd.Parameters.Add("usr_password", SqlDbType.Int).Value = Convert.ToInt32(userPassword);
+                cmd.Parameters.Add("usr_password", MySqlDbType.Int16).Value = Convert.ToInt32(userPassword);
             }
             catch
             {
@@ -135,9 +136,9 @@ namespace VERSALIFE_MEDICAL
             {
                 userConnection.Open();
 
-                SqlDataReader readLoginrecord = cmd.ExecuteReader();
+                MySqlDataReader readLoginrecord = cmd.ExecuteReader();
 
-                if (userConnection.State == ConnectionState.Open) {
+                if (userConnection.State == System.Data.ConnectionState.Open) {
                     if (readLoginrecord.Read())
                     {
 
@@ -456,7 +457,7 @@ namespace VERSALIFE_MEDICAL
                 else {//Everything is okay, we test the connection.
                     string newConnectionString = "Server=" + txtDB_URL.Text + "," + portNumber + ";Database= " + txtDB_Table.Text + ";User ID=" + txtDB_UserID.Text + ";Password=" + txtDB_UserPassword.Text + ";Encrypt=True;TrustServerCertificate=False;Connection Timeout=" + timeOutValue;
 
-                    SqlConnection test_newConnectionString =  new SqlConnection(newConnectionString);
+                    MySqlConnection test_newConnectionString =  new MySqlConnection(newConnectionString);
                     try {
                         test_newConnectionString.Open();
                         DialogResult msgBoxResult = MessageBox.Show("The test was successful. Do you wish to save these new settings", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation);

@@ -83,9 +83,12 @@ namespace VERSALIFE_MEDICAL
             {
                 if (frmLoginGenerics.verifyCredentials(userID, userPassword))
                 {
-                    frmMain dashBoard = new frmMain();                  // initiate the Dashbaord upon successfull user authentification
-                    dashBoard.Show();
-                    this.Hide();                                        // hide the current login form.
+                    frmPatient patientFormPage = new frmPatient();
+                    patientFormPage.Show();
+                    frmLoginGenerics.checkConnectionState = false; //Disable the drawing of the LED indicator
+
+                    txtUsername.Clear();                           //Clear fields for next login
+                    txtPassword.Clear();
                 }
             }   
 

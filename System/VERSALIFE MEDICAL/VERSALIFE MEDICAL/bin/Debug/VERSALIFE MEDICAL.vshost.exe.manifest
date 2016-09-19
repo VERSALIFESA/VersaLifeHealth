@@ -91,14 +91,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VERSALIFE MEDICAL.exe" size="542208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MySql.Data.dll" size="424448">
+      <assemblyIdentity name="MySql.Data" version="6.9.9.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>z1JCyodj5/UiC37FF0m11VPrQRt8tszqKfa8jk+yNYc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="VERSALIFE MEDICAL.exe" size="547840">
       <assemblyIdentity name="VERSALIFE MEDICAL" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>huYpNg4+DT6M5DJ6C1+x8sjIeCg6GMLIF3uGL1HGt/M=</dsig:DigestValue>
+        <dsig:DigestValue>HzuIWqvhSKCq4FFQYWfS0OQsiUh3PKtyKdSNYSnI44Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -120,13 +132,13 @@
       <dsig:DigestValue>01d+lOtpP2WfENrJHle9b3CpYnn/5YUZkx2647X67vc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VERSALIFE MEDICAL.exe.config" size="473">
+  <file name="VERSALIFE MEDICAL.exe.config" size="368">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>UWO0EG4HkoLTWGwInmOY/tOvvGKIEaVdPQycmhW+glA=</dsig:DigestValue>
+      <dsig:DigestValue>UTmvsIy4lI8Q2RTSpXnTLa1HgrNpVjHxEZCJk0NKdGw=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

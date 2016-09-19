@@ -33,53 +33,53 @@
             this.lblFrmTitle = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.grpBoxAssDetails = new System.Windows.Forms.GroupBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerTimeCapture = new System.Windows.Forms.DateTimePicker();
             this.cmbOrgType = new System.Windows.Forms.ComboBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.txtAssNote = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtFitness = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtAssID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAssExpiryDate = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.txtPatientID = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtWeight = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtHeight = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePickerPhysicals = new System.Windows.Forms.DateTimePicker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.txtAUDPLH = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.txtAUDABHL = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.txtSugarNote = new System.Windows.Forms.TextBox();
             this.label22 = new System.Windows.Forms.Label();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.txtProteinNote = new System.Windows.Forms.TextBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtBloodNote = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.txtPHNote = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.chkBoxSugar = new System.Windows.Forms.CheckBox();
+            this.chkBoxProtein = new System.Windows.Forms.CheckBox();
+            this.chkBoxBlood = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.txtPH = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.txtVEDepthPerception = new System.Windows.Forms.TextBox();
             this.label32 = new System.Windows.Forms.Label();
-            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.txtVEColorVision = new System.Windows.Forms.TextBox();
             this.label31 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.label23 = new System.Windows.Forms.Label();
@@ -90,79 +90,79 @@
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox20 = new System.Windows.Forms.TextBox();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.txtVENearRight = new System.Windows.Forms.TextBox();
+            this.txtVENearLeft = new System.Windows.Forms.TextBox();
+            this.txtVENearBoth = new System.Windows.Forms.TextBox();
+            this.txtVEFarRight = new System.Windows.Forms.TextBox();
+            this.txtVEVisualFieldRight = new System.Windows.Forms.TextBox();
+            this.txtVEFarLeft = new System.Windows.Forms.TextBox();
+            this.txtVEVisualFieldLeft = new System.Windows.Forms.TextBox();
+            this.txtVEFarBoth = new System.Windows.Forms.TextBox();
+            this.txtVEVisualFieldBoth = new System.Windows.Forms.TextBox();
+            this.txtVENearNote = new System.Windows.Forms.TextBox();
+            this.txtVEFarNote = new System.Windows.Forms.TextBox();
+            this.txtVEVisualFieldNote = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.txtBPHGT = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.txtBPPulse = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtBPDiastolic = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.txtBPSystolic = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label33 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.txtFEV1PerPredicted = new System.Windows.Forms.TextBox();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label43 = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
-            this.textBox45 = new System.Windows.Forms.TextBox();
-            this.textBox46 = new System.Windows.Forms.TextBox();
-            this.textBox47 = new System.Windows.Forms.TextBox();
-            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.txtFVCPredicted = new System.Windows.Forms.TextBox();
+            this.txtFEV1Predicted = new System.Windows.Forms.TextBox();
+            this.txtFVCBest = new System.Windows.Forms.TextBox();
+            this.txtFVCPercentPredicted = new System.Windows.Forms.TextBox();
+            this.txtFEV1Best = new System.Windows.Forms.TextBox();
+            this.txtFEV1PercentPredicted = new System.Windows.Forms.TextBox();
+            this.txtFEV1PerBest = new System.Windows.Forms.TextBox();
+            this.txtFEV1PerPercentPredicted = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
-            this.checkBox23 = new System.Windows.Forms.CheckBox();
-            this.checkBox22 = new System.Windows.Forms.CheckBox();
-            this.checkBox21 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnNeurological = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnPsychological = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnSkinAppendages = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnGenitoUrinary = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnMuscoloskeletal = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnThroat = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnNose = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnBackSpine = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnGIT = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnPeripheral = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnVascular = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnLymphatic = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnChest = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnLungs = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnBreast = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnCardiovascular = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnEars = new System.Windows.Forms.CheckBox();
+            this.chkBoxAbnHeadFaceNeck = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.checkBox24 = new System.Windows.Forms.CheckBox();
-            this.checkBox25 = new System.Windows.Forms.CheckBox();
+            this.chkBoxHearingProtection = new System.Windows.Forms.CheckBox();
+            this.chkBoxAppropriateMask = new System.Windows.Forms.CheckBox();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.checkBox26 = new System.Windows.Forms.CheckBox();
+            this.chkBoxSmoke = new System.Windows.Forms.CheckBox();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.label40 = new System.Windows.Forms.Label();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            this.txtSmokeFrequency = new System.Windows.Forms.TextBox();
+            this.cmBoxSmokeType = new System.Windows.Forms.ComboBox();
             this.label36 = new System.Windows.Forms.Label();
             this.label37 = new System.Windows.Forms.Label();
-            this.checkBox27 = new System.Windows.Forms.CheckBox();
+            this.chkBoxAlcohol = new System.Windows.Forms.CheckBox();
             this.groupBox11 = new System.Windows.Forms.GroupBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmBoxAlcoholType = new System.Windows.Forms.ComboBox();
+            this.cmBoxAlcoholFrequency = new System.Windows.Forms.ComboBox();
             this.label38 = new System.Windows.Forms.Label();
             this.label39 = new System.Windows.Forms.Label();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
@@ -203,7 +203,7 @@
             this.lblFrmTitle.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.lblFrmTitle.Location = new System.Drawing.Point(24, 46);
             this.lblFrmTitle.Name = "lblFrmTitle";
-            this.lblFrmTitle.Size = new System.Drawing.Size(245, 32);
+            this.lblFrmTitle.Size = new System.Drawing.Size(187, 25);
             this.lblFrmTitle.TabIndex = 9;
             this.lblFrmTitle.Text = "Medical Assessment";
             // 
@@ -223,19 +223,19 @@
             this.grpBoxAssDetails.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpBoxAssDetails.BackColor = System.Drawing.Color.Transparent;
-            this.grpBoxAssDetails.Controls.Add(this.dateTimePicker1);
+            this.grpBoxAssDetails.Controls.Add(this.dateTimePickerTimeCapture);
             this.grpBoxAssDetails.Controls.Add(this.cmbOrgType);
-            this.grpBoxAssDetails.Controls.Add(this.textBox7);
+            this.grpBoxAssDetails.Controls.Add(this.txtAssNote);
             this.grpBoxAssDetails.Controls.Add(this.label6);
-            this.grpBoxAssDetails.Controls.Add(this.textBox5);
+            this.grpBoxAssDetails.Controls.Add(this.txtFitness);
             this.grpBoxAssDetails.Controls.Add(this.label5);
             this.grpBoxAssDetails.Controls.Add(this.label4);
             this.grpBoxAssDetails.Controls.Add(this.label3);
-            this.grpBoxAssDetails.Controls.Add(this.textBox2);
+            this.grpBoxAssDetails.Controls.Add(this.txtAssID);
             this.grpBoxAssDetails.Controls.Add(this.label2);
-            this.grpBoxAssDetails.Controls.Add(this.textBox1);
+            this.grpBoxAssDetails.Controls.Add(this.txtAssExpiryDate);
             this.grpBoxAssDetails.Controls.Add(this.label1);
-            this.grpBoxAssDetails.Controls.Add(this.textBox6);
+            this.grpBoxAssDetails.Controls.Add(this.txtPatientID);
             this.grpBoxAssDetails.Controls.Add(this.label9);
             this.grpBoxAssDetails.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpBoxAssDetails.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -246,23 +246,23 @@
             this.grpBoxAssDetails.TabStop = false;
             this.grpBoxAssDetails.Text = "Assessment Details";
             // 
-            // dateTimePicker1
+            // dateTimePickerTimeCapture
             // 
-            this.dateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.dateTimePicker1.Location = new System.Drawing.Point(634, 45);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(158, 25);
-            this.dateTimePicker1.TabIndex = 15;
-            this.dateTimePicker1.Value = new System.DateTime(2016, 9, 3, 13, 33, 3, 0);
+            this.dateTimePickerTimeCapture.CalendarFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerTimeCapture.Enabled = false;
+            this.dateTimePickerTimeCapture.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.dateTimePickerTimeCapture.Location = new System.Drawing.Point(634, 45);
+            this.dateTimePickerTimeCapture.Name = "dateTimePickerTimeCapture";
+            this.dateTimePickerTimeCapture.Size = new System.Drawing.Size(158, 22);
+            this.dateTimePickerTimeCapture.TabIndex = 15;
+            this.dateTimePickerTimeCapture.Value = new System.DateTime(2016, 9, 3, 13, 33, 3, 0);
             // 
             // cmbOrgType
             // 
             this.cmbOrgType.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbOrgType.ForeColor = System.Drawing.Color.DimGray;
             this.cmbOrgType.FormattingEnabled = true;
-            this.cmbOrgType.ItemHeight = 17;
+            this.cmbOrgType.ItemHeight = 13;
             this.cmbOrgType.Items.AddRange(new object[] {
             "Pre-Employment",
             "Periodic",
@@ -270,45 +270,45 @@
             "Exit"});
             this.cmbOrgType.Location = new System.Drawing.Point(477, 46);
             this.cmbOrgType.Name = "cmbOrgType";
-            this.cmbOrgType.Size = new System.Drawing.Size(151, 25);
+            this.cmbOrgType.Size = new System.Drawing.Size(151, 21);
             this.cmbOrgType.TabIndex = 14;
             // 
-            // textBox7
+            // txtAssNote
             // 
-            this.textBox7.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox7.Location = new System.Drawing.Point(163, 92);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(540, 22);
-            this.textBox7.TabIndex = 13;
+            this.txtAssNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAssNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAssNote.Location = new System.Drawing.Point(163, 92);
+            this.txtAssNote.Multiline = true;
+            this.txtAssNote.Name = "txtAssNote";
+            this.txtAssNote.Size = new System.Drawing.Size(540, 22);
+            this.txtAssNote.TabIndex = 13;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(163, 74);
+            this.label6.Location = new System.Drawing.Point(163, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 20);
+            this.label6.Size = new System.Drawing.Size(33, 15);
             this.label6.TabIndex = 12;
             this.label6.Text = "Note";
             // 
-            // textBox5
+            // txtFitness
             // 
-            this.textBox5.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox5.Location = new System.Drawing.Point(6, 92);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(151, 25);
-            this.textBox5.TabIndex = 11;
+            this.txtFitness.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFitness.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFitness.Location = new System.Drawing.Point(6, 92);
+            this.txtFitness.Name = "txtFitness";
+            this.txtFitness.Size = new System.Drawing.Size(151, 22);
+            this.txtFitness.TabIndex = 11;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(6, 74);
+            this.label5.Location = new System.Drawing.Point(5, 74);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(53, 20);
+            this.label5.Size = new System.Drawing.Size(43, 15);
             this.label5.TabIndex = 10;
             this.label5.Text = "Fitness";
             // 
@@ -318,7 +318,7 @@
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(477, 27);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 20);
+            this.label4.Size = new System.Drawing.Size(77, 15);
             this.label4.TabIndex = 8;
             this.label4.Text = "Medical Type";
             // 
@@ -328,18 +328,18 @@
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(630, 27);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 20);
+            this.label3.Size = new System.Drawing.Size(93, 15);
             this.label3.TabIndex = 6;
             this.label3.Text = "Time of Capture";
             // 
-            // textBox2
+            // txtAssID
             // 
-            this.textBox2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox2.Location = new System.Drawing.Point(320, 46);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(151, 25);
-            this.textBox2.TabIndex = 5;
+            this.txtAssID.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAssID.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAssID.Location = new System.Drawing.Point(320, 46);
+            this.txtAssID.Name = "txtAssID";
+            this.txtAssID.Size = new System.Drawing.Size(151, 22);
+            this.txtAssID.TabIndex = 5;
             // 
             // label2
             // 
@@ -347,18 +347,18 @@
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(320, 28);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(104, 20);
+            this.label2.Size = new System.Drawing.Size(83, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Assessment ID";
             // 
-            // textBox1
+            // txtAssExpiryDate
             // 
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox1.Location = new System.Drawing.Point(163, 46);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 25);
-            this.textBox1.TabIndex = 3;
+            this.txtAssExpiryDate.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAssExpiryDate.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAssExpiryDate.Location = new System.Drawing.Point(163, 46);
+            this.txtAssExpiryDate.Name = "txtAssExpiryDate";
+            this.txtAssExpiryDate.Size = new System.Drawing.Size(151, 22);
+            this.txtAssExpiryDate.TabIndex = 3;
             // 
             // label1
             // 
@@ -366,18 +366,18 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(163, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
+            this.label1.Size = new System.Drawing.Size(65, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Expiry Date";
             // 
-            // textBox6
+            // txtPatientID
             // 
-            this.textBox6.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox6.Location = new System.Drawing.Point(6, 46);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(151, 25);
-            this.textBox6.TabIndex = 1;
+            this.txtPatientID.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPatientID.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPatientID.Location = new System.Drawing.Point(6, 46);
+            this.txtPatientID.Name = "txtPatientID";
+            this.txtPatientID.Size = new System.Drawing.Size(151, 22);
+            this.txtPatientID.TabIndex = 1;
             // 
             // label9
             // 
@@ -385,7 +385,7 @@
             this.label9.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(6, 28);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(104, 20);
+            this.label9.Size = new System.Drawing.Size(83, 15);
             this.label9.TabIndex = 0;
             this.label9.Text = "Assessment ID";
             // 
@@ -394,12 +394,12 @@
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.checkBox2);
             this.groupBox1.Controls.Add(this.checkBox1);
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.txtWeight);
             this.groupBox1.Controls.Add(this.label10);
-            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.txtHeight);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.dateTimePicker2);
+            this.groupBox1.Controls.Add(this.dateTimePickerPhysicals);
             this.groupBox1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.groupBox1.Location = new System.Drawing.Point(29, 222);
@@ -415,7 +415,7 @@
             this.checkBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.checkBox2.Location = new System.Drawing.Point(191, 77);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(110, 24);
+            this.checkBox2.Size = new System.Drawing.Size(90, 19);
             this.checkBox2.TabIndex = 34;
             this.checkBox2.Text = "Chest X-Ray";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -426,19 +426,19 @@
             this.checkBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.checkBox1.Location = new System.Drawing.Point(191, 52);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(183, 24);
+            this.checkBox1.Size = new System.Drawing.Size(151, 19);
             this.checkBox1.TabIndex = 33;
             this.checkBox1.Text = "Cannabis Consumption";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // textBox4
+            // txtWeight
             // 
-            this.textBox4.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox4.Location = new System.Drawing.Point(105, 80);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(68, 25);
-            this.textBox4.TabIndex = 32;
+            this.txtWeight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtWeight.ForeColor = System.Drawing.Color.DimGray;
+            this.txtWeight.Location = new System.Drawing.Point(105, 80);
+            this.txtWeight.Name = "txtWeight";
+            this.txtWeight.Size = new System.Drawing.Size(68, 22);
+            this.txtWeight.TabIndex = 32;
             // 
             // label10
             // 
@@ -446,18 +446,18 @@
             this.label10.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(13, 83);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(56, 20);
+            this.label10.Size = new System.Drawing.Size(45, 15);
             this.label10.TabIndex = 31;
             this.label10.Text = "Weight";
             // 
-            // textBox3
+            // txtHeight
             // 
-            this.textBox3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox3.Location = new System.Drawing.Point(105, 52);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(68, 25);
-            this.textBox3.TabIndex = 30;
+            this.txtHeight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHeight.ForeColor = System.Drawing.Color.DimGray;
+            this.txtHeight.Location = new System.Drawing.Point(105, 52);
+            this.txtHeight.Name = "txtHeight";
+            this.txtHeight.Size = new System.Drawing.Size(68, 22);
+            this.txtHeight.TabIndex = 30;
             // 
             // label8
             // 
@@ -465,7 +465,7 @@
             this.label8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(13, 55);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(54, 20);
+            this.label8.Size = new System.Drawing.Size(43, 15);
             this.label8.TabIndex = 18;
             this.label8.Text = "Height";
             // 
@@ -475,27 +475,27 @@
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(13, 27);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 20);
+            this.label7.Size = new System.Drawing.Size(34, 15);
             this.label7.TabIndex = 17;
             this.label7.Text = "Time";
             // 
-            // dateTimePicker2
+            // dateTimePickerPhysicals
             // 
-            this.dateTimePicker2.CalendarFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker2.Enabled = false;
-            this.dateTimePicker2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
-            this.dateTimePicker2.Location = new System.Drawing.Point(105, 24);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(158, 25);
-            this.dateTimePicker2.TabIndex = 16;
-            this.dateTimePicker2.Value = new System.DateTime(2016, 9, 3, 13, 33, 3, 0);
+            this.dateTimePickerPhysicals.CalendarFont = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePickerPhysicals.Enabled = false;
+            this.dateTimePickerPhysicals.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold);
+            this.dateTimePickerPhysicals.Location = new System.Drawing.Point(105, 24);
+            this.dateTimePickerPhysicals.Name = "dateTimePickerPhysicals";
+            this.dateTimePickerPhysicals.Size = new System.Drawing.Size(158, 22);
+            this.dateTimePickerPhysicals.TabIndex = 16;
+            this.dateTimePickerPhysicals.Value = new System.DateTime(2016, 9, 3, 13, 33, 3, 0);
             // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.textBox18);
+            this.groupBox2.Controls.Add(this.txtAUDPLH);
             this.groupBox2.Controls.Add(this.label20);
-            this.groupBox2.Controls.Add(this.textBox17);
+            this.groupBox2.Controls.Add(this.txtAUDABHL);
             this.groupBox2.Controls.Add(this.label19);
             this.groupBox2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -506,14 +506,14 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Audiometry";
             // 
-            // textBox18
+            // txtAUDPLH
             // 
-            this.textBox18.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox18.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox18.Location = new System.Drawing.Point(73, 63);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(61, 25);
-            this.textBox18.TabIndex = 38;
+            this.txtAUDPLH.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAUDPLH.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAUDPLH.Location = new System.Drawing.Point(73, 63);
+            this.txtAUDPLH.Name = "txtAUDPLH";
+            this.txtAUDPLH.Size = new System.Drawing.Size(61, 22);
+            this.txtAUDPLH.TabIndex = 38;
             // 
             // label20
             // 
@@ -521,18 +521,18 @@
             this.label20.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(11, 66);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(35, 20);
+            this.label20.Size = new System.Drawing.Size(29, 15);
             this.label20.TabIndex = 37;
             this.label20.Text = "PLH";
             // 
-            // textBox17
+            // txtAUDABHL
             // 
-            this.textBox17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox17.Location = new System.Drawing.Point(73, 31);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(61, 25);
-            this.textBox17.TabIndex = 36;
+            this.txtAUDABHL.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAUDABHL.ForeColor = System.Drawing.Color.DimGray;
+            this.txtAUDABHL.Location = new System.Drawing.Point(73, 31);
+            this.txtAUDABHL.Name = "txtAUDABHL";
+            this.txtAUDABHL.Size = new System.Drawing.Size(61, 22);
+            this.txtAUDABHL.TabIndex = 36;
             // 
             // label19
             // 
@@ -540,26 +540,26 @@
             this.label19.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(11, 34);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(46, 20);
+            this.label19.Size = new System.Drawing.Size(37, 15);
             this.label19.TabIndex = 35;
             this.label19.Text = "ABHL";
             // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.textBox16);
+            this.groupBox4.Controls.Add(this.txtSugarNote);
             this.groupBox4.Controls.Add(this.label22);
-            this.groupBox4.Controls.Add(this.textBox15);
+            this.groupBox4.Controls.Add(this.txtProteinNote);
             this.groupBox4.Controls.Add(this.label21);
-            this.groupBox4.Controls.Add(this.textBox14);
+            this.groupBox4.Controls.Add(this.txtBloodNote);
             this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.textBox13);
+            this.groupBox4.Controls.Add(this.txtPHNote);
             this.groupBox4.Controls.Add(this.label17);
-            this.groupBox4.Controls.Add(this.checkBox5);
-            this.groupBox4.Controls.Add(this.checkBox4);
-            this.groupBox4.Controls.Add(this.checkBox3);
+            this.groupBox4.Controls.Add(this.chkBoxSugar);
+            this.groupBox4.Controls.Add(this.chkBoxProtein);
+            this.groupBox4.Controls.Add(this.chkBoxBlood);
             this.groupBox4.Controls.Add(this.label16);
-            this.groupBox4.Controls.Add(this.textBox12);
+            this.groupBox4.Controls.Add(this.txtPH);
             this.groupBox4.Controls.Add(this.label15);
             this.groupBox4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -570,14 +570,15 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Urinalysis";
             // 
-            // textBox16
+            // txtSugarNote
             // 
-            this.textBox16.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox16.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox16.Location = new System.Drawing.Point(547, 74);
-            this.textBox16.Name = "textBox16";
-            this.textBox16.Size = new System.Drawing.Size(151, 25);
-            this.textBox16.TabIndex = 45;
+            this.txtSugarNote.Enabled = false;
+            this.txtSugarNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSugarNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtSugarNote.Location = new System.Drawing.Point(547, 74);
+            this.txtSugarNote.Name = "txtSugarNote";
+            this.txtSugarNote.Size = new System.Drawing.Size(151, 22);
+            this.txtSugarNote.TabIndex = 45;
             // 
             // label22
             // 
@@ -585,18 +586,19 @@
             this.label22.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(455, 77);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(84, 20);
+            this.label22.Size = new System.Drawing.Size(66, 15);
             this.label22.TabIndex = 44;
             this.label22.Text = "Sugar Note";
             // 
-            // textBox15
+            // txtProteinNote
             // 
-            this.textBox15.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox15.Location = new System.Drawing.Point(547, 48);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(151, 25);
-            this.textBox15.TabIndex = 43;
+            this.txtProteinNote.Enabled = false;
+            this.txtProteinNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtProteinNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtProteinNote.Location = new System.Drawing.Point(547, 48);
+            this.txtProteinNote.Name = "txtProteinNote";
+            this.txtProteinNote.Size = new System.Drawing.Size(151, 22);
+            this.txtProteinNote.TabIndex = 43;
             // 
             // label21
             // 
@@ -604,18 +606,19 @@
             this.label21.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(455, 51);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(93, 20);
+            this.label21.Size = new System.Drawing.Size(74, 15);
             this.label21.TabIndex = 42;
             this.label21.Text = "Protein Note";
             // 
-            // textBox14
+            // txtBloodNote
             // 
-            this.textBox14.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox14.Location = new System.Drawing.Point(547, 24);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(151, 25);
-            this.textBox14.TabIndex = 41;
+            this.txtBloodNote.Enabled = false;
+            this.txtBloodNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBloodNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBloodNote.Location = new System.Drawing.Point(547, 24);
+            this.txtBloodNote.Name = "txtBloodNote";
+            this.txtBloodNote.Size = new System.Drawing.Size(151, 22);
+            this.txtBloodNote.TabIndex = 41;
             // 
             // label18
             // 
@@ -623,19 +626,19 @@
             this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label18.Location = new System.Drawing.Point(455, 27);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(86, 20);
+            this.label18.Size = new System.Drawing.Size(67, 15);
             this.label18.TabIndex = 40;
             this.label18.Text = "Blood Note";
             // 
-            // textBox13
+            // txtPHNote
             // 
-            this.textBox13.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox13.Location = new System.Drawing.Point(96, 52);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(151, 47);
-            this.textBox13.TabIndex = 39;
+            this.txtPHNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPHNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPHNote.Location = new System.Drawing.Point(96, 52);
+            this.txtPHNote.Multiline = true;
+            this.txtPHNote.Name = "txtPHNote";
+            this.txtPHNote.Size = new System.Drawing.Size(151, 47);
+            this.txtPHNote.TabIndex = 39;
             // 
             // label17
             // 
@@ -643,42 +646,45 @@
             this.label17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.Location = new System.Drawing.Point(4, 55);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(65, 20);
+            this.label17.Size = new System.Drawing.Size(52, 15);
             this.label17.TabIndex = 38;
             this.label17.Text = "PH Note";
             // 
-            // checkBox5
+            // chkBoxSugar
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox5.Location = new System.Drawing.Point(371, 75);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(69, 24);
-            this.checkBox5.TabIndex = 37;
-            this.checkBox5.Text = "Sugar";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.chkBoxSugar.AutoSize = true;
+            this.chkBoxSugar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxSugar.Location = new System.Drawing.Point(371, 75);
+            this.chkBoxSugar.Name = "chkBoxSugar";
+            this.chkBoxSugar.Size = new System.Drawing.Size(56, 19);
+            this.chkBoxSugar.TabIndex = 37;
+            this.chkBoxSugar.Text = "Sugar";
+            this.chkBoxSugar.UseVisualStyleBackColor = true;
+            this.chkBoxSugar.CheckStateChanged += new System.EventHandler(this.chkBoxSugar_CheckStateChanged);
             // 
-            // checkBox4
+            // chkBoxProtein
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox4.Location = new System.Drawing.Point(371, 50);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(78, 24);
-            this.checkBox4.TabIndex = 36;
-            this.checkBox4.Text = "Protein";
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.chkBoxProtein.AutoSize = true;
+            this.chkBoxProtein.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxProtein.Location = new System.Drawing.Point(371, 50);
+            this.chkBoxProtein.Name = "chkBoxProtein";
+            this.chkBoxProtein.Size = new System.Drawing.Size(64, 19);
+            this.chkBoxProtein.TabIndex = 36;
+            this.chkBoxProtein.Text = "Protein";
+            this.chkBoxProtein.UseVisualStyleBackColor = true;
+            this.chkBoxProtein.CheckStateChanged += new System.EventHandler(this.chkBoxProtein_CheckStateChanged);
             // 
-            // checkBox3
+            // chkBoxBlood
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox3.Location = new System.Drawing.Point(371, 25);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(71, 24);
-            this.checkBox3.TabIndex = 35;
-            this.checkBox3.Text = "Blood";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.chkBoxBlood.AutoSize = true;
+            this.chkBoxBlood.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxBlood.Location = new System.Drawing.Point(371, 25);
+            this.chkBoxBlood.Name = "chkBoxBlood";
+            this.chkBoxBlood.Size = new System.Drawing.Size(57, 19);
+            this.chkBoxBlood.TabIndex = 35;
+            this.chkBoxBlood.Text = "Blood";
+            this.chkBoxBlood.UseVisualStyleBackColor = true;
+            this.chkBoxBlood.CheckStateChanged += new System.EventHandler(this.chkBoxBlood_CheckStateChanged);
             // 
             // label16
             // 
@@ -686,18 +692,18 @@
             this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.Location = new System.Drawing.Point(257, 27);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(121, 20);
+            this.label16.Size = new System.Drawing.Size(98, 15);
             this.label16.TabIndex = 33;
             this.label16.Text = "Substance Found";
             // 
-            // textBox12
+            // txtPH
             // 
-            this.textBox12.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox12.Location = new System.Drawing.Point(96, 24);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(151, 25);
-            this.textBox12.TabIndex = 32;
+            this.txtPH.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPH.ForeColor = System.Drawing.Color.DimGray;
+            this.txtPH.Location = new System.Drawing.Point(96, 24);
+            this.txtPH.Name = "txtPH";
+            this.txtPH.Size = new System.Drawing.Size(151, 22);
+            this.txtPH.TabIndex = 32;
             // 
             // label15
             // 
@@ -705,16 +711,16 @@
             this.label15.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(4, 27);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(28, 20);
+            this.label15.Size = new System.Drawing.Size(23, 15);
             this.label15.TabIndex = 31;
             this.label15.Text = "PH";
             // 
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox7.Controls.Add(this.textBox32);
+            this.groupBox7.Controls.Add(this.txtVEDepthPerception);
             this.groupBox7.Controls.Add(this.label32);
-            this.groupBox7.Controls.Add(this.textBox31);
+            this.groupBox7.Controls.Add(this.txtVEColorVision);
             this.groupBox7.Controls.Add(this.label31);
             this.groupBox7.Controls.Add(this.tableLayoutPanel1);
             this.groupBox7.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -726,14 +732,14 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Visual Examination";
             // 
-            // textBox32
+            // txtVEDepthPerception
             // 
-            this.textBox32.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox32.Location = new System.Drawing.Point(132, 159);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.Size = new System.Drawing.Size(141, 25);
-            this.textBox32.TabIndex = 45;
+            this.txtVEDepthPerception.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEDepthPerception.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEDepthPerception.Location = new System.Drawing.Point(127, 159);
+            this.txtVEDepthPerception.Name = "txtVEDepthPerception";
+            this.txtVEDepthPerception.Size = new System.Drawing.Size(141, 22);
+            this.txtVEDepthPerception.TabIndex = 45;
             // 
             // label32
             // 
@@ -741,18 +747,18 @@
             this.label32.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(12, 162);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(124, 20);
+            this.label32.Size = new System.Drawing.Size(99, 15);
             this.label32.TabIndex = 44;
             this.label32.Text = "Depth Perception";
             // 
-            // textBox31
+            // txtVEColorVision
             // 
-            this.textBox31.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox31.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox31.Location = new System.Drawing.Point(132, 132);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.Size = new System.Drawing.Size(141, 25);
-            this.textBox31.TabIndex = 43;
+            this.txtVEColorVision.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEColorVision.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEColorVision.Location = new System.Drawing.Point(127, 132);
+            this.txtVEColorVision.Name = "txtVEColorVision";
+            this.txtVEColorVision.Size = new System.Drawing.Size(141, 22);
+            this.txtVEColorVision.TabIndex = 43;
             // 
             // label31
             // 
@@ -760,7 +766,7 @@
             this.label31.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label31.Location = new System.Drawing.Point(12, 139);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(89, 20);
+            this.label31.Size = new System.Drawing.Size(71, 15);
             this.label31.TabIndex = 42;
             this.label31.Text = "Color Vision";
             // 
@@ -771,7 +777,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.57219F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 167F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175F));
             this.tableLayoutPanel1.Controls.Add(this.label23, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.label24, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.label25, 0, 0);
@@ -780,18 +786,18 @@
             this.tableLayoutPanel1.Controls.Add(this.label28, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.label29, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.label30, 2, 0);
-            this.tableLayoutPanel1.Controls.Add(this.textBox19, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox20, 2, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox21, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox22, 1, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox23, 1, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox24, 2, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox25, 2, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox26, 3, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox27, 3, 3);
-            this.tableLayoutPanel1.Controls.Add(this.textBox28, 4, 1);
-            this.tableLayoutPanel1.Controls.Add(this.textBox29, 4, 2);
-            this.tableLayoutPanel1.Controls.Add(this.textBox30, 4, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtVENearRight, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtVENearLeft, 2, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtVENearBoth, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEFarRight, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEVisualFieldRight, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEFarLeft, 2, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEVisualFieldLeft, 2, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEFarBoth, 3, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEVisualFieldBoth, 3, 3);
+            this.tableLayoutPanel1.Controls.Add(this.txtVENearNote, 4, 1);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEFarNote, 4, 2);
+            this.tableLayoutPanel1.Controls.Add(this.txtVEVisualFieldNote, 4, 3);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(13, 24);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
@@ -806,9 +812,9 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(342, 0);
+            this.label23.Location = new System.Drawing.Point(334, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(44, 20);
+            this.label23.Size = new System.Drawing.Size(35, 15);
             this.label23.TabIndex = 54;
             this.label23.Text = "Note";
             // 
@@ -816,9 +822,9 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(265, 0);
+            this.label24.Location = new System.Drawing.Point(257, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(43, 20);
+            this.label24.Size = new System.Drawing.Size(34, 15);
             this.label24.TabIndex = 53;
             this.label24.Text = "Both";
             // 
@@ -828,9 +834,9 @@
             this.label25.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label25.Location = new System.Drawing.Point(3, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(84, 21);
+            this.label25.Size = new System.Drawing.Size(26, 15);
             this.label25.TabIndex = 34;
-            this.label25.Text = "Substance Found";
+            this.label25.Text = "[ * ]";
             // 
             // label26
             // 
@@ -838,7 +844,7 @@
             this.label26.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label26.Location = new System.Drawing.Point(3, 21);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(41, 20);
+            this.label26.Size = new System.Drawing.Size(32, 15);
             this.label26.TabIndex = 35;
             this.label26.Text = "Near";
             // 
@@ -848,7 +854,7 @@
             this.label27.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label27.Location = new System.Drawing.Point(3, 50);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(28, 20);
+            this.label27.Size = new System.Drawing.Size(23, 15);
             this.label27.TabIndex = 36;
             this.label27.Text = "Far";
             // 
@@ -858,7 +864,7 @@
             this.label28.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label28.Location = new System.Drawing.Point(3, 78);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(84, 20);
+            this.label28.Size = new System.Drawing.Size(66, 15);
             this.label28.TabIndex = 37;
             this.label28.Text = "Visual Field";
             // 
@@ -866,9 +872,9 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(115, 0);
+            this.label29.Location = new System.Drawing.Point(110, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(47, 20);
+            this.label29.Size = new System.Drawing.Size(37, 15);
             this.label29.TabIndex = 39;
             this.label29.Text = "Right";
             // 
@@ -876,130 +882,130 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(188, 0);
+            this.label30.Location = new System.Drawing.Point(180, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(37, 20);
+            this.label30.Size = new System.Drawing.Size(30, 15);
             this.label30.TabIndex = 40;
             this.label30.Text = "Left";
             // 
-            // textBox19
+            // txtVENearRight
             // 
-            this.textBox19.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox19.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox19.Location = new System.Drawing.Point(115, 24);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(67, 25);
-            this.textBox19.TabIndex = 41;
+            this.txtVENearRight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVENearRight.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVENearRight.Location = new System.Drawing.Point(110, 24);
+            this.txtVENearRight.Name = "txtVENearRight";
+            this.txtVENearRight.Size = new System.Drawing.Size(64, 22);
+            this.txtVENearRight.TabIndex = 41;
             // 
-            // textBox20
+            // txtVENearLeft
             // 
-            this.textBox20.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox20.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox20.Location = new System.Drawing.Point(188, 24);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(68, 25);
-            this.textBox20.TabIndex = 42;
+            this.txtVENearLeft.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVENearLeft.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVENearLeft.Location = new System.Drawing.Point(180, 24);
+            this.txtVENearLeft.Name = "txtVENearLeft";
+            this.txtVENearLeft.Size = new System.Drawing.Size(68, 22);
+            this.txtVENearLeft.TabIndex = 42;
             // 
-            // textBox21
+            // txtVENearBoth
             // 
-            this.textBox21.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox21.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox21.Location = new System.Drawing.Point(265, 24);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.Size = new System.Drawing.Size(68, 25);
-            this.textBox21.TabIndex = 43;
+            this.txtVENearBoth.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVENearBoth.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVENearBoth.Location = new System.Drawing.Point(257, 24);
+            this.txtVENearBoth.Name = "txtVENearBoth";
+            this.txtVENearBoth.Size = new System.Drawing.Size(68, 22);
+            this.txtVENearBoth.TabIndex = 43;
             // 
-            // textBox22
+            // txtVEFarRight
             // 
-            this.textBox22.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox22.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox22.Location = new System.Drawing.Point(115, 53);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(67, 25);
-            this.textBox22.TabIndex = 44;
+            this.txtVEFarRight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEFarRight.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEFarRight.Location = new System.Drawing.Point(110, 53);
+            this.txtVEFarRight.Name = "txtVEFarRight";
+            this.txtVEFarRight.Size = new System.Drawing.Size(64, 22);
+            this.txtVEFarRight.TabIndex = 44;
             // 
-            // textBox23
+            // txtVEVisualFieldRight
             // 
-            this.textBox23.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox23.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox23.Location = new System.Drawing.Point(115, 81);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(67, 25);
-            this.textBox23.TabIndex = 45;
+            this.txtVEVisualFieldRight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEVisualFieldRight.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEVisualFieldRight.Location = new System.Drawing.Point(110, 81);
+            this.txtVEVisualFieldRight.Name = "txtVEVisualFieldRight";
+            this.txtVEVisualFieldRight.Size = new System.Drawing.Size(64, 22);
+            this.txtVEVisualFieldRight.TabIndex = 45;
             // 
-            // textBox24
+            // txtVEFarLeft
             // 
-            this.textBox24.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox24.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox24.Location = new System.Drawing.Point(188, 53);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(68, 25);
-            this.textBox24.TabIndex = 46;
+            this.txtVEFarLeft.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEFarLeft.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEFarLeft.Location = new System.Drawing.Point(180, 53);
+            this.txtVEFarLeft.Name = "txtVEFarLeft";
+            this.txtVEFarLeft.Size = new System.Drawing.Size(68, 22);
+            this.txtVEFarLeft.TabIndex = 46;
             // 
-            // textBox25
+            // txtVEVisualFieldLeft
             // 
-            this.textBox25.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox25.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox25.Location = new System.Drawing.Point(188, 81);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(68, 25);
-            this.textBox25.TabIndex = 47;
+            this.txtVEVisualFieldLeft.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEVisualFieldLeft.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEVisualFieldLeft.Location = new System.Drawing.Point(180, 81);
+            this.txtVEVisualFieldLeft.Name = "txtVEVisualFieldLeft";
+            this.txtVEVisualFieldLeft.Size = new System.Drawing.Size(68, 22);
+            this.txtVEVisualFieldLeft.TabIndex = 47;
             // 
-            // textBox26
+            // txtVEFarBoth
             // 
-            this.textBox26.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox26.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox26.Location = new System.Drawing.Point(265, 53);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(68, 25);
-            this.textBox26.TabIndex = 48;
+            this.txtVEFarBoth.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEFarBoth.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEFarBoth.Location = new System.Drawing.Point(257, 53);
+            this.txtVEFarBoth.Name = "txtVEFarBoth";
+            this.txtVEFarBoth.Size = new System.Drawing.Size(68, 22);
+            this.txtVEFarBoth.TabIndex = 48;
             // 
-            // textBox27
+            // txtVEVisualFieldBoth
             // 
-            this.textBox27.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox27.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox27.Location = new System.Drawing.Point(265, 81);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.Size = new System.Drawing.Size(68, 25);
-            this.textBox27.TabIndex = 49;
+            this.txtVEVisualFieldBoth.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEVisualFieldBoth.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEVisualFieldBoth.Location = new System.Drawing.Point(257, 81);
+            this.txtVEVisualFieldBoth.Name = "txtVEVisualFieldBoth";
+            this.txtVEVisualFieldBoth.Size = new System.Drawing.Size(68, 22);
+            this.txtVEVisualFieldBoth.TabIndex = 49;
             // 
-            // textBox28
+            // txtVENearNote
             // 
-            this.textBox28.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox28.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox28.Location = new System.Drawing.Point(342, 24);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(151, 25);
-            this.textBox28.TabIndex = 50;
+            this.txtVENearNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVENearNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVENearNote.Location = new System.Drawing.Point(334, 24);
+            this.txtVENearNote.Name = "txtVENearNote";
+            this.txtVENearNote.Size = new System.Drawing.Size(151, 22);
+            this.txtVENearNote.TabIndex = 50;
             // 
-            // textBox29
+            // txtVEFarNote
             // 
-            this.textBox29.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox29.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox29.Location = new System.Drawing.Point(342, 53);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(151, 25);
-            this.textBox29.TabIndex = 51;
+            this.txtVEFarNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEFarNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEFarNote.Location = new System.Drawing.Point(334, 53);
+            this.txtVEFarNote.Name = "txtVEFarNote";
+            this.txtVEFarNote.Size = new System.Drawing.Size(151, 22);
+            this.txtVEFarNote.TabIndex = 51;
             // 
-            // textBox30
+            // txtVEVisualFieldNote
             // 
-            this.textBox30.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox30.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox30.Location = new System.Drawing.Point(342, 81);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(151, 25);
-            this.textBox30.TabIndex = 52;
+            this.txtVEVisualFieldNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtVEVisualFieldNote.ForeColor = System.Drawing.Color.DimGray;
+            this.txtVEVisualFieldNote.Location = new System.Drawing.Point(334, 81);
+            this.txtVEVisualFieldNote.Name = "txtVEVisualFieldNote";
+            this.txtVEVisualFieldNote.Size = new System.Drawing.Size(151, 22);
+            this.txtVEVisualFieldNote.TabIndex = 52;
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox3.Controls.Add(this.textBox11);
+            this.groupBox3.Controls.Add(this.txtBPHGT);
             this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.textBox10);
+            this.groupBox3.Controls.Add(this.txtBPPulse);
             this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.textBox9);
+            this.groupBox3.Controls.Add(this.txtBPDiastolic);
             this.groupBox3.Controls.Add(this.label12);
-            this.groupBox3.Controls.Add(this.textBox8);
+            this.groupBox3.Controls.Add(this.txtBPSystolic);
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -1010,14 +1016,14 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Blood Pressure";
             // 
-            // textBox11
+            // txtBPHGT
             // 
-            this.textBox11.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox11.Location = new System.Drawing.Point(209, 62);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(61, 25);
-            this.textBox11.TabIndex = 40;
+            this.txtBPHGT.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBPHGT.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBPHGT.Location = new System.Drawing.Point(209, 62);
+            this.txtBPHGT.Name = "txtBPHGT";
+            this.txtBPHGT.Size = new System.Drawing.Size(61, 22);
+            this.txtBPHGT.TabIndex = 40;
             // 
             // label14
             // 
@@ -1025,18 +1031,18 @@
             this.label14.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(147, 65);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(38, 20);
+            this.label14.Size = new System.Drawing.Size(31, 15);
             this.label14.TabIndex = 39;
             this.label14.Text = "HGT";
             // 
-            // textBox10
+            // txtBPPulse
             // 
-            this.textBox10.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox10.Location = new System.Drawing.Point(209, 33);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(61, 25);
-            this.textBox10.TabIndex = 38;
+            this.txtBPPulse.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBPPulse.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBPPulse.Location = new System.Drawing.Point(209, 33);
+            this.txtBPPulse.Name = "txtBPPulse";
+            this.txtBPPulse.Size = new System.Drawing.Size(61, 22);
+            this.txtBPPulse.TabIndex = 38;
             // 
             // label13
             // 
@@ -1044,18 +1050,18 @@
             this.label13.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(147, 36);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(43, 20);
+            this.label13.Size = new System.Drawing.Size(35, 15);
             this.label13.TabIndex = 37;
             this.label13.Text = "Pulse";
             // 
-            // textBox9
+            // txtBPDiastolic
             // 
-            this.textBox9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox9.Location = new System.Drawing.Point(68, 64);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(61, 25);
-            this.textBox9.TabIndex = 36;
+            this.txtBPDiastolic.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBPDiastolic.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBPDiastolic.Location = new System.Drawing.Point(68, 64);
+            this.txtBPDiastolic.Name = "txtBPDiastolic";
+            this.txtBPDiastolic.Size = new System.Drawing.Size(61, 22);
+            this.txtBPDiastolic.TabIndex = 36;
             // 
             // label12
             // 
@@ -1063,18 +1069,18 @@
             this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(6, 67);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(67, 20);
+            this.label12.Size = new System.Drawing.Size(52, 15);
             this.label12.TabIndex = 35;
             this.label12.Text = "Diastolic";
             // 
-            // textBox8
+            // txtBPSystolic
             // 
-            this.textBox8.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox8.Location = new System.Drawing.Point(68, 30);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(61, 25);
-            this.textBox8.TabIndex = 34;
+            this.txtBPSystolic.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBPSystolic.ForeColor = System.Drawing.Color.DimGray;
+            this.txtBPSystolic.Location = new System.Drawing.Point(68, 30);
+            this.txtBPSystolic.Name = "txtBPSystolic";
+            this.txtBPSystolic.Size = new System.Drawing.Size(61, 22);
+            this.txtBPSystolic.TabIndex = 34;
             // 
             // label11
             // 
@@ -1082,7 +1088,7 @@
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(6, 33);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 20);
+            this.label11.Size = new System.Drawing.Size(47, 15);
             this.label11.TabIndex = 33;
             this.label11.Text = "Systolic";
             // 
@@ -1105,22 +1111,22 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.95541F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.04459F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 123F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel2.Controls.Add(this.label33, 0, 0);
-            this.tableLayoutPanel2.Controls.Add(this.textBox33, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.txtFEV1PerPredicted, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.label34, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.label35, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.label43, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.label44, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.label45, 0, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox34, 1, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox35, 1, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox43, 2, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox44, 3, 1);
-            this.tableLayoutPanel2.Controls.Add(this.textBox45, 2, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox46, 3, 2);
-            this.tableLayoutPanel2.Controls.Add(this.textBox47, 2, 3);
-            this.tableLayoutPanel2.Controls.Add(this.textBox48, 3, 3);
+            this.tableLayoutPanel2.Controls.Add(this.txtFVCPredicted, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txtFEV1Predicted, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.txtFVCBest, 2, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txtFVCPercentPredicted, 3, 1);
+            this.tableLayoutPanel2.Controls.Add(this.txtFEV1Best, 2, 2);
+            this.tableLayoutPanel2.Controls.Add(this.txtFEV1PercentPredicted, 3, 2);
+            this.tableLayoutPanel2.Controls.Add(this.txtFEV1PerBest, 2, 3);
+            this.tableLayoutPanel2.Controls.Add(this.txtFEV1PerPercentPredicted, 3, 3);
             this.tableLayoutPanel2.Controls.Add(this.label46, 0, 3);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 33);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -1139,26 +1145,26 @@
             this.label33.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label33.Location = new System.Drawing.Point(3, 0);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(38, 20);
+            this.label33.Size = new System.Drawing.Size(30, 15);
             this.label33.TabIndex = 1;
             this.label33.Text = "Test";
             // 
-            // textBox33
+            // txtFEV1PerPredicted
             // 
-            this.textBox33.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox33.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox33.Location = new System.Drawing.Point(78, 86);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.Size = new System.Drawing.Size(67, 25);
-            this.textBox33.TabIndex = 49;
+            this.txtFEV1PerPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFEV1PerPredicted.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFEV1PerPredicted.Location = new System.Drawing.Point(74, 86);
+            this.txtFEV1PerPredicted.Name = "txtFEV1PerPredicted";
+            this.txtFEV1PerPredicted.Size = new System.Drawing.Size(63, 22);
+            this.txtFEV1PerPredicted.TabIndex = 49;
             // 
             // label34
             // 
             this.label34.AutoSize = true;
             this.label34.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label34.Location = new System.Drawing.Point(78, 0);
+            this.label34.Location = new System.Drawing.Point(74, 0);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(66, 23);
+            this.label34.Size = new System.Drawing.Size(61, 15);
             this.label34.TabIndex = 2;
             this.label34.Text = "Predicted";
             // 
@@ -1166,19 +1172,19 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(151, 0);
+            this.label35.Location = new System.Drawing.Point(143, 0);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(55, 20);
+            this.label35.Size = new System.Drawing.Size(32, 15);
             this.label35.TabIndex = 3;
-            this.label35.Text = "Tested";
+            this.label35.Text = "Best";
             // 
             // label43
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(227, 0);
+            this.label43.Location = new System.Drawing.Point(219, 0);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(75, 23);
+            this.label43.Size = new System.Drawing.Size(108, 15);
             this.label43.TabIndex = 4;
             this.label43.Text = "Percent Predicted";
             // 
@@ -1188,7 +1194,7 @@
             this.label44.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label44.Location = new System.Drawing.Point(3, 23);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(34, 20);
+            this.label44.Size = new System.Drawing.Size(28, 15);
             this.label44.TabIndex = 5;
             this.label44.Text = "FVC";
             // 
@@ -1198,81 +1204,81 @@
             this.label45.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label45.Location = new System.Drawing.Point(3, 53);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(41, 20);
+            this.label45.Size = new System.Drawing.Size(32, 15);
             this.label45.TabIndex = 6;
             this.label45.Text = "FEV1";
             // 
-            // textBox34
+            // txtFVCPredicted
             // 
-            this.textBox34.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox34.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox34.Location = new System.Drawing.Point(78, 26);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.Size = new System.Drawing.Size(67, 25);
-            this.textBox34.TabIndex = 42;
+            this.txtFVCPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFVCPredicted.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFVCPredicted.Location = new System.Drawing.Point(74, 26);
+            this.txtFVCPredicted.Name = "txtFVCPredicted";
+            this.txtFVCPredicted.Size = new System.Drawing.Size(63, 22);
+            this.txtFVCPredicted.TabIndex = 42;
             // 
-            // textBox35
+            // txtFEV1Predicted
             // 
-            this.textBox35.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox35.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox35.Location = new System.Drawing.Point(78, 56);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.Size = new System.Drawing.Size(67, 25);
-            this.textBox35.TabIndex = 43;
+            this.txtFEV1Predicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFEV1Predicted.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFEV1Predicted.Location = new System.Drawing.Point(74, 56);
+            this.txtFEV1Predicted.Name = "txtFEV1Predicted";
+            this.txtFEV1Predicted.Size = new System.Drawing.Size(63, 22);
+            this.txtFEV1Predicted.TabIndex = 43;
             // 
-            // textBox43
+            // txtFVCBest
             // 
-            this.textBox43.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox43.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox43.Location = new System.Drawing.Point(151, 26);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.Size = new System.Drawing.Size(67, 25);
-            this.textBox43.TabIndex = 46;
+            this.txtFVCBest.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFVCBest.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFVCBest.Location = new System.Drawing.Point(143, 26);
+            this.txtFVCBest.Name = "txtFVCBest";
+            this.txtFVCBest.Size = new System.Drawing.Size(67, 22);
+            this.txtFVCBest.TabIndex = 46;
             // 
-            // textBox44
+            // txtFVCPercentPredicted
             // 
-            this.textBox44.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox44.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox44.Location = new System.Drawing.Point(227, 26);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.Size = new System.Drawing.Size(67, 25);
-            this.textBox44.TabIndex = 48;
+            this.txtFVCPercentPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFVCPercentPredicted.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFVCPercentPredicted.Location = new System.Drawing.Point(219, 26);
+            this.txtFVCPercentPredicted.Name = "txtFVCPercentPredicted";
+            this.txtFVCPercentPredicted.Size = new System.Drawing.Size(67, 22);
+            this.txtFVCPercentPredicted.TabIndex = 48;
             // 
-            // textBox45
+            // txtFEV1Best
             // 
-            this.textBox45.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox45.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox45.Location = new System.Drawing.Point(151, 56);
-            this.textBox45.Name = "textBox45";
-            this.textBox45.Size = new System.Drawing.Size(67, 25);
-            this.textBox45.TabIndex = 47;
+            this.txtFEV1Best.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFEV1Best.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFEV1Best.Location = new System.Drawing.Point(143, 56);
+            this.txtFEV1Best.Name = "txtFEV1Best";
+            this.txtFEV1Best.Size = new System.Drawing.Size(67, 22);
+            this.txtFEV1Best.TabIndex = 47;
             // 
-            // textBox46
+            // txtFEV1PercentPredicted
             // 
-            this.textBox46.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox46.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox46.Location = new System.Drawing.Point(227, 56);
-            this.textBox46.Name = "textBox46";
-            this.textBox46.Size = new System.Drawing.Size(67, 25);
-            this.textBox46.TabIndex = 45;
+            this.txtFEV1PercentPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFEV1PercentPredicted.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFEV1PercentPredicted.Location = new System.Drawing.Point(219, 56);
+            this.txtFEV1PercentPredicted.Name = "txtFEV1PercentPredicted";
+            this.txtFEV1PercentPredicted.Size = new System.Drawing.Size(67, 22);
+            this.txtFEV1PercentPredicted.TabIndex = 45;
             // 
-            // textBox47
+            // txtFEV1PerBest
             // 
-            this.textBox47.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox47.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox47.Location = new System.Drawing.Point(151, 86);
-            this.textBox47.Name = "textBox47";
-            this.textBox47.Size = new System.Drawing.Size(67, 25);
-            this.textBox47.TabIndex = 51;
+            this.txtFEV1PerBest.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFEV1PerBest.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFEV1PerBest.Location = new System.Drawing.Point(143, 86);
+            this.txtFEV1PerBest.Name = "txtFEV1PerBest";
+            this.txtFEV1PerBest.Size = new System.Drawing.Size(67, 22);
+            this.txtFEV1PerBest.TabIndex = 51;
             // 
-            // textBox48
+            // txtFEV1PerPercentPredicted
             // 
-            this.textBox48.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox48.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox48.Location = new System.Drawing.Point(227, 86);
-            this.textBox48.Name = "textBox48";
-            this.textBox48.Size = new System.Drawing.Size(67, 25);
-            this.textBox48.TabIndex = 50;
+            this.txtFEV1PerPercentPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFEV1PerPercentPredicted.ForeColor = System.Drawing.Color.DimGray;
+            this.txtFEV1PerPercentPredicted.Location = new System.Drawing.Point(219, 86);
+            this.txtFEV1PerPercentPredicted.Name = "txtFEV1PerPercentPredicted";
+            this.txtFEV1PerPercentPredicted.Size = new System.Drawing.Size(67, 22);
+            this.txtFEV1PerPercentPredicted.TabIndex = 50;
             // 
             // label46
             // 
@@ -1280,31 +1286,31 @@
             this.label46.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label46.Location = new System.Drawing.Point(3, 83);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(61, 29);
+            this.label46.Size = new System.Drawing.Size(48, 29);
             this.label46.TabIndex = 7;
             this.label46.Text = "FEV1 % FVC";
             // 
             // groupBox10
             // 
             this.groupBox10.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox10.Controls.Add(this.checkBox23);
-            this.groupBox10.Controls.Add(this.checkBox22);
-            this.groupBox10.Controls.Add(this.checkBox21);
-            this.groupBox10.Controls.Add(this.checkBox20);
-            this.groupBox10.Controls.Add(this.checkBox19);
-            this.groupBox10.Controls.Add(this.checkBox18);
-            this.groupBox10.Controls.Add(this.checkBox17);
-            this.groupBox10.Controls.Add(this.checkBox16);
-            this.groupBox10.Controls.Add(this.checkBox15);
-            this.groupBox10.Controls.Add(this.checkBox14);
-            this.groupBox10.Controls.Add(this.checkBox13);
-            this.groupBox10.Controls.Add(this.checkBox12);
-            this.groupBox10.Controls.Add(this.checkBox11);
-            this.groupBox10.Controls.Add(this.checkBox10);
-            this.groupBox10.Controls.Add(this.checkBox9);
-            this.groupBox10.Controls.Add(this.checkBox8);
-            this.groupBox10.Controls.Add(this.checkBox7);
-            this.groupBox10.Controls.Add(this.checkBox6);
+            this.groupBox10.Controls.Add(this.chkBoxAbnNeurological);
+            this.groupBox10.Controls.Add(this.chkBoxAbnPsychological);
+            this.groupBox10.Controls.Add(this.chkBoxAbnSkinAppendages);
+            this.groupBox10.Controls.Add(this.chkBoxAbnGenitoUrinary);
+            this.groupBox10.Controls.Add(this.chkBoxAbnMuscoloskeletal);
+            this.groupBox10.Controls.Add(this.chkBoxAbnThroat);
+            this.groupBox10.Controls.Add(this.chkBoxAbnNose);
+            this.groupBox10.Controls.Add(this.chkBoxAbnBackSpine);
+            this.groupBox10.Controls.Add(this.chkBoxAbnGIT);
+            this.groupBox10.Controls.Add(this.chkBoxAbnPeripheral);
+            this.groupBox10.Controls.Add(this.chkBoxAbnVascular);
+            this.groupBox10.Controls.Add(this.chkBoxAbnLymphatic);
+            this.groupBox10.Controls.Add(this.chkBoxAbnChest);
+            this.groupBox10.Controls.Add(this.chkBoxAbnLungs);
+            this.groupBox10.Controls.Add(this.chkBoxAbnBreast);
+            this.groupBox10.Controls.Add(this.chkBoxAbnCardiovascular);
+            this.groupBox10.Controls.Add(this.chkBoxAbnEars);
+            this.groupBox10.Controls.Add(this.chkBoxAbnHeadFaceNeck);
             this.groupBox10.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.groupBox10.Location = new System.Drawing.Point(750, 324);
@@ -1314,209 +1320,209 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Abnormality";
             // 
-            // checkBox23
+            // chkBoxAbnNeurological
             // 
-            this.checkBox23.AutoSize = true;
-            this.checkBox23.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox23.Location = new System.Drawing.Point(14, 224);
-            this.checkBox23.Name = "checkBox23";
-            this.checkBox23.Size = new System.Drawing.Size(168, 24);
-            this.checkBox23.TabIndex = 57;
-            this.checkBox23.Text = "Neurological System";
-            this.checkBox23.UseVisualStyleBackColor = true;
+            this.chkBoxAbnNeurological.AutoSize = true;
+            this.chkBoxAbnNeurological.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnNeurological.Location = new System.Drawing.Point(14, 224);
+            this.chkBoxAbnNeurological.Name = "chkBoxAbnNeurological";
+            this.chkBoxAbnNeurological.Size = new System.Drawing.Size(135, 19);
+            this.chkBoxAbnNeurological.TabIndex = 57;
+            this.chkBoxAbnNeurological.Text = "Neurological System";
+            this.chkBoxAbnNeurological.UseVisualStyleBackColor = true;
             // 
-            // checkBox22
+            // chkBoxAbnPsychological
             // 
-            this.checkBox22.AutoSize = true;
-            this.checkBox22.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox22.Location = new System.Drawing.Point(195, 224);
-            this.checkBox22.Name = "checkBox22";
-            this.checkBox22.Size = new System.Drawing.Size(194, 24);
-            this.checkBox22.TabIndex = 56;
-            this.checkBox22.Text = "Psychological Evaluation";
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.chkBoxAbnPsychological.AutoSize = true;
+            this.chkBoxAbnPsychological.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnPsychological.Location = new System.Drawing.Point(195, 224);
+            this.chkBoxAbnPsychological.Name = "chkBoxAbnPsychological";
+            this.chkBoxAbnPsychological.Size = new System.Drawing.Size(157, 19);
+            this.chkBoxAbnPsychological.TabIndex = 56;
+            this.chkBoxAbnPsychological.Text = "Psychological Evaluation";
+            this.chkBoxAbnPsychological.UseVisualStyleBackColor = true;
             // 
-            // checkBox21
+            // chkBoxAbnSkinAppendages
             // 
-            this.checkBox21.AutoSize = true;
-            this.checkBox21.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox21.Location = new System.Drawing.Point(14, 199);
-            this.checkBox21.Name = "checkBox21";
-            this.checkBox21.Size = new System.Drawing.Size(175, 24);
-            this.checkBox21.TabIndex = 55;
-            this.checkBox21.Text = "Skin and Appendages";
-            this.checkBox21.UseVisualStyleBackColor = true;
+            this.chkBoxAbnSkinAppendages.AutoSize = true;
+            this.chkBoxAbnSkinAppendages.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnSkinAppendages.Location = new System.Drawing.Point(14, 199);
+            this.chkBoxAbnSkinAppendages.Name = "chkBoxAbnSkinAppendages";
+            this.chkBoxAbnSkinAppendages.Size = new System.Drawing.Size(140, 19);
+            this.chkBoxAbnSkinAppendages.TabIndex = 55;
+            this.chkBoxAbnSkinAppendages.Text = "Skin and Appendages";
+            this.chkBoxAbnSkinAppendages.UseVisualStyleBackColor = true;
             // 
-            // checkBox20
+            // chkBoxAbnGenitoUrinary
             // 
-            this.checkBox20.AutoSize = true;
-            this.checkBox20.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox20.Location = new System.Drawing.Point(195, 199);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(177, 24);
-            this.checkBox20.TabIndex = 54;
-            this.checkBox20.Text = "Genito Urinary System";
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.chkBoxAbnGenitoUrinary.AutoSize = true;
+            this.chkBoxAbnGenitoUrinary.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnGenitoUrinary.Location = new System.Drawing.Point(195, 199);
+            this.chkBoxAbnGenitoUrinary.Name = "chkBoxAbnGenitoUrinary";
+            this.chkBoxAbnGenitoUrinary.Size = new System.Drawing.Size(143, 19);
+            this.chkBoxAbnGenitoUrinary.TabIndex = 54;
+            this.chkBoxAbnGenitoUrinary.Text = "Genito Urinary System";
+            this.chkBoxAbnGenitoUrinary.UseVisualStyleBackColor = true;
             // 
-            // checkBox19
+            // chkBoxAbnMuscoloskeletal
             // 
-            this.checkBox19.AutoSize = true;
-            this.checkBox19.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox19.Location = new System.Drawing.Point(14, 174);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(136, 24);
-            this.checkBox19.TabIndex = 53;
-            this.checkBox19.Text = "Musculoskeletal";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.chkBoxAbnMuscoloskeletal.AutoSize = true;
+            this.chkBoxAbnMuscoloskeletal.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnMuscoloskeletal.Location = new System.Drawing.Point(14, 174);
+            this.chkBoxAbnMuscoloskeletal.Name = "chkBoxAbnMuscoloskeletal";
+            this.chkBoxAbnMuscoloskeletal.Size = new System.Drawing.Size(111, 19);
+            this.chkBoxAbnMuscoloskeletal.TabIndex = 53;
+            this.chkBoxAbnMuscoloskeletal.Text = "Musculoskeletal";
+            this.chkBoxAbnMuscoloskeletal.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // chkBoxAbnThroat
             // 
-            this.checkBox18.AutoSize = true;
-            this.checkBox18.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox18.Location = new System.Drawing.Point(195, 174);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(74, 24);
-            this.checkBox18.TabIndex = 52;
-            this.checkBox18.Text = "Throat";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.chkBoxAbnThroat.AutoSize = true;
+            this.chkBoxAbnThroat.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnThroat.Location = new System.Drawing.Point(195, 174);
+            this.chkBoxAbnThroat.Name = "chkBoxAbnThroat";
+            this.chkBoxAbnThroat.Size = new System.Drawing.Size(61, 19);
+            this.chkBoxAbnThroat.TabIndex = 52;
+            this.chkBoxAbnThroat.Text = "Throat";
+            this.chkBoxAbnThroat.UseVisualStyleBackColor = true;
             // 
-            // checkBox17
+            // chkBoxAbnNose
             // 
-            this.checkBox17.AutoSize = true;
-            this.checkBox17.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox17.Location = new System.Drawing.Point(195, 149);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(65, 24);
-            this.checkBox17.TabIndex = 51;
-            this.checkBox17.Text = "Nose";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.chkBoxAbnNose.AutoSize = true;
+            this.chkBoxAbnNose.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnNose.Location = new System.Drawing.Point(195, 149);
+            this.chkBoxAbnNose.Name = "chkBoxAbnNose";
+            this.chkBoxAbnNose.Size = new System.Drawing.Size(53, 19);
+            this.chkBoxAbnNose.TabIndex = 51;
+            this.chkBoxAbnNose.Text = "Nose";
+            this.chkBoxAbnNose.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // chkBoxAbnBackSpine
             // 
-            this.checkBox16.AutoSize = true;
-            this.checkBox16.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox16.Location = new System.Drawing.Point(14, 149);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(132, 24);
-            this.checkBox16.TabIndex = 50;
-            this.checkBox16.Text = "Back and Spine";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.chkBoxAbnBackSpine.AutoSize = true;
+            this.chkBoxAbnBackSpine.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnBackSpine.Location = new System.Drawing.Point(14, 149);
+            this.chkBoxAbnBackSpine.Name = "chkBoxAbnBackSpine";
+            this.chkBoxAbnBackSpine.Size = new System.Drawing.Size(106, 19);
+            this.chkBoxAbnBackSpine.TabIndex = 50;
+            this.chkBoxAbnBackSpine.Text = "Back and Spine";
+            this.chkBoxAbnBackSpine.UseVisualStyleBackColor = true;
             // 
-            // checkBox15
+            // chkBoxAbnGIT
             // 
-            this.checkBox15.AutoSize = true;
-            this.checkBox15.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox15.Location = new System.Drawing.Point(14, 49);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(180, 24);
-            this.checkBox15.TabIndex = 49;
-            this.checkBox15.Text = "GIT System(Abdomen)";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.chkBoxAbnGIT.AutoSize = true;
+            this.chkBoxAbnGIT.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnGIT.Location = new System.Drawing.Point(14, 49);
+            this.chkBoxAbnGIT.Name = "chkBoxAbnGIT";
+            this.chkBoxAbnGIT.Size = new System.Drawing.Size(146, 19);
+            this.chkBoxAbnGIT.TabIndex = 49;
+            this.chkBoxAbnGIT.Text = "GIT System(Abdomen)";
+            this.chkBoxAbnGIT.UseVisualStyleBackColor = true;
             // 
-            // checkBox14
+            // chkBoxAbnPeripheral
             // 
-            this.checkBox14.AutoSize = true;
-            this.checkBox14.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox14.Location = new System.Drawing.Point(14, 74);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(148, 24);
-            this.checkBox14.TabIndex = 48;
-            this.checkBox14.Text = "Peripheral System";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.chkBoxAbnPeripheral.AutoSize = true;
+            this.chkBoxAbnPeripheral.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnPeripheral.Location = new System.Drawing.Point(14, 74);
+            this.chkBoxAbnPeripheral.Name = "chkBoxAbnPeripheral";
+            this.chkBoxAbnPeripheral.Size = new System.Drawing.Size(120, 19);
+            this.chkBoxAbnPeripheral.TabIndex = 48;
+            this.chkBoxAbnPeripheral.Text = "Peripheral System";
+            this.chkBoxAbnPeripheral.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // chkBoxAbnVascular
             // 
-            this.checkBox13.AutoSize = true;
-            this.checkBox13.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox13.Location = new System.Drawing.Point(14, 99);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(136, 24);
-            this.checkBox13.TabIndex = 47;
-            this.checkBox13.Text = "Vascular System";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.chkBoxAbnVascular.AutoSize = true;
+            this.chkBoxAbnVascular.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnVascular.Location = new System.Drawing.Point(14, 99);
+            this.chkBoxAbnVascular.Name = "chkBoxAbnVascular";
+            this.chkBoxAbnVascular.Size = new System.Drawing.Size(110, 19);
+            this.chkBoxAbnVascular.TabIndex = 47;
+            this.chkBoxAbnVascular.Text = "Vascular System";
+            this.chkBoxAbnVascular.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // chkBoxAbnLymphatic
             // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox12.Location = new System.Drawing.Point(14, 124);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(143, 24);
-            this.checkBox12.TabIndex = 46;
-            this.checkBox12.Text = "Lymphatic Sytem";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.chkBoxAbnLymphatic.AutoSize = true;
+            this.chkBoxAbnLymphatic.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnLymphatic.Location = new System.Drawing.Point(14, 124);
+            this.chkBoxAbnLymphatic.Name = "chkBoxAbnLymphatic";
+            this.chkBoxAbnLymphatic.Size = new System.Drawing.Size(117, 19);
+            this.chkBoxAbnLymphatic.TabIndex = 46;
+            this.chkBoxAbnLymphatic.Text = "Lymphatic Sytem";
+            this.chkBoxAbnLymphatic.UseVisualStyleBackColor = true;
             // 
-            // checkBox11
+            // chkBoxAbnChest
             // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox11.Location = new System.Drawing.Point(195, 24);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(67, 24);
-            this.checkBox11.TabIndex = 45;
-            this.checkBox11.Text = "Chest";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.chkBoxAbnChest.AutoSize = true;
+            this.chkBoxAbnChest.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnChest.Location = new System.Drawing.Point(195, 24);
+            this.chkBoxAbnChest.Name = "chkBoxAbnChest";
+            this.chkBoxAbnChest.Size = new System.Drawing.Size(56, 19);
+            this.chkBoxAbnChest.TabIndex = 45;
+            this.chkBoxAbnChest.Text = "Chest";
+            this.chkBoxAbnChest.UseVisualStyleBackColor = true;
             // 
-            // checkBox10
+            // chkBoxAbnLungs
             // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox10.Location = new System.Drawing.Point(195, 49);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(69, 24);
-            this.checkBox10.TabIndex = 44;
-            this.checkBox10.Text = "Lungs";
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.chkBoxAbnLungs.AutoSize = true;
+            this.chkBoxAbnLungs.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnLungs.Location = new System.Drawing.Point(195, 49);
+            this.chkBoxAbnLungs.Name = "chkBoxAbnLungs";
+            this.chkBoxAbnLungs.Size = new System.Drawing.Size(58, 19);
+            this.chkBoxAbnLungs.TabIndex = 44;
+            this.chkBoxAbnLungs.Text = "Lungs";
+            this.chkBoxAbnLungs.UseVisualStyleBackColor = true;
             // 
-            // checkBox9
+            // chkBoxAbnBreast
             // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox9.Location = new System.Drawing.Point(195, 74);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(72, 24);
-            this.checkBox9.TabIndex = 43;
-            this.checkBox9.Text = "Breast";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.chkBoxAbnBreast.AutoSize = true;
+            this.chkBoxAbnBreast.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnBreast.Location = new System.Drawing.Point(195, 74);
+            this.chkBoxAbnBreast.Name = "chkBoxAbnBreast";
+            this.chkBoxAbnBreast.Size = new System.Drawing.Size(58, 19);
+            this.chkBoxAbnBreast.TabIndex = 43;
+            this.chkBoxAbnBreast.Text = "Breast";
+            this.chkBoxAbnBreast.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // chkBoxAbnCardiovascular
             // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox8.Location = new System.Drawing.Point(195, 99);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(179, 24);
-            this.checkBox8.TabIndex = 42;
-            this.checkBox8.Text = "Cardiovascular System";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.chkBoxAbnCardiovascular.AutoSize = true;
+            this.chkBoxAbnCardiovascular.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnCardiovascular.Location = new System.Drawing.Point(195, 99);
+            this.chkBoxAbnCardiovascular.Name = "chkBoxAbnCardiovascular";
+            this.chkBoxAbnCardiovascular.Size = new System.Drawing.Size(145, 19);
+            this.chkBoxAbnCardiovascular.TabIndex = 42;
+            this.chkBoxAbnCardiovascular.Text = "Cardiovascular System";
+            this.chkBoxAbnCardiovascular.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // chkBoxAbnEars
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox7.Location = new System.Drawing.Point(195, 124);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(58, 24);
-            this.checkBox7.TabIndex = 41;
-            this.checkBox7.Text = "Ears";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.chkBoxAbnEars.AutoSize = true;
+            this.chkBoxAbnEars.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnEars.Location = new System.Drawing.Point(195, 124);
+            this.chkBoxAbnEars.Name = "chkBoxAbnEars";
+            this.chkBoxAbnEars.Size = new System.Drawing.Size(47, 19);
+            this.chkBoxAbnEars.TabIndex = 41;
+            this.chkBoxAbnEars.Text = "Ears";
+            this.chkBoxAbnEars.UseVisualStyleBackColor = true;
             // 
-            // checkBox6
+            // chkBoxAbnHeadFaceNeck
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox6.Location = new System.Drawing.Point(14, 24);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(212, 24);
-            this.checkBox6.TabIndex = 35;
-            this.checkBox6.Text = "Head, Face, Hand and Neck";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.chkBoxAbnHeadFaceNeck.AutoSize = true;
+            this.chkBoxAbnHeadFaceNeck.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAbnHeadFaceNeck.Location = new System.Drawing.Point(14, 24);
+            this.chkBoxAbnHeadFaceNeck.Name = "chkBoxAbnHeadFaceNeck";
+            this.chkBoxAbnHeadFaceNeck.Size = new System.Drawing.Size(172, 19);
+            this.chkBoxAbnHeadFaceNeck.TabIndex = 35;
+            this.chkBoxAbnHeadFaceNeck.Text = "Head, Face, Hand and Neck";
+            this.chkBoxAbnHeadFaceNeck.UseVisualStyleBackColor = true;
             // 
             // groupBox5
             // 
             this.groupBox5.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox5.Controls.Add(this.checkBox24);
-            this.groupBox5.Controls.Add(this.checkBox25);
+            this.groupBox5.Controls.Add(this.chkBoxHearingProtection);
+            this.groupBox5.Controls.Add(this.chkBoxAppropriateMask);
             this.groupBox5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.groupBox5.Location = new System.Drawing.Point(564, 496);
@@ -1526,34 +1532,34 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Recommendations";
             // 
-            // checkBox24
+            // chkBoxHearingProtection
             // 
-            this.checkBox24.AutoSize = true;
-            this.checkBox24.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox24.Location = new System.Drawing.Point(6, 49);
-            this.checkBox24.Name = "checkBox24";
-            this.checkBox24.Size = new System.Drawing.Size(156, 24);
-            this.checkBox24.TabIndex = 56;
-            this.checkBox24.Text = "Hearing Protection";
-            this.checkBox24.UseVisualStyleBackColor = true;
+            this.chkBoxHearingProtection.AutoSize = true;
+            this.chkBoxHearingProtection.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxHearingProtection.Location = new System.Drawing.Point(6, 49);
+            this.chkBoxHearingProtection.Name = "chkBoxHearingProtection";
+            this.chkBoxHearingProtection.Size = new System.Drawing.Size(126, 19);
+            this.chkBoxHearingProtection.TabIndex = 56;
+            this.chkBoxHearingProtection.Text = "Hearing Protection";
+            this.chkBoxHearingProtection.UseVisualStyleBackColor = true;
             // 
-            // checkBox25
+            // chkBoxAppropriateMask
             // 
-            this.checkBox25.AutoSize = true;
-            this.checkBox25.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox25.Location = new System.Drawing.Point(6, 24);
-            this.checkBox25.Name = "checkBox25";
-            this.checkBox25.Size = new System.Drawing.Size(150, 24);
-            this.checkBox25.TabIndex = 55;
-            this.checkBox25.Text = "Appropriate Mask";
-            this.checkBox25.UseVisualStyleBackColor = true;
+            this.chkBoxAppropriateMask.AutoSize = true;
+            this.chkBoxAppropriateMask.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAppropriateMask.Location = new System.Drawing.Point(6, 24);
+            this.chkBoxAppropriateMask.Name = "chkBoxAppropriateMask";
+            this.chkBoxAppropriateMask.Size = new System.Drawing.Size(120, 19);
+            this.chkBoxAppropriateMask.TabIndex = 55;
+            this.chkBoxAppropriateMask.Text = "Appropriate Mask";
+            this.chkBoxAppropriateMask.UseVisualStyleBackColor = true;
             // 
             // groupBox8
             // 
             this.groupBox8.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox8.Controls.Add(this.checkBox26);
+            this.groupBox8.Controls.Add(this.chkBoxSmoke);
             this.groupBox8.Controls.Add(this.groupBox9);
-            this.groupBox8.Controls.Add(this.checkBox27);
+            this.groupBox8.Controls.Add(this.chkBoxAlcohol);
             this.groupBox8.Controls.Add(this.groupBox11);
             this.groupBox8.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox8.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
@@ -1564,22 +1570,23 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Consumption";
             // 
-            // checkBox26
+            // chkBoxSmoke
             // 
-            this.checkBox26.AutoSize = true;
-            this.checkBox26.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox26.Location = new System.Drawing.Point(6, 82);
-            this.checkBox26.Name = "checkBox26";
-            this.checkBox26.Size = new System.Drawing.Size(76, 24);
-            this.checkBox26.TabIndex = 53;
-            this.checkBox26.Text = "Smoke";
-            this.checkBox26.UseVisualStyleBackColor = true;
+            this.chkBoxSmoke.AutoSize = true;
+            this.chkBoxSmoke.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxSmoke.Location = new System.Drawing.Point(6, 82);
+            this.chkBoxSmoke.Name = "chkBoxSmoke";
+            this.chkBoxSmoke.Size = new System.Drawing.Size(62, 19);
+            this.chkBoxSmoke.TabIndex = 53;
+            this.chkBoxSmoke.Text = "Smoke";
+            this.chkBoxSmoke.UseVisualStyleBackColor = true;
+            this.chkBoxSmoke.CheckStateChanged += new System.EventHandler(this.cmBoxSmoke_CheckStateChanged);
             // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.label40);
-            this.groupBox9.Controls.Add(this.textBox36);
-            this.groupBox9.Controls.Add(this.comboBox3);
+            this.groupBox9.Controls.Add(this.txtSmokeFrequency);
+            this.groupBox9.Controls.Add(this.cmBoxSmokeType);
             this.groupBox9.Controls.Add(this.label36);
             this.groupBox9.Controls.Add(this.label37);
             this.groupBox9.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1595,33 +1602,35 @@
             this.label40.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label40.Location = new System.Drawing.Point(234, 32);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(48, 20);
+            this.label40.Size = new System.Drawing.Size(38, 15);
             this.label40.TabIndex = 51;
             this.label40.Text = "p/day";
             // 
-            // textBox36
+            // txtSmokeFrequency
             // 
-            this.textBox36.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox36.ForeColor = System.Drawing.Color.DimGray;
-            this.textBox36.Location = new System.Drawing.Point(164, 29);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.Size = new System.Drawing.Size(68, 25);
-            this.textBox36.TabIndex = 50;
+            this.txtSmokeFrequency.Enabled = false;
+            this.txtSmokeFrequency.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSmokeFrequency.ForeColor = System.Drawing.Color.DimGray;
+            this.txtSmokeFrequency.Location = new System.Drawing.Point(164, 29);
+            this.txtSmokeFrequency.Name = "txtSmokeFrequency";
+            this.txtSmokeFrequency.Size = new System.Drawing.Size(68, 22);
+            this.txtSmokeFrequency.TabIndex = 50;
             // 
-            // comboBox3
+            // cmBoxSmokeType
             // 
-            this.comboBox3.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox3.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBox3.FormattingEnabled = true;
-            this.comboBox3.ItemHeight = 17;
-            this.comboBox3.Items.AddRange(new object[] {
+            this.cmBoxSmokeType.Enabled = false;
+            this.cmBoxSmokeType.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmBoxSmokeType.ForeColor = System.Drawing.Color.DimGray;
+            this.cmBoxSmokeType.FormattingEnabled = true;
+            this.cmBoxSmokeType.ItemHeight = 13;
+            this.cmBoxSmokeType.Items.AddRange(new object[] {
             "Cigarette",
             "Ex",
             "Pipe"});
-            this.comboBox3.Location = new System.Drawing.Point(7, 30);
-            this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(151, 25);
-            this.comboBox3.TabIndex = 17;
+            this.cmBoxSmokeType.Location = new System.Drawing.Point(7, 30);
+            this.cmBoxSmokeType.Name = "cmBoxSmokeType";
+            this.cmBoxSmokeType.Size = new System.Drawing.Size(151, 21);
+            this.cmBoxSmokeType.TabIndex = 17;
             // 
             // label36
             // 
@@ -1629,7 +1638,7 @@
             this.label36.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label36.Location = new System.Drawing.Point(161, 12);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(76, 20);
+            this.label36.Size = new System.Drawing.Size(62, 15);
             this.label36.TabIndex = 15;
             this.label36.Text = "Frequency";
             // 
@@ -1639,25 +1648,26 @@
             this.label37.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label37.Location = new System.Drawing.Point(4, 12);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(40, 20);
+            this.label37.Size = new System.Drawing.Size(32, 15);
             this.label37.TabIndex = 13;
             this.label37.Text = "Type";
             // 
-            // checkBox27
+            // chkBoxAlcohol
             // 
-            this.checkBox27.AutoSize = true;
-            this.checkBox27.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.checkBox27.Location = new System.Drawing.Point(6, 27);
-            this.checkBox27.Name = "checkBox27";
-            this.checkBox27.Size = new System.Drawing.Size(82, 24);
-            this.checkBox27.TabIndex = 51;
-            this.checkBox27.Text = "Alcohol";
-            this.checkBox27.UseVisualStyleBackColor = true;
+            this.chkBoxAlcohol.AutoSize = true;
+            this.chkBoxAlcohol.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.chkBoxAlcohol.Location = new System.Drawing.Point(6, 27);
+            this.chkBoxAlcohol.Name = "chkBoxAlcohol";
+            this.chkBoxAlcohol.Size = new System.Drawing.Size(67, 19);
+            this.chkBoxAlcohol.TabIndex = 51;
+            this.chkBoxAlcohol.Text = "Alcohol";
+            this.chkBoxAlcohol.UseVisualStyleBackColor = true;
+            this.chkBoxAlcohol.CheckStateChanged += new System.EventHandler(this.cmBoxAlcohol_CheckStateChanged);
             // 
             // groupBox11
             // 
-            this.groupBox11.Controls.Add(this.comboBox2);
-            this.groupBox11.Controls.Add(this.comboBox1);
+            this.groupBox11.Controls.Add(this.cmBoxAlcoholType);
+            this.groupBox11.Controls.Add(this.cmBoxAlcoholFrequency);
             this.groupBox11.Controls.Add(this.label38);
             this.groupBox11.Controls.Add(this.label39);
             this.groupBox11.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1667,35 +1677,37 @@
             this.groupBox11.TabIndex = 0;
             this.groupBox11.TabStop = false;
             // 
-            // comboBox2
+            // cmBoxAlcoholType
             // 
-            this.comboBox2.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox2.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.ItemHeight = 17;
-            this.comboBox2.Items.AddRange(new object[] {
+            this.cmBoxAlcoholType.Enabled = false;
+            this.cmBoxAlcoholType.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmBoxAlcoholType.ForeColor = System.Drawing.Color.DimGray;
+            this.cmBoxAlcoholType.FormattingEnabled = true;
+            this.cmBoxAlcoholType.ItemHeight = 13;
+            this.cmBoxAlcoholType.Items.AddRange(new object[] {
             "Beer",
             "Spirits",
             "Wine"});
-            this.comboBox2.Location = new System.Drawing.Point(7, 30);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(151, 25);
-            this.comboBox2.TabIndex = 17;
+            this.cmBoxAlcoholType.Location = new System.Drawing.Point(7, 30);
+            this.cmBoxAlcoholType.Name = "cmBoxAlcoholType";
+            this.cmBoxAlcoholType.Size = new System.Drawing.Size(151, 21);
+            this.cmBoxAlcoholType.TabIndex = 17;
             // 
-            // comboBox1
+            // cmBoxAlcoholFrequency
             // 
-            this.comboBox1.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.ForeColor = System.Drawing.Color.DimGray;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.ItemHeight = 17;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cmBoxAlcoholFrequency.Enabled = false;
+            this.cmBoxAlcoholFrequency.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmBoxAlcoholFrequency.ForeColor = System.Drawing.Color.DimGray;
+            this.cmBoxAlcoholFrequency.FormattingEnabled = true;
+            this.cmBoxAlcoholFrequency.ItemHeight = 13;
+            this.cmBoxAlcoholFrequency.Items.AddRange(new object[] {
             "Daily",
             "Weekly",
             "Monthly/Occasionally"});
-            this.comboBox1.Location = new System.Drawing.Point(160, 30);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 25);
-            this.comboBox1.TabIndex = 16;
+            this.cmBoxAlcoholFrequency.Location = new System.Drawing.Point(160, 30);
+            this.cmBoxAlcoholFrequency.Name = "cmBoxAlcoholFrequency";
+            this.cmBoxAlcoholFrequency.Size = new System.Drawing.Size(151, 21);
+            this.cmBoxAlcoholFrequency.TabIndex = 16;
             // 
             // label38
             // 
@@ -1703,7 +1715,7 @@
             this.label38.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label38.Location = new System.Drawing.Point(161, 12);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(76, 20);
+            this.label38.Size = new System.Drawing.Size(62, 15);
             this.label38.TabIndex = 15;
             this.label38.Text = "Frequency";
             // 
@@ -1713,7 +1725,7 @@
             this.label39.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label39.Location = new System.Drawing.Point(4, 12);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(40, 20);
+            this.label39.Size = new System.Drawing.Size(32, 15);
             this.label39.TabIndex = 13;
             this.label39.Text = "Type";
             // 
@@ -1746,7 +1758,7 @@
             // 
             // frmAssessment
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::VERSALIFE_MEDICAL.Properties.Resources.tittlebar;
@@ -1777,6 +1789,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmAssessmentTemp";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmAssessment_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.grpBoxAssDetails.ResumeLayout(false);
@@ -1817,58 +1830,58 @@
         private System.Windows.Forms.Label lblFrmTitle;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox grpBoxAssDetails;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox txtPatientID;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtAssID;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAssExpiryDate;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox txtAssNote;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtFitness;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker dateTimePickerTimeCapture;
         private System.Windows.Forms.ComboBox cmbOrgType;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtWeight;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtHeight;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.DateTimePicker dateTimePickerPhysicals;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox txtBPHGT;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox txtBPPulse;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtBPDiastolic;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox txtBPSystolic;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.TextBox txtSugarNote;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.TextBox textBox15;
+        private System.Windows.Forms.TextBox txtProteinNote;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtBloodNote;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox txtPHNote;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox chkBoxSugar;
+        private System.Windows.Forms.CheckBox chkBoxProtein;
+        private System.Windows.Forms.CheckBox chkBoxBlood;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox txtPH;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox txtAUDPLH;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox txtAUDABHL;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Label label23;
@@ -1879,77 +1892,77 @@
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox20;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox txtVENearRight;
+        private System.Windows.Forms.TextBox txtVENearLeft;
+        private System.Windows.Forms.TextBox txtVENearBoth;
+        private System.Windows.Forms.TextBox txtVEFarRight;
+        private System.Windows.Forms.TextBox txtVEVisualFieldRight;
+        private System.Windows.Forms.TextBox txtVEFarLeft;
+        private System.Windows.Forms.TextBox txtVEVisualFieldLeft;
+        private System.Windows.Forms.TextBox txtVEFarBoth;
+        private System.Windows.Forms.TextBox txtVEVisualFieldBoth;
+        private System.Windows.Forms.TextBox txtVENearNote;
+        private System.Windows.Forms.TextBox txtVEFarNote;
+        private System.Windows.Forms.TextBox txtVEVisualFieldNote;
+        private System.Windows.Forms.TextBox txtVEDepthPerception;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.TextBox txtVEColorVision;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
         private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.TextBox txtFEV1PerPredicted;
         private System.Windows.Forms.Label label34;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label label44;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
-        private System.Windows.Forms.TextBox textBox45;
-        private System.Windows.Forms.TextBox textBox46;
-        private System.Windows.Forms.TextBox textBox47;
-        private System.Windows.Forms.TextBox textBox48;
+        private System.Windows.Forms.TextBox txtFVCPredicted;
+        private System.Windows.Forms.TextBox txtFEV1Predicted;
+        private System.Windows.Forms.TextBox txtFVCBest;
+        private System.Windows.Forms.TextBox txtFVCPercentPredicted;
+        private System.Windows.Forms.TextBox txtFEV1Best;
+        private System.Windows.Forms.TextBox txtFEV1PercentPredicted;
+        private System.Windows.Forms.TextBox txtFEV1PerBest;
+        private System.Windows.Forms.TextBox txtFEV1PerPercentPredicted;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.GroupBox groupBox10;
-        private System.Windows.Forms.CheckBox checkBox23;
-        private System.Windows.Forms.CheckBox checkBox22;
-        private System.Windows.Forms.CheckBox checkBox21;
-        private System.Windows.Forms.CheckBox checkBox20;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox chkBoxAbnNeurological;
+        private System.Windows.Forms.CheckBox chkBoxAbnPsychological;
+        private System.Windows.Forms.CheckBox chkBoxAbnSkinAppendages;
+        private System.Windows.Forms.CheckBox chkBoxAbnGenitoUrinary;
+        private System.Windows.Forms.CheckBox chkBoxAbnMuscoloskeletal;
+        private System.Windows.Forms.CheckBox chkBoxAbnThroat;
+        private System.Windows.Forms.CheckBox chkBoxAbnNose;
+        private System.Windows.Forms.CheckBox chkBoxAbnBackSpine;
+        private System.Windows.Forms.CheckBox chkBoxAbnGIT;
+        private System.Windows.Forms.CheckBox chkBoxAbnPeripheral;
+        private System.Windows.Forms.CheckBox chkBoxAbnVascular;
+        private System.Windows.Forms.CheckBox chkBoxAbnLymphatic;
+        private System.Windows.Forms.CheckBox chkBoxAbnChest;
+        private System.Windows.Forms.CheckBox chkBoxAbnLungs;
+        private System.Windows.Forms.CheckBox chkBoxAbnBreast;
+        private System.Windows.Forms.CheckBox chkBoxAbnCardiovascular;
+        private System.Windows.Forms.CheckBox chkBoxAbnEars;
+        private System.Windows.Forms.CheckBox chkBoxAbnHeadFaceNeck;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.CheckBox checkBox24;
-        private System.Windows.Forms.CheckBox checkBox25;
+        private System.Windows.Forms.CheckBox chkBoxHearingProtection;
+        private System.Windows.Forms.CheckBox chkBoxAppropriateMask;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.CheckBox checkBox26;
+        private System.Windows.Forms.CheckBox chkBoxSmoke;
         private System.Windows.Forms.GroupBox groupBox9;
-        private System.Windows.Forms.ComboBox comboBox3;
+        private System.Windows.Forms.ComboBox cmBoxSmokeType;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.CheckBox checkBox27;
+        private System.Windows.Forms.CheckBox chkBoxAlcohol;
         private System.Windows.Forms.GroupBox groupBox11;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmBoxAlcoholType;
+        private System.Windows.Forms.ComboBox cmBoxAlcoholFrequency;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label label39;
         private DevComponents.DotNetBar.ButtonX buttonX2;
         private DevComponents.DotNetBar.ButtonX buttonX3;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.TextBox txtSmokeFrequency;
     }
 }
