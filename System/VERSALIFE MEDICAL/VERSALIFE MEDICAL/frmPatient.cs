@@ -99,19 +99,19 @@ namespace VERSALIFE_MEDICAL
                     {
                         insertCmd.ExecuteNonQuery();
                     }
-                    catch
+                    catch(Exception ex)
                     {
-                        MessageBox.Show("Failed to regsiter the patient", "Insertion Issue", MessageBoxButtons.OK);
+                        MessageBox.Show("Failed to regsiter the patient", "Insertion Issue\nMore details: " + ex.Message, MessageBoxButtons.OK);
                     }
                 }
-                catch
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Could not connect to database", "Connection failed to open", MessageBoxButtons.OK);
+                    MessageBox.Show("Could not connect to database", "Connection failed to open\nMore details: " + ex.Message, MessageBoxButtons.OK);
                 }
 
             }
-            catch {
-                MessageBox.Show("Error while processing inserted values. Pleaase check values entered","Incorrect Inputs",MessageBoxButtons.OK);
+            catch (Exception ex) {
+                MessageBox.Show("Error while processing inserted values. Pleaase check values entered\nMore details: " + ex.Message ,"Incorrect Inputs at ",MessageBoxButtons.OK);
             }
             connectionObject.Close();
         }
