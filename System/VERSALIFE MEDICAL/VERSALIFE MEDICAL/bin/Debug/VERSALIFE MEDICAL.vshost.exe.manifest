@@ -110,7 +110,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kZHx+bSQQmq+hHRzEjbGQMCNnHrxTRVAsRFjyqtt48w=</dsig:DigestValue>
+        <dsig:DigestValue>XxRHFoSWju8PiLH+1NxavLmJWzYExWEXLshmAdc7K94=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -132,13 +132,13 @@
       <dsig:DigestValue>01d+lOtpP2WfENrJHle9b3CpYnn/5YUZkx2647X67vc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="VERSALIFE MEDICAL.exe.config" size="368">
+  <file name="VERSALIFE MEDICAL.exe.config" size="363">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>UTmvsIy4lI8Q2RTSpXnTLa1HgrNpVjHxEZCJk0NKdGw=</dsig:DigestValue>
+      <dsig:DigestValue>bW0D6BMdQXCdH6DhBZh1pRgQGb0oROuqYiMC2hNVjJg=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

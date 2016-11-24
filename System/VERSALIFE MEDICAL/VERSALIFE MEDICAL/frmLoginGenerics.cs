@@ -181,7 +181,7 @@ namespace VERSALIFE_MEDICAL
         {
             try
             {
-                if (txtPassword.Text == "magic-trick")
+                if (txtPassword.Text == "magictrick")
                 {
                     return true;
                 }

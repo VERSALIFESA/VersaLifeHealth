@@ -777,7 +777,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 39.57219F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 77F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 175F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 176F));
             this.tableLayoutPanel1.Controls.Add(this.label23, 4, 0);
             this.tableLayoutPanel1.Controls.Add(this.label24, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.label25, 0, 0);
@@ -812,7 +812,7 @@
             // 
             this.label23.AutoSize = true;
             this.label23.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(334, 0);
+            this.label23.Location = new System.Drawing.Point(333, 0);
             this.label23.Name = "label23";
             this.label23.Size = new System.Drawing.Size(35, 15);
             this.label23.TabIndex = 54;
@@ -822,7 +822,7 @@
             // 
             this.label24.AutoSize = true;
             this.label24.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label24.Location = new System.Drawing.Point(257, 0);
+            this.label24.Location = new System.Drawing.Point(256, 0);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(34, 15);
             this.label24.TabIndex = 53;
@@ -872,7 +872,7 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(110, 0);
+            this.label29.Location = new System.Drawing.Point(109, 0);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(37, 15);
             this.label29.TabIndex = 39;
@@ -882,7 +882,7 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(180, 0);
+            this.label30.Location = new System.Drawing.Point(179, 0);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(30, 15);
             this.label30.TabIndex = 40;
@@ -892,7 +892,7 @@
             // 
             this.txtVENearRight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVENearRight.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVENearRight.Location = new System.Drawing.Point(110, 24);
+            this.txtVENearRight.Location = new System.Drawing.Point(109, 24);
             this.txtVENearRight.Name = "txtVENearRight";
             this.txtVENearRight.Size = new System.Drawing.Size(64, 22);
             this.txtVENearRight.TabIndex = 41;
@@ -901,7 +901,7 @@
             // 
             this.txtVENearLeft.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVENearLeft.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVENearLeft.Location = new System.Drawing.Point(180, 24);
+            this.txtVENearLeft.Location = new System.Drawing.Point(179, 24);
             this.txtVENearLeft.Name = "txtVENearLeft";
             this.txtVENearLeft.Size = new System.Drawing.Size(68, 22);
             this.txtVENearLeft.TabIndex = 42;
@@ -910,7 +910,7 @@
             // 
             this.txtVENearBoth.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVENearBoth.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVENearBoth.Location = new System.Drawing.Point(257, 24);
+            this.txtVENearBoth.Location = new System.Drawing.Point(256, 24);
             this.txtVENearBoth.Name = "txtVENearBoth";
             this.txtVENearBoth.Size = new System.Drawing.Size(68, 22);
             this.txtVENearBoth.TabIndex = 43;
@@ -919,7 +919,7 @@
             // 
             this.txtVEFarRight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEFarRight.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEFarRight.Location = new System.Drawing.Point(110, 53);
+            this.txtVEFarRight.Location = new System.Drawing.Point(109, 53);
             this.txtVEFarRight.Name = "txtVEFarRight";
             this.txtVEFarRight.Size = new System.Drawing.Size(64, 22);
             this.txtVEFarRight.TabIndex = 44;
@@ -928,7 +928,7 @@
             // 
             this.txtVEVisualFieldRight.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEVisualFieldRight.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEVisualFieldRight.Location = new System.Drawing.Point(110, 81);
+            this.txtVEVisualFieldRight.Location = new System.Drawing.Point(109, 81);
             this.txtVEVisualFieldRight.Name = "txtVEVisualFieldRight";
             this.txtVEVisualFieldRight.Size = new System.Drawing.Size(64, 22);
             this.txtVEVisualFieldRight.TabIndex = 45;
@@ -937,7 +937,7 @@
             // 
             this.txtVEFarLeft.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEFarLeft.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEFarLeft.Location = new System.Drawing.Point(180, 53);
+            this.txtVEFarLeft.Location = new System.Drawing.Point(179, 53);
             this.txtVEFarLeft.Name = "txtVEFarLeft";
             this.txtVEFarLeft.Size = new System.Drawing.Size(68, 22);
             this.txtVEFarLeft.TabIndex = 46;
@@ -946,7 +946,7 @@
             // 
             this.txtVEVisualFieldLeft.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEVisualFieldLeft.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEVisualFieldLeft.Location = new System.Drawing.Point(180, 81);
+            this.txtVEVisualFieldLeft.Location = new System.Drawing.Point(179, 81);
             this.txtVEVisualFieldLeft.Name = "txtVEVisualFieldLeft";
             this.txtVEVisualFieldLeft.Size = new System.Drawing.Size(68, 22);
             this.txtVEVisualFieldLeft.TabIndex = 47;
@@ -955,7 +955,7 @@
             // 
             this.txtVEFarBoth.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEFarBoth.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEFarBoth.Location = new System.Drawing.Point(257, 53);
+            this.txtVEFarBoth.Location = new System.Drawing.Point(256, 53);
             this.txtVEFarBoth.Name = "txtVEFarBoth";
             this.txtVEFarBoth.Size = new System.Drawing.Size(68, 22);
             this.txtVEFarBoth.TabIndex = 48;
@@ -964,7 +964,7 @@
             // 
             this.txtVEVisualFieldBoth.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEVisualFieldBoth.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEVisualFieldBoth.Location = new System.Drawing.Point(257, 81);
+            this.txtVEVisualFieldBoth.Location = new System.Drawing.Point(256, 81);
             this.txtVEVisualFieldBoth.Name = "txtVEVisualFieldBoth";
             this.txtVEVisualFieldBoth.Size = new System.Drawing.Size(68, 22);
             this.txtVEVisualFieldBoth.TabIndex = 49;
@@ -973,7 +973,7 @@
             // 
             this.txtVENearNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVENearNote.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVENearNote.Location = new System.Drawing.Point(334, 24);
+            this.txtVENearNote.Location = new System.Drawing.Point(333, 24);
             this.txtVENearNote.Name = "txtVENearNote";
             this.txtVENearNote.Size = new System.Drawing.Size(151, 22);
             this.txtVENearNote.TabIndex = 50;
@@ -982,7 +982,7 @@
             // 
             this.txtVEFarNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEFarNote.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEFarNote.Location = new System.Drawing.Point(334, 53);
+            this.txtVEFarNote.Location = new System.Drawing.Point(333, 53);
             this.txtVEFarNote.Name = "txtVEFarNote";
             this.txtVEFarNote.Size = new System.Drawing.Size(151, 22);
             this.txtVEFarNote.TabIndex = 51;
@@ -991,7 +991,7 @@
             // 
             this.txtVEVisualFieldNote.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVEVisualFieldNote.ForeColor = System.Drawing.Color.DimGray;
-            this.txtVEVisualFieldNote.Location = new System.Drawing.Point(334, 81);
+            this.txtVEVisualFieldNote.Location = new System.Drawing.Point(333, 81);
             this.txtVEVisualFieldNote.Name = "txtVEVisualFieldNote";
             this.txtVEVisualFieldNote.Size = new System.Drawing.Size(151, 22);
             this.txtVEVisualFieldNote.TabIndex = 52;
@@ -1111,7 +1111,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.95541F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 49.04459F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 76F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132F));
             this.tableLayoutPanel2.Controls.Add(this.label33, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.txtFEV1PerPredicted, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.label34, 1, 0);
@@ -1155,7 +1155,7 @@
             this.txtFEV1PerPredicted.ForeColor = System.Drawing.Color.DimGray;
             this.txtFEV1PerPredicted.Location = new System.Drawing.Point(74, 86);
             this.txtFEV1PerPredicted.Name = "txtFEV1PerPredicted";
-            this.txtFEV1PerPredicted.Size = new System.Drawing.Size(63, 22);
+            this.txtFEV1PerPredicted.Size = new System.Drawing.Size(62, 22);
             this.txtFEV1PerPredicted.TabIndex = 49;
             // 
             // label34
@@ -1172,7 +1172,7 @@
             // 
             this.label35.AutoSize = true;
             this.label35.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label35.Location = new System.Drawing.Point(143, 0);
+            this.label35.Location = new System.Drawing.Point(142, 0);
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(32, 15);
             this.label35.TabIndex = 3;
@@ -1182,7 +1182,7 @@
             // 
             this.label43.AutoSize = true;
             this.label43.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(219, 0);
+            this.label43.Location = new System.Drawing.Point(218, 0);
             this.label43.Name = "label43";
             this.label43.Size = new System.Drawing.Size(108, 15);
             this.label43.TabIndex = 4;
@@ -1214,7 +1214,7 @@
             this.txtFVCPredicted.ForeColor = System.Drawing.Color.DimGray;
             this.txtFVCPredicted.Location = new System.Drawing.Point(74, 26);
             this.txtFVCPredicted.Name = "txtFVCPredicted";
-            this.txtFVCPredicted.Size = new System.Drawing.Size(63, 22);
+            this.txtFVCPredicted.Size = new System.Drawing.Size(62, 22);
             this.txtFVCPredicted.TabIndex = 42;
             // 
             // txtFEV1Predicted
@@ -1223,14 +1223,14 @@
             this.txtFEV1Predicted.ForeColor = System.Drawing.Color.DimGray;
             this.txtFEV1Predicted.Location = new System.Drawing.Point(74, 56);
             this.txtFEV1Predicted.Name = "txtFEV1Predicted";
-            this.txtFEV1Predicted.Size = new System.Drawing.Size(63, 22);
+            this.txtFEV1Predicted.Size = new System.Drawing.Size(62, 22);
             this.txtFEV1Predicted.TabIndex = 43;
             // 
             // txtFVCBest
             // 
             this.txtFVCBest.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFVCBest.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFVCBest.Location = new System.Drawing.Point(143, 26);
+            this.txtFVCBest.Location = new System.Drawing.Point(142, 26);
             this.txtFVCBest.Name = "txtFVCBest";
             this.txtFVCBest.Size = new System.Drawing.Size(67, 22);
             this.txtFVCBest.TabIndex = 46;
@@ -1239,7 +1239,7 @@
             // 
             this.txtFVCPercentPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFVCPercentPredicted.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFVCPercentPredicted.Location = new System.Drawing.Point(219, 26);
+            this.txtFVCPercentPredicted.Location = new System.Drawing.Point(218, 26);
             this.txtFVCPercentPredicted.Name = "txtFVCPercentPredicted";
             this.txtFVCPercentPredicted.Size = new System.Drawing.Size(67, 22);
             this.txtFVCPercentPredicted.TabIndex = 48;
@@ -1248,7 +1248,7 @@
             // 
             this.txtFEV1Best.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFEV1Best.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFEV1Best.Location = new System.Drawing.Point(143, 56);
+            this.txtFEV1Best.Location = new System.Drawing.Point(142, 56);
             this.txtFEV1Best.Name = "txtFEV1Best";
             this.txtFEV1Best.Size = new System.Drawing.Size(67, 22);
             this.txtFEV1Best.TabIndex = 47;
@@ -1257,7 +1257,7 @@
             // 
             this.txtFEV1PercentPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFEV1PercentPredicted.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFEV1PercentPredicted.Location = new System.Drawing.Point(219, 56);
+            this.txtFEV1PercentPredicted.Location = new System.Drawing.Point(218, 56);
             this.txtFEV1PercentPredicted.Name = "txtFEV1PercentPredicted";
             this.txtFEV1PercentPredicted.Size = new System.Drawing.Size(67, 22);
             this.txtFEV1PercentPredicted.TabIndex = 45;
@@ -1266,7 +1266,7 @@
             // 
             this.txtFEV1PerBest.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFEV1PerBest.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFEV1PerBest.Location = new System.Drawing.Point(143, 86);
+            this.txtFEV1PerBest.Location = new System.Drawing.Point(142, 86);
             this.txtFEV1PerBest.Name = "txtFEV1PerBest";
             this.txtFEV1PerBest.Size = new System.Drawing.Size(67, 22);
             this.txtFEV1PerBest.TabIndex = 51;
@@ -1275,7 +1275,7 @@
             // 
             this.txtFEV1PerPercentPredicted.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtFEV1PerPercentPredicted.ForeColor = System.Drawing.Color.DimGray;
-            this.txtFEV1PerPercentPredicted.Location = new System.Drawing.Point(219, 86);
+            this.txtFEV1PerPercentPredicted.Location = new System.Drawing.Point(218, 86);
             this.txtFEV1PerPercentPredicted.Name = "txtFEV1PerPercentPredicted";
             this.txtFEV1PerPercentPredicted.Size = new System.Drawing.Size(67, 22);
             this.txtFEV1PerPercentPredicted.TabIndex = 50;
