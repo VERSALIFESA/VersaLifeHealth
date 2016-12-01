@@ -66,7 +66,7 @@ namespace VERSALIFE_MEDICAL
         private void btnSubmit_Click(object sender, EventArgs e)
         {
 
-                MySqlConnection connectionObject = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["connectToVersaMain"].ConnectionString);
+                MySqlConnection connectionObject = new MySqlConnection(System.Configuration.ConfigurationManager.ConnectionStrings["connectToVersaDB"].ConnectionString);
                 string qryInsertDetails = "insert into tbl_patient values(@pat_ID, default, @pat_firstname, @pat_middlename, @pat_lastname, @pat_title, @pat_gender, @pat_DOB, @pat_age, @pat_race, @pat_tel, @pat_mobile, @pat_email, @pat_address, @pat_city, @pat_province, @pat_postalCode, @pat_date, @pat_notes, @pat_attachement)";
                 MySqlCommand insertCmd = new MySqlCommand(qryInsertDetails, connectionObject);
 

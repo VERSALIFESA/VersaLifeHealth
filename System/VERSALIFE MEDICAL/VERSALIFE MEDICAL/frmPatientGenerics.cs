@@ -13,7 +13,7 @@ namespace VERSALIFE_MEDICAL
 {
     class frmPatientGenerics
     {
-        static MySqlConnection connectionObject = new MySqlConnection(ConfigurationManager.ConnectionStrings["connectToVersaMain"].ConnectionString);
+        static MySqlConnection connectionObject = new MySqlConnection(ConfigurationManager.ConnectionStrings["connectToVersaDB"].ConnectionString);
         public static decimal retrieveNextID() {
             try
             {
